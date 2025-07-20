@@ -1,0 +1,432 @@
+2025-07-20 13:52:25,184 - __main__ - INFO - ============================================================
+2025-07-20 13:52:25,184 - __main__ - INFO - Document Processing Application Started
+2025-07-20 13:52:25,184 - __main__ - INFO - ============================================================
+2025-07-20 13:52:25,357 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:25,360 - document_processor - INFO -   Found image: media/image21.png (base: image21)
+2025-07-20 13:52:25,360 - document_processor - INFO -   Found image: media/image9.jpeg (base: image9)
+2025-07-20 13:52:25,361 - document_processor - INFO -   Found image: media/image19.png (base: image19)
+2025-07-20 13:52:25,361 - document_processor - INFO -   Found image: media/image15.jpeg (base: image15)
+2025-07-20 13:52:25,361 - document_processor - INFO -   Found image: media/image7.jpeg (base: image7)
+2025-07-20 13:52:25,361 - document_processor - INFO -   Found image: media/image10.jpeg (base: image10)
+2025-07-20 13:52:25,361 - document_processor - INFO -   Found image: media/image18.svg (base: image18)
+2025-07-20 13:52:25,362 - document_processor - INFO -   Found image: media/image16.jpeg (base: image16)
+2025-07-20 13:52:25,362 - document_processor - INFO -   Found image: media/image25.jpeg (base: image25)
+2025-07-20 13:52:25,362 - document_processor - INFO -   Found image: media/image24.png (base: image24)
+2025-07-20 13:52:25,362 - document_processor - INFO -   Found image: media/image4.jpeg (base: image4)
+2025-07-20 13:52:25,362 - document_processor - INFO -   Found image: media/image5.jpeg (base: image5)
+2025-07-20 13:52:25,362 - document_processor - INFO -   Found image: media/image26.jpeg (base: image26)
+2025-07-20 13:52:25,362 - document_processor - INFO -   Found image: media/image6.png (base: image6)
+2025-07-20 13:52:25,363 - document_processor - INFO -   Found image: media/image12.png (base: image12)
+2025-07-20 13:52:25,363 - document_processor - INFO -   Found image: media/image13.png (base: image13)
+2025-07-20 13:52:25,363 - document_processor - INFO -   Found image: media/image17.png (base: image17)
+2025-07-20 13:52:25,363 - document_processor - INFO -   Found image: media/image8.jpeg (base: image8)
+2025-07-20 13:52:25,363 - document_processor - INFO -   Found image: media/image14.jpeg (base: image14)
+2025-07-20 13:52:25,364 - document_processor - INFO -   Found image: media/image22.svg (base: image22)
+2025-07-20 13:52:25,364 - document_processor - INFO -   Found image: media/image11.jpeg (base: image11)
+2025-07-20 13:52:25,364 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:25,364 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:25,365 - document_processor - INFO -   Found image: media/image3.jpeg (base: image3)
+2025-07-20 13:52:25,365 - document_processor - INFO -   Found image: media/image20.svg (base: image20)
+2025-07-20 13:52:25,365 - document_processor - INFO -   Found image: media/image23.jpeg (base: image23)
+2025-07-20 13:52:25,365 - document_processor - INFO -   Image groups: ['image21', 'image9', 'image19', 'image15', 'image7', 'image10', 'image18', 'image16', 'image25', 'image24', 'image4', 'image5', 'image26', 'image6', 'image12', 'image13', 'image17', 'image8', 'image14', 'image22', 'image11', 'image2', 'image1', 'image3', 'image20', 'image23']
+2025-07-20 13:52:25,366 - document_processor - INFO -   Total files: 26, Unique images: 26
+2025-07-20 13:52:25,562 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:25,566 - document_processor - INFO -   Found image: media/image1.png (base: image1)
+2025-07-20 13:52:25,566 - document_processor - INFO -   Found image: media/image2.svg (base: image2)
+2025-07-20 13:52:25,566 - document_processor - INFO -   Image groups: ['image1', 'image2']
+2025-07-20 13:52:25,566 - document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 13:52:25,775 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:25,778 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:25,778 - document_processor - INFO -   Found image: media/image3.jpg (base: image3)
+2025-07-20 13:52:25,778 - document_processor - INFO -   Found image: media/image2.jpeg (base: image2)
+2025-07-20 13:52:25,778 - document_processor - INFO -   Image groups: ['image1', 'image3', 'image2']
+2025-07-20 13:52:25,778 - document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 13:52:26,086 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:26,089 - document_processor - INFO -   Found image: media/image1.jpg (base: image1)
+2025-07-20 13:52:26,089 - document_processor - INFO -   Found image: media/image5.jpg (base: image5)
+2025-07-20 13:52:26,090 - document_processor - INFO -   Found image: media/image4.jpg (base: image4)
+2025-07-20 13:52:26,090 - document_processor - INFO -   Found image: media/image2.jpg (base: image2)
+2025-07-20 13:52:26,090 - document_processor - INFO -   Found image: media/image3.jpg (base: image3)
+2025-07-20 13:52:26,090 - document_processor - INFO -   Image groups: ['image1', 'image5', 'image4', 'image2', 'image3']
+2025-07-20 13:52:26,090 - document_processor - INFO -   Total files: 5, Unique images: 5
+2025-07-20 13:52:26,299 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:26,302 - document_processor - INFO -   Found image: media/image1.jpg (base: image1)
+2025-07-20 13:52:26,302 - document_processor - INFO -   Found image: media/image2.jpeg (base: image2)
+2025-07-20 13:52:26,302 - document_processor - INFO -   Found image: media/image3.jpeg (base: image3)
+2025-07-20 13:52:26,302 - document_processor - INFO -   Image groups: ['image1', 'image2', 'image3']
+2025-07-20 13:52:26,302 - document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 13:52:26,376 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:26,379 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:26,379 - document_processor - INFO -   Found image: media/image2.jpg (base: image2)
+2025-07-20 13:52:26,379 - document_processor - INFO -   Image groups: ['image1', 'image2']
+2025-07-20 13:52:26,380 - document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 13:52:26,468 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:26,471 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:26,471 - document_processor - INFO -   Found image: media/image1.png (base: image1)
+2025-07-20 13:52:26,471 - document_processor - INFO -   Found image: media/image4.jpeg (base: image4)
+2025-07-20 13:52:26,471 - document_processor - INFO -   Found image: media/image3.png (base: image3)
+2025-07-20 13:52:26,471 - document_processor - INFO -   Image groups: ['image2', 'image1', 'image4', 'image3']
+2025-07-20 13:52:26,471 - document_processor - INFO -   Total files: 4, Unique images: 4
+2025-07-20 13:52:26,551 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:26,554 - document_processor - INFO -   Found image: media/image1.jpg (base: image1)
+2025-07-20 13:52:26,554 - document_processor - INFO -   Found image: media/image2.jpeg (base: image2)
+2025-07-20 13:52:26,554 - document_processor - INFO -   Image groups: ['image1', 'image2']
+2025-07-20 13:52:26,554 - document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 13:52:26,653 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:26,656 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:26,656 - document_processor - INFO -   Found image: media/image3.jpg (base: image3)
+2025-07-20 13:52:26,657 - document_processor - INFO -   Found image: media/image2.jpg (base: image2)
+2025-07-20 13:52:26,657 - document_processor - INFO -   Found image: media/image4.jpg (base: image4)
+2025-07-20 13:52:26,657 - document_processor - INFO -   Image groups: ['image1', 'image3', 'image2', 'image4']
+2025-07-20 13:52:26,657 - document_processor - INFO -   Total files: 4, Unique images: 4
+2025-07-20 13:52:26,772 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:26,775 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:26,775 - document_processor - INFO -   Found image: media/image3.jpg (base: image3)
+2025-07-20 13:52:26,775 - document_processor - INFO -   Found image: media/image2.jpg (base: image2)
+2025-07-20 13:52:26,776 - document_processor - INFO -   Found image: media/image4.jpg (base: image4)
+2025-07-20 13:52:26,776 - document_processor - INFO -   Image groups: ['image1', 'image3', 'image2', 'image4']
+2025-07-20 13:52:26,776 - document_processor - INFO -   Total files: 4, Unique images: 4
+2025-07-20 13:52:26,879 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:26,882 - document_processor - INFO -   Found image: media/image1.jpg (base: image1)
+2025-07-20 13:52:26,882 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:26,883 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:26,983 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:26,985 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:26,986 - document_processor - INFO -   Found image: media/image3.svg (base: image3)
+2025-07-20 13:52:26,986 - document_processor - INFO -   Found image: media/image1.jpg (base: image1)
+2025-07-20 13:52:26,986 - document_processor - INFO -   Image groups: ['image2', 'image3', 'image1']
+2025-07-20 13:52:26,986 - document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 13:52:27,125 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:27,128 - document_processor - INFO -   Found image: media/image1.jpg (base: image1)
+2025-07-20 13:52:27,128 - document_processor - INFO -   Found image: media/image5.jpg (base: image5)
+2025-07-20 13:52:27,129 - document_processor - INFO -   Found image: media/image2.jpeg (base: image2)
+2025-07-20 13:52:27,129 - document_processor - INFO -   Found image: media/image3.jpg (base: image3)
+2025-07-20 13:52:27,129 - document_processor - INFO -   Found image: media/image4.jpeg (base: image4)
+2025-07-20 13:52:27,129 - document_processor - INFO -   Image groups: ['image1', 'image5', 'image2', 'image3', 'image4']
+2025-07-20 13:52:27,129 - document_processor - INFO -   Total files: 5, Unique images: 5
+2025-07-20 13:52:27,209 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:27,212 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:27,212 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:27,213 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:27,290 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:27,293 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:27,293 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:27,294 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:27,424 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:27,427 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:27,428 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:27,428 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:27,605 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:27,608 - document_processor - INFO -   Found image: media/image3.svg (base: image3)
+2025-07-20 13:52:27,608 - document_processor - INFO -   Found image: media/image14.png (base: image14)
+2025-07-20 13:52:27,609 - document_processor - INFO -   Found image: media/image28.png (base: image28)
+2025-07-20 13:52:27,609 - document_processor - INFO -   Found image: media/image4.png (base: image4)
+2025-07-20 13:52:27,609 - document_processor - INFO -   Found image: media/image8.png (base: image8)
+2025-07-20 13:52:27,609 - document_processor - INFO -   Found image: media/image15.svg (base: image15)
+2025-07-20 13:52:27,609 - document_processor - INFO -   Found image: media/image11.svg (base: image11)
+2025-07-20 13:52:27,609 - document_processor - INFO -   Found image: media/image23.svg (base: image23)
+2025-07-20 13:52:27,609 - document_processor - INFO -   Found image: media/image21.svg (base: image21)
+2025-07-20 13:52:27,610 - document_processor - INFO -   Found image: media/image5.svg (base: image5)
+2025-07-20 13:52:27,610 - document_processor - INFO -   Found image: media/image22.png (base: image22)
+2025-07-20 13:52:27,610 - document_processor - INFO -   Found image: media/image9.svg (base: image9)
+2025-07-20 13:52:27,610 - document_processor - INFO -   Found image: media/image29.svg (base: image29)
+2025-07-20 13:52:27,610 - document_processor - INFO -   Found image: media/image10.png (base: image10)
+2025-07-20 13:52:27,610 - document_processor - INFO -   Found image: media/image24.png (base: image24)
+2025-07-20 13:52:27,610 - document_processor - INFO -   Found image: media/image6.png (base: image6)
+2025-07-20 13:52:27,611 - document_processor - INFO -   Found image: media/image12.png (base: image12)
+2025-07-20 13:52:27,611 - document_processor - INFO -   Found image: media/image20.png (base: image20)
+2025-07-20 13:52:27,611 - document_processor - INFO -   Found image: media/image27.svg (base: image27)
+2025-07-20 13:52:27,611 - document_processor - INFO -   Found image: media/image16.png (base: image16)
+2025-07-20 13:52:27,611 - document_processor - INFO -   Found image: media/image25.svg (base: image25)
+2025-07-20 13:52:27,611 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:27,611 - document_processor - INFO -   Found image: media/image7.svg (base: image7)
+2025-07-20 13:52:27,612 - document_processor - INFO -   Found image: media/image17.svg (base: image17)
+2025-07-20 13:52:27,612 - document_processor - INFO -   Found image: media/image13.svg (base: image13)
+2025-07-20 13:52:27,612 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:27,612 - document_processor - INFO -   Found image: media/image26.png (base: image26)
+2025-07-20 13:52:27,612 - document_processor - INFO -   Found image: media/image18.png (base: image18)
+2025-07-20 13:52:27,613 - document_processor - INFO -   Found image: media/image19.svg (base: image19)
+2025-07-20 13:52:27,613 - document_processor - INFO -   Image groups: ['image3', 'image14', 'image28', 'image4', 'image8', 'image15', 'image11', 'image23', 'image21', 'image5', 'image22', 'image9', 'image29', 'image10', 'image24', 'image6', 'image12', 'image20', 'image27', 'image16', 'image25', 'image2', 'image7', 'image17', 'image13', 'image1', 'image26', 'image18', 'image19']
+2025-07-20 13:52:27,613 - document_processor - INFO -   Total files: 29, Unique images: 29
+2025-07-20 13:52:27,833 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:27,837 - document_processor - INFO -   Found image: media/image3.svg (base: image3)
+2025-07-20 13:52:27,837 - document_processor - INFO -   Found image: media/image14.png (base: image14)
+2025-07-20 13:52:27,837 - document_processor - INFO -   Found image: media/image6.png (base: image6)
+2025-07-20 13:52:27,837 - document_processor - INFO -   Found image: media/image9.svg (base: image9)
+2025-07-20 13:52:27,837 - document_processor - INFO -   Found image: media/image12.png (base: image12)
+2025-07-20 13:52:27,838 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:27,838 - document_processor - INFO -   Found image: media/image7.svg (base: image7)
+2025-07-20 13:52:27,838 - document_processor - INFO -   Found image: media/image4.png (base: image4)
+2025-07-20 13:52:27,838 - document_processor - INFO -   Found image: media/image17.svg (base: image17)
+2025-07-20 13:52:27,838 - document_processor - INFO -   Found image: media/image8.png (base: image8)
+2025-07-20 13:52:27,838 - document_processor - INFO -   Found image: media/image15.svg (base: image15)
+2025-07-20 13:52:27,839 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:27,839 - document_processor - INFO -   Found image: media/image16.png (base: image16)
+2025-07-20 13:52:27,839 - document_processor - INFO -   Found image: media/image11.svg (base: image11)
+2025-07-20 13:52:27,839 - document_processor - INFO -   Found image: media/image13.svg (base: image13)
+2025-07-20 13:52:27,839 - document_processor - INFO -   Found image: media/image10.png (base: image10)
+2025-07-20 13:52:27,840 - document_processor - INFO -   Found image: media/image5.svg (base: image5)
+2025-07-20 13:52:27,840 - document_processor - INFO -   Image groups: ['image3', 'image14', 'image6', 'image9', 'image12', 'image2', 'image7', 'image4', 'image17', 'image8', 'image15', 'image1', 'image16', 'image11', 'image13', 'image10', 'image5']
+2025-07-20 13:52:27,840 - document_processor - INFO -   Total files: 17, Unique images: 17
+2025-07-20 13:52:27,966 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:27,969 - document_processor - INFO -   Found image: media/image3.svg (base: image3)
+2025-07-20 13:52:27,969 - document_processor - INFO -   Found image: media/image6.png (base: image6)
+2025-07-20 13:52:27,969 - document_processor - INFO -   Found image: media/image9.svg (base: image9)
+2025-07-20 13:52:27,969 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:27,969 - document_processor - INFO -   Found image: media/image7.svg (base: image7)
+2025-07-20 13:52:27,970 - document_processor - INFO -   Found image: media/image4.png (base: image4)
+2025-07-20 13:52:27,970 - document_processor - INFO -   Found image: media/image8.png (base: image8)
+2025-07-20 13:52:27,970 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:27,970 - document_processor - INFO -   Found image: media/image5.svg (base: image5)
+2025-07-20 13:52:27,970 - document_processor - INFO -   Image groups: ['image3', 'image6', 'image9', 'image2', 'image7', 'image4', 'image8', 'image1', 'image5']
+2025-07-20 13:52:27,970 - document_processor - INFO -   Total files: 9, Unique images: 9
+2025-07-20 13:52:28,152 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:28,155 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:28,155 - document_processor - INFO -   Found image: media/image2.jpg (base: image2)
+2025-07-20 13:52:28,155 - document_processor - INFO -   Found image: media/image3.jpeg (base: image3)
+2025-07-20 13:52:28,155 - document_processor - INFO -   Image groups: ['image1', 'image2', 'image3']
+2025-07-20 13:52:28,156 - document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 13:52:28,293 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:28,297 - document_processor - INFO -   Found image: media/image6.png (base: image6)
+2025-07-20 13:52:28,298 - document_processor - INFO -   Found image: media/image4.png (base: image4)
+2025-07-20 13:52:28,298 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:28,298 - document_processor - INFO -   Found image: media/image2.jpg (base: image2)
+2025-07-20 13:52:28,298 - document_processor - INFO -   Found image: media/image3.jpeg (base: image3)
+2025-07-20 13:52:28,299 - document_processor - INFO -   Found image: media/image5.svg (base: image5)
+2025-07-20 13:52:28,299 - document_processor - INFO -   Image groups: ['image6', 'image4', 'image1', 'image2', 'image3', 'image5']
+2025-07-20 13:52:28,299 - document_processor - INFO -   Total files: 6, Unique images: 6
+2025-07-20 13:52:28,400 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:28,403 - document_processor - INFO -   Found image: media/image1.jpg (base: image1)
+2025-07-20 13:52:28,403 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:28,404 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:28,455 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:28,458 - document_processor - INFO -   Found image: media/image1.jpg (base: image1)
+2025-07-20 13:52:28,458 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:28,458 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:28,592 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:28,595 - document_processor - INFO -   Found image: media/image1.png (base: image1)
+2025-07-20 13:52:28,596 - document_processor - INFO -   Found image: media/image2.jpeg (base: image2)
+2025-07-20 13:52:28,596 - document_processor - INFO -   Image groups: ['image1', 'image2']
+2025-07-20 13:52:28,596 - document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 13:52:28,699 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:28,702 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:28,703 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:28,703 - document_processor - INFO -   Found image: media/image3.jpg (base: image3)
+2025-07-20 13:52:28,703 - document_processor - INFO -   Image groups: ['image2', 'image1', 'image3']
+2025-07-20 13:52:28,703 - document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 13:52:28,853 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:28,856 - document_processor - INFO -   Found image: media/image5.jpg (base: image5)
+2025-07-20 13:52:28,856 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:28,856 - document_processor - INFO -   Found image: media/image4.jpg (base: image4)
+2025-07-20 13:52:28,856 - document_processor - INFO -   Found image: media/image2.jpg (base: image2)
+2025-07-20 13:52:28,857 - document_processor - INFO -   Found image: media/image3.jpg (base: image3)
+2025-07-20 13:52:28,857 - document_processor - INFO -   Image groups: ['image5', 'image1', 'image4', 'image2', 'image3']
+2025-07-20 13:52:28,857 - document_processor - INFO -   Total files: 5, Unique images: 5
+2025-07-20 13:52:29,050 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:29,053 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:29,053 - document_processor - INFO -   Found image: media/image3.svg (base: image3)
+2025-07-20 13:52:29,053 - document_processor - INFO -   Found image: media/image1.png (base: image1)
+2025-07-20 13:52:29,053 - document_processor - INFO -   Found image: media/image4.png (base: image4)
+2025-07-20 13:52:29,054 - document_processor - INFO -   Image groups: ['image2', 'image3', 'image1', 'image4']
+2025-07-20 13:52:29,054 - document_processor - INFO -   Total files: 4, Unique images: 4
+2025-07-20 13:52:29,159 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:29,162 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:29,162 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:29,162 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:29,221 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:29,224 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:29,224 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:29,224 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:29,287 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:29,290 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:29,290 - document_processor - INFO -   Found image: media/image2.jpeg (base: image2)
+2025-07-20 13:52:29,290 - document_processor - INFO -   Image groups: ['image1', 'image2']
+2025-07-20 13:52:29,290 - document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 13:52:29,354 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:29,357 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:29,357 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:29,357 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:29,414 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:29,418 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:29,418 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:29,418 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:29,479 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:29,483 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:29,484 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:29,484 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:29,539 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:29,542 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:29,542 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:29,543 - document_processor - INFO -   Image groups: ['image2', 'image1']
+2025-07-20 13:52:29,543 - document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 13:52:29,654 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:29,657 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:29,657 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:29,657 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:29,916 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:29,919 - document_processor - INFO -   Found image: media/image14.png (base: image14)
+2025-07-20 13:52:29,920 - document_processor - INFO -   Found image: media/image3.svg (base: image3)
+2025-07-20 13:52:29,920 - document_processor - INFO -   Found image: media/image6.png (base: image6)
+2025-07-20 13:52:29,920 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:29,920 - document_processor - INFO -   Found image: media/image7.svg (base: image7)
+2025-07-20 13:52:29,920 - document_processor - INFO -   Found image: media/image13.jpeg (base: image13)
+2025-07-20 13:52:29,920 - document_processor - INFO -   Found image: media/image9.png (base: image9)
+2025-07-20 13:52:29,921 - document_processor - INFO -   Found image: media/image15.svg (base: image15)
+2025-07-20 13:52:29,921 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:29,921 - document_processor - INFO -   Found image: media/image4.png (base: image4)
+2025-07-20 13:52:29,921 - document_processor - INFO -   Found image: media/image8.jpeg (base: image8)
+2025-07-20 13:52:29,922 - document_processor - INFO -   Found image: media/image10.svg (base: image10)
+2025-07-20 13:52:29,922 - document_processor - INFO -   Found image: media/image11.png (base: image11)
+2025-07-20 13:52:29,922 - document_processor - INFO -   Found image: media/image16.jpeg (base: image16)
+2025-07-20 13:52:29,922 - document_processor - INFO -   Found image: media/image5.svg (base: image5)
+2025-07-20 13:52:29,922 - document_processor - INFO -   Found image: media/image12.svg (base: image12)
+2025-07-20 13:52:29,922 - document_processor - INFO -   Image groups: ['image14', 'image3', 'image6', 'image2', 'image7', 'image13', 'image9', 'image15', 'image1', 'image4', 'image8', 'image10', 'image11', 'image16', 'image5', 'image12']
+2025-07-20 13:52:29,923 - document_processor - INFO -   Total files: 16, Unique images: 16
+2025-07-20 13:52:30,098 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:30,101 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:30,102 - document_processor - INFO -   Found image: media/image3.svg (base: image3)
+2025-07-20 13:52:30,102 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:30,102 - document_processor - INFO -   Found image: media/image4.jpeg (base: image4)
+2025-07-20 13:52:30,102 - document_processor - INFO -   Image groups: ['image2', 'image3', 'image1', 'image4']
+2025-07-20 13:52:30,102 - document_processor - INFO -   Total files: 4, Unique images: 4
+2025-07-20 13:52:30,201 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:30,203 - document_processor - INFO -   Found image: media/image3.svg (base: image3)
+2025-07-20 13:52:30,203 - document_processor - INFO -   Found image: media/image6.png (base: image6)
+2025-07-20 13:52:30,204 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:30,204 - document_processor - INFO -   Found image: media/image7.svg (base: image7)
+2025-07-20 13:52:30,204 - document_processor - INFO -   Found image: media/image4.png (base: image4)
+2025-07-20 13:52:30,204 - document_processor - INFO -   Found image: media/image5.svg (base: image5)
+2025-07-20 13:52:30,204 - document_processor - INFO -   Found image: media/image1.png (base: image1)
+2025-07-20 13:52:30,204 - document_processor - INFO -   Image groups: ['image3', 'image6', 'image2', 'image7', 'image4', 'image5', 'image1']
+2025-07-20 13:52:30,204 - document_processor - INFO -   Total files: 7, Unique images: 7
+2025-07-20 13:52:30,295 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:30,299 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:30,299 - document_processor - INFO -   Found image: media/image3.svg (base: image3)
+2025-07-20 13:52:30,299 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:30,299 - document_processor - INFO -   Image groups: ['image2', 'image3', 'image1']
+2025-07-20 13:52:30,299 - document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 13:52:30,438 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:30,441 - document_processor - INFO -   Found image: media/image3.svg (base: image3)
+2025-07-20 13:52:30,441 - document_processor - INFO -   Found image: media/image6.jpeg (base: image6)
+2025-07-20 13:52:30,442 - document_processor - INFO -   Found image: media/image12.png (base: image12)
+2025-07-20 13:52:30,442 - document_processor - INFO -   Found image: media/image9.svg (base: image9)
+2025-07-20 13:52:30,442 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:30,442 - document_processor - INFO -   Found image: media/image4.png (base: image4)
+2025-07-20 13:52:30,442 - document_processor - INFO -   Found image: media/image8.png (base: image8)
+2025-07-20 13:52:30,442 - document_processor - INFO -   Found image: media/image7.jpeg (base: image7)
+2025-07-20 13:52:30,443 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:30,443 - document_processor - INFO -   Found image: media/image13.svg (base: image13)
+2025-07-20 13:52:30,443 - document_processor - INFO -   Found image: media/image11.svg (base: image11)
+2025-07-20 13:52:30,443 - document_processor - INFO -   Found image: media/image10.png (base: image10)
+2025-07-20 13:52:30,443 - document_processor - INFO -   Found image: media/image5.svg (base: image5)
+2025-07-20 13:52:30,443 - document_processor - INFO -   Image groups: ['image3', 'image6', 'image12', 'image9', 'image2', 'image4', 'image8', 'image7', 'image1', 'image13', 'image11', 'image10', 'image5']
+2025-07-20 13:52:30,444 - document_processor - INFO -   Total files: 13, Unique images: 13
+2025-07-20 13:52:30,653 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:30,656 - document_processor - INFO -   Found image: media/image14.png (base: image14)
+2025-07-20 13:52:30,657 - document_processor - INFO -   Found image: media/image3.svg (base: image3)
+2025-07-20 13:52:30,657 - document_processor - INFO -   Found image: media/image33.svg (base: image33)
+2025-07-20 13:52:30,657 - document_processor - INFO -   Found image: media/image28.png (base: image28)
+2025-07-20 13:52:30,657 - document_processor - INFO -   Found image: media/image4.png (base: image4)
+2025-07-20 13:52:30,657 - document_processor - INFO -   Found image: media/image15.svg (base: image15)
+2025-07-20 13:52:30,658 - document_processor - INFO -   Found image: media/image8.png (base: image8)
+2025-07-20 13:52:30,658 - document_processor - INFO -   Found image: media/image31.svg (base: image31)
+2025-07-20 13:52:30,658 - document_processor - INFO -   Found image: media/image11.svg (base: image11)
+2025-07-20 13:52:30,658 - document_processor - INFO -   Found image: media/image23.svg (base: image23)
+2025-07-20 13:52:30,658 - document_processor - INFO -   Found image: media/image21.svg (base: image21)
+2025-07-20 13:52:30,658 - document_processor - INFO -   Found image: media/image5.svg (base: image5)
+2025-07-20 13:52:30,659 - document_processor - INFO -   Found image: media/image22.png (base: image22)
+2025-07-20 13:52:30,659 - document_processor - INFO -   Found image: media/image9.svg (base: image9)
+2025-07-20 13:52:30,659 - document_processor - INFO -   Found image: media/image29.svg (base: image29)
+2025-07-20 13:52:30,659 - document_processor - INFO -   Found image: media/image35.svg (base: image35)
+2025-07-20 13:52:30,659 - document_processor - INFO -   Found image: media/image34.png (base: image34)
+2025-07-20 13:52:30,660 - document_processor - INFO -   Found image: media/image37.svg (base: image37)
+2025-07-20 13:52:30,660 - document_processor - INFO -   Found image: media/image10.png (base: image10)
+2025-07-20 13:52:30,660 - document_processor - INFO -   Found image: media/image24.png (base: image24)
+2025-07-20 13:52:30,660 - document_processor - INFO -   Found image: media/image6.png (base: image6)
+2025-07-20 13:52:30,661 - document_processor - INFO -   Found image: media/image12.png (base: image12)
+2025-07-20 13:52:30,661 - document_processor - INFO -   Found image: media/image30.png (base: image30)
+2025-07-20 13:52:30,661 - document_processor - INFO -   Found image: media/image20.png (base: image20)
+2025-07-20 13:52:30,661 - document_processor - INFO -   Found image: media/image27.svg (base: image27)
+2025-07-20 13:52:30,662 - document_processor - INFO -   Found image: media/image36.png (base: image36)
+2025-07-20 13:52:30,662 - document_processor - INFO -   Found image: media/image16.png (base: image16)
+2025-07-20 13:52:30,662 - document_processor - INFO -   Found image: media/image25.svg (base: image25)
+2025-07-20 13:52:30,663 - document_processor - INFO -   Found image: media/image32.png (base: image32)
+2025-07-20 13:52:30,663 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:30,663 - document_processor - INFO -   Found image: media/image7.svg (base: image7)
+2025-07-20 13:52:30,663 - document_processor - INFO -   Found image: media/image17.svg (base: image17)
+2025-07-20 13:52:30,664 - document_processor - INFO -   Found image: media/image13.svg (base: image13)
+2025-07-20 13:52:30,664 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:30,664 - document_processor - INFO -   Found image: media/image26.png (base: image26)
+2025-07-20 13:52:30,664 - document_processor - INFO -   Found image: media/image18.png (base: image18)
+2025-07-20 13:52:30,665 - document_processor - INFO -   Found image: media/image19.svg (base: image19)
+2025-07-20 13:52:30,665 - document_processor - INFO -   Image groups: ['image14', 'image3', 'image33', 'image28', 'image4', 'image15', 'image8', 'image31', 'image11', 'image23', 'image21', 'image5', 'image22', 'image9', 'image29', 'image35', 'image34', 'image37', 'image10', 'image24', 'image6', 'image12', 'image30', 'image20', 'image27', 'image36', 'image16', 'image25', 'image32', 'image2', 'image7', 'image17', 'image13', 'image1', 'image26', 'image18', 'image19']
+2025-07-20 13:52:30,665 - document_processor - INFO -   Total files: 37, Unique images: 37
+2025-07-20 13:52:30,951 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:30,955 - document_processor - INFO -   Found image: media/image2.png (base: image2)
+2025-07-20 13:52:30,955 - document_processor - INFO -   Found image: media/image3.svg (base: image3)
+2025-07-20 13:52:30,955 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:30,955 - document_processor - INFO -   Image groups: ['image2', 'image3', 'image1']
+2025-07-20 13:52:30,955 - document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 13:52:31,133 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:31,136 - document_processor - INFO -   Found image: media/image1.jpg (base: image1)
+2025-07-20 13:52:31,136 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:31,136 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:31,316 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:52:31,319 - document_processor - INFO -   Found image: media/image1.jpeg (base: image1)
+2025-07-20 13:52:31,319 - document_processor - INFO -   Image groups: ['image1']
+2025-07-20 13:52:31,320 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 13:52:31,400 - __main__ - INFO - Found 44 documents. Writing to Excel...
+2025-07-20 13:52:31,430 - excel_writer - INFO - Written summary for 44 documents
+2025-07-20 13:52:31,433 - excel_writer - INFO - Written 29 sections for document 1
+2025-07-20 13:52:31,435 - excel_writer - INFO - Written 7 sections for document 2
+2025-07-20 13:52:31,437 - excel_writer - INFO - Written 26 sections for document 3
+2025-07-20 13:52:31,439 - excel_writer - INFO - Written 25 sections for document 4
+2025-07-20 13:52:31,440 - excel_writer - INFO - Written 9 sections for document 5
+2025-07-20 13:52:31,442 - excel_writer - INFO - Written 9 sections for document 6
+2025-07-20 13:52:31,443 - excel_writer - INFO - Written 7 sections for document 7
+2025-07-20 13:52:31,445 - excel_writer - INFO - Written 9 sections for document 8
+2025-07-20 13:52:31,448 - excel_writer - INFO - Written 12 sections for document 9
+2025-07-20 13:52:31,450 - excel_writer - INFO - Written 22 sections for document 10
+2025-07-20 13:52:31,453 - excel_writer - INFO - Written 8 sections for document 11
+2025-07-20 13:52:31,454 - excel_writer - INFO - Written 19 sections for document 12
+2025-07-20 13:52:31,455 - excel_writer - INFO - Written 2 sections for document 13
+2025-07-20 13:52:31,457 - excel_writer - INFO - Written 5 sections for document 14
+2025-07-20 13:52:31,458 - excel_writer - INFO - Written 9 sections for document 15
+2025-07-20 13:52:31,460 - excel_writer - INFO - Written 7 sections for document 16
+2025-07-20 13:52:31,461 - excel_writer - INFO - Written 20 sections for document 17
+2025-07-20 13:52:31,466 - excel_writer - INFO - Written 12 sections for document 18
+2025-07-20 13:52:31,468 - excel_writer - INFO - Written 9 sections for document 19
+2025-07-20 13:52:31,469 - excel_writer - INFO - Written 7 sections for document 20
+2025-07-20 13:52:31,471 - excel_writer - INFO - Written 20 sections for document 21
+2025-07-20 13:52:31,472 - excel_writer - INFO - Written 7 sections for document 22
+2025-07-20 13:52:31,474 - excel_writer - INFO - Written 3 sections for document 23
+2025-07-20 13:52:31,475 - excel_writer - INFO - Written 19 sections for document 24
+2025-07-20 13:52:31,477 - excel_writer - INFO - Written 2 sections for document 25
+2025-07-20 13:52:31,479 - excel_writer - INFO - Written 19 sections for document 26
+2025-07-20 13:52:31,482 - excel_writer - INFO - Written 11 sections for document 27
+2025-07-20 13:52:31,484 - excel_writer - INFO - Written 2 sections for document 28
+2025-07-20 13:52:31,486 - excel_writer - INFO - Written 9 sections for document 29
+2025-07-20 13:52:31,487 - excel_writer - INFO - Written 10 sections for document 30
+2025-07-20 13:52:31,489 - excel_writer - INFO - Written 3 sections for document 31
+2025-07-20 13:52:31,490 - excel_writer - INFO - Written 7 sections for document 32
+2025-07-20 13:52:31,492 - excel_writer - INFO - Written 2 sections for document 33
+2025-07-20 13:52:31,493 - excel_writer - INFO - Written 2 sections for document 34
+2025-07-20 13:52:31,494 - excel_writer - INFO - Written 13 sections for document 35
+2025-07-20 13:52:31,498 - excel_writer - INFO - Written 54 sections for document 36
+2025-07-20 13:52:31,500 - excel_writer - INFO - Written 15 sections for document 37
+2025-07-20 13:52:31,502 - excel_writer - INFO - Written 4 sections for document 38
+2025-07-20 13:52:31,503 - excel_writer - INFO - Written 10 sections for document 39
+2025-07-20 13:52:31,505 - excel_writer - INFO - Written 14 sections for document 40
+2025-07-20 13:52:31,508 - excel_writer - INFO - Written 75 sections for document 41
+2025-07-20 13:52:31,509 - excel_writer - INFO - Written 14 sections for document 42
+2025-07-20 13:52:31,511 - excel_writer - INFO - Written 15 sections for document 43
+2025-07-20 13:52:31,513 - excel_writer - INFO - Written 4 sections for document 44
+2025-07-20 13:52:32,583 - excel_writer - INFO - Excel file saved to: document_analysis.xlsx
+2025-07-20 13:52:32,584 - __main__ - INFO - ============================================================
+2025-07-20 13:52:32,584 - __main__ - INFO - Processing Summary:
+2025-07-20 13:52:32,584 - __main__ - INFO -   Documents processed: 44
+2025-07-20 13:52:32,584 - __main__ - INFO -   Total words: 110,298
+2025-07-20 13:52:32,585 - __main__ - INFO -   Total images: 242
+2025-07-20 13:52:32,585 - __main__ - INFO -   Total sections: 587
+2025-07-20 13:52:32,585 - __main__ - INFO -   Output file: D:\Development\Documents processing\document_analysis.xlsx
+2025-07-20 13:52:32,586 - __main__ - INFO - ============================================================

@@ -1,0 +1,146 @@
+2025-07-20 13:00:43,434 - __main__ - INFO - ============================================================
+2025-07-20 13:00:43,435 - __main__ - INFO - Document Processing Application Started
+2025-07-20 13:00:43,435 - __main__ - INFO - ============================================================
+2025-07-20 13:00:43,645 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:43,647 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:43,862 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:43,873 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:44,113 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:44,114 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:44,439 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:44,440 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:44,660 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:44,661 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:44,751 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:44,751 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:44,858 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:44,860 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:44,950 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:44,950 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,072 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,073 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,207 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,208 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,334 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,336 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,455 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,457 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,643 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,644 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,762 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,763 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,861 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:45,862 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:46,033 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:46,034 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:46,242 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:46,243 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:46,478 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:46,479 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:46,617 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:46,618 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:46,809 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:46,810 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:46,961 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:46,962 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,078 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,079 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,218 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,218 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,366 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,367 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,484 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,485 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,639 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,640 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,829 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,830 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,950 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:47,951 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,039 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,040 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,119 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,120 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,196 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,197 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,281 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,282 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,359 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,360 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,430 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,430 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,563 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,564 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,786 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,787 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,973 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:48,974 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:49,096 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:49,096 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:49,202 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:49,203 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:49,362 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:49,363 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:49,612 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:49,614 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:49,889 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:49,890 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:50,083 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:50,084 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:50,282 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:50,283 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 13:00:50,378 - __main__ - INFO - Found 44 documents. Writing to Excel...
+2025-07-20 13:00:50,383 - excel_writer - INFO - Written summary for 44 documents
+2025-07-20 13:00:50,385 - excel_writer - INFO - Written 29 sections for document 1
+2025-07-20 13:00:50,388 - excel_writer - INFO - Written 7 sections for document 2
+2025-07-20 13:00:50,390 - excel_writer - INFO - Written 26 sections for document 3
+2025-07-20 13:00:50,393 - excel_writer - INFO - Written 25 sections for document 4
+2025-07-20 13:00:50,394 - excel_writer - INFO - Written 9 sections for document 5
+2025-07-20 13:00:50,396 - excel_writer - INFO - Written 9 sections for document 6
+2025-07-20 13:00:50,398 - excel_writer - INFO - Written 7 sections for document 7
+2025-07-20 13:00:50,400 - excel_writer - INFO - Written 9 sections for document 8
+2025-07-20 13:00:50,402 - excel_writer - INFO - Written 12 sections for document 9
+2025-07-20 13:00:50,404 - excel_writer - INFO - Written 22 sections for document 10
+2025-07-20 13:00:50,407 - excel_writer - INFO - Written 8 sections for document 11
+2025-07-20 13:00:50,408 - excel_writer - INFO - Written 19 sections for document 12
+2025-07-20 13:00:50,409 - excel_writer - INFO - Written 2 sections for document 13
+2025-07-20 13:00:50,411 - excel_writer - INFO - Written 5 sections for document 14
+2025-07-20 13:00:50,414 - excel_writer - INFO - Written 9 sections for document 15
+2025-07-20 13:00:50,415 - excel_writer - INFO - Written 7 sections for document 16
+2025-07-20 13:00:50,417 - excel_writer - INFO - Written 20 sections for document 17
+2025-07-20 13:00:50,420 - excel_writer - INFO - Written 12 sections for document 18
+2025-07-20 13:00:50,422 - excel_writer - INFO - Written 9 sections for document 19
+2025-07-20 13:00:50,424 - excel_writer - INFO - Written 7 sections for document 20
+2025-07-20 13:00:50,426 - excel_writer - INFO - Written 20 sections for document 21
+2025-07-20 13:00:50,427 - excel_writer - INFO - Written 7 sections for document 22
+2025-07-20 13:00:50,429 - excel_writer - INFO - Written 3 sections for document 23
+2025-07-20 13:00:50,430 - excel_writer - INFO - Written 19 sections for document 24
+2025-07-20 13:00:50,432 - excel_writer - INFO - Written 2 sections for document 25
+2025-07-20 13:00:50,433 - excel_writer - INFO - Written 19 sections for document 26
+2025-07-20 13:00:50,435 - excel_writer - INFO - Written 11 sections for document 27
+2025-07-20 13:00:50,439 - excel_writer - INFO - Written 2 sections for document 28
+2025-07-20 13:00:50,440 - excel_writer - INFO - Written 9 sections for document 29
+2025-07-20 13:00:50,442 - excel_writer - INFO - Written 10 sections for document 30
+2025-07-20 13:00:50,444 - excel_writer - INFO - Written 3 sections for document 31
+2025-07-20 13:00:50,445 - excel_writer - INFO - Written 7 sections for document 32
+2025-07-20 13:00:50,446 - excel_writer - INFO - Written 2 sections for document 33
+2025-07-20 13:00:50,448 - excel_writer - INFO - Written 2 sections for document 34
+2025-07-20 13:00:50,449 - excel_writer - INFO - Written 13 sections for document 35
+2025-07-20 13:00:50,452 - excel_writer - INFO - Written 54 sections for document 36
+2025-07-20 13:00:50,456 - excel_writer - INFO - Written 15 sections for document 37
+2025-07-20 13:00:50,457 - excel_writer - INFO - Written 4 sections for document 38
+2025-07-20 13:00:50,459 - excel_writer - INFO - Written 10 sections for document 39
+2025-07-20 13:00:50,461 - excel_writer - INFO - Written 14 sections for document 40
+2025-07-20 13:00:50,463 - excel_writer - INFO - Written 75 sections for document 41
+2025-07-20 13:00:50,465 - excel_writer - INFO - Written 14 sections for document 42
+2025-07-20 13:00:50,467 - excel_writer - INFO - Written 15 sections for document 43
+2025-07-20 13:00:50,468 - excel_writer - INFO - Written 4 sections for document 44
+2025-07-20 13:00:51,728 - excel_writer - INFO - Excel file saved to: document_analysis.xlsx
+2025-07-20 13:00:51,729 - __main__ - INFO - ============================================================
+2025-07-20 13:00:51,729 - __main__ - INFO - Processing Summary:
+2025-07-20 13:00:51,729 - __main__ - INFO -   Documents processed: 44
+2025-07-20 13:00:51,730 - __main__ - INFO -   Total words: 110,298
+2025-07-20 13:00:51,730 - __main__ - INFO -   Total images: 242
+2025-07-20 13:00:51,730 - __main__ - INFO -   Total sections: 587
+2025-07-20 13:00:51,730 - __main__ - INFO -   Output file: D:\Development\Documents processing\document_analysis.xlsx
+2025-07-20 13:00:51,731 - __main__ - INFO - ============================================================

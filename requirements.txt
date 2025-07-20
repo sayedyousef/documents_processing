@@ -1,0 +1,22 @@
+# requirements.txt
+python-docx==0.8.11
+openpyxl==3.1.2
+pandas==2.0.3
+lxml==4.9.3
+
+# Installation Instructions:
+# 1. Create a virtual environment: python -m venv venv
+# 2. Activate it: 
+#    - Windows: venv\Scripts\activate
+#    - Mac/Linux: source venv/bin/activate
+# 3. Install requirements: pip install -r requirements.txt
+
+# Project Structure:
+# document_processor/
+# ├── main.py              # Entry point
+# ├── models.py            # Data models
+# ├── document_processor.py # Core processing logic
+# ├── excel_writer.py      # Excel export functionality
+# ├── requirements.txt     # Dependencies
+# └── documents/           # Input folder (create this)
+#     └── (your .docx files here)
