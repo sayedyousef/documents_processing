@@ -36,13 +36,20 @@ def setup_logging():
     # Setup file and console logging
     log_filename = log_dir / f"document_processor_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
     
+    # Create handlers with UTF-8 encoding
+    file_handler = logging.FileHandler(log_filename, encoding='utf-8')
+    file_handler.setLevel(getattr(logging, Config.LOG_LEVEL))
+    file_handler.setFormatter(logging.Formatter(Config.LOG_FORMAT))
+    
+    # Console handler with UTF-8
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setLevel(getattr(logging, Config.LOG_LEVEL))
+    console_handler.setFormatter(logging.Formatter(Config.LOG_FORMAT))
+    
+    # Configure root logger
     logging.basicConfig(
         level=getattr(logging, Config.LOG_LEVEL),
-        format=Config.LOG_FORMAT,
-        handlers=[
-            logging.FileHandler(log_filename),
-            logging.StreamHandler(sys.stdout)
-        ]
+        handlers=[file_handler, console_handler]
     )
 
 def validate_environment():
@@ -90,15 +97,54 @@ def main():
         total_words = sum(doc.word_count for doc in documents)
         total_images = sum(doc.image_count for doc in documents)
         total_sections = sum(len(doc.sections) for doc in documents)
+        total_headings = sum(len([s for s in doc.sections if s.section_type == 'heading']) for doc in documents)
+        total_arabic_refs = sum(getattr(doc, 'arabic_reference_count', 0) for doc in documents)
+        total_english_refs = sum(getattr(doc, 'english_reference_count', 0) for doc in documents)
+        total_footnotes = sum(getattr(doc, 'footnote_count', 0) for doc in documents)
+        
+        # Format quality statistics
+        quality_counts = {}
+        for doc in documents:
+            quality = getattr(doc, 'format_quality', 'Unknown')
+            quality_counts[quality] = quality_counts.get(quality, 0) + 1
+        
+        poor_docs = [doc for doc in documents if getattr(doc, 'format_quality', '') == 'Poor']
+        docs_with_issues = [doc for doc in documents if not doc.uses_proper_styles]
+        docs_missing_captions = [doc for doc in documents if len(getattr(doc, 'images_missing_captions', [])) > 0]
         
         logger.info("=" * 60)
         logger.info("Processing Summary:")
         logger.info(f"  Documents processed: {len(documents)}")
         logger.info(f"  Total words: {total_words:,}")
+        logger.info(f"  Total headings: {total_headings}")
         logger.info(f"  Total images: {total_images}")
-        logger.info(f"  Total sections: {total_sections}")
+        logger.info(f"  Total references: {total_arabic_refs + total_english_refs} (Arabic: {total_arabic_refs}, English: {total_english_refs})")
+        logger.info(f"  Total footnotes: {total_footnotes}")
         logger.info(f"  Output file: {Config.OUTPUT_FILE.absolute()}")
         logger.info("=" * 60)
+        
+        # Format quality summary
+        logger.info("\nFormat Quality Summary:")
+        for quality in ['Excellent', 'Good', 'Fair', 'Poor']:
+            count = quality_counts.get(quality, 0)
+            if count > 0:
+                logger.info(f"  {quality}: {count} documents ({count/len(documents)*100:.1f}%)")
+        
+        if docs_with_issues:
+            logger.info(f"\nWARNING: {len(docs_with_issues)} documents not using proper heading styles")
+        
+        if docs_missing_captions:
+            logger.info(f"\nIMAGES: {len(docs_missing_captions)} documents have images without captions")
+        
+        if poor_docs:
+            logger.info(f"\nCRITICAL: {len(poor_docs)} documents need immediate formatting attention:")
+            for doc in poor_docs[:5]:
+                issues_count = getattr(doc, 'total_format_issues', 0)
+                logger.info(f"    - {doc.name} ({issues_count} issues)")
+            if len(poor_docs) > 5:
+                logger.info(f"    ... and {len(poor_docs) - 5} more")
+        
+        logger.info("\nTIP: Check the 'Format Issues' sheet in the Excel file for detailed recommendations.")
         
     except Exception as e:
         logger.error(f"Error during processing: {e}", exc_info=True)

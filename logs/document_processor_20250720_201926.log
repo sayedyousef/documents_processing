@@ -1,0 +1,683 @@
+2025-07-20 20:19:26,179 - __main__ - INFO - ============================================================
+2025-07-20 20:19:26,179 - __main__ - INFO - Document Processing Application Started
+2025-07-20 20:19:26,180 - __main__ - INFO - ============================================================
+2025-07-20 20:19:26,182 - __main__ - INFO - Scanning for documents in: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج
+2025-07-20 20:19:26,184 - document_processor.document_processor - INFO - Found 44 documents to process
+2025-07-20 20:19:26,184 - document_processor.document_processor - INFO - Processing document 1: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-20 20:19:26,348 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:26,348 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:26,370 - document_processor.document_processor - INFO - Found 3 footnote references in document body
+2025-07-20 20:19:26,370 - document_processor.document_processor - INFO - Total footnotes found: 3
+2025-07-20 20:19:26,371 - document_processor.document_processor - INFO - ====================Processing: الكيمياء الحيوية (بانتظار الترجمة).docx====================
+2025-07-20 20:19:26,371 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image10.jpeg', 'image11.jpeg', 'image12.png', 'image13.png', 'image14.jpeg', 'image15.jpeg', 'image16.jpeg', 'image17.png', 'image18.svg', 'image19.png', 'image2.png', 'image20.svg', 'image21.png', 'image22.svg', 'image23.jpeg', 'image24.png', 'image25.jpeg', 'image26.jpeg', 'image3.jpeg', 'image4.jpeg', 'image5.jpeg', 'image6.png', 'image7.jpeg', 'image8.jpeg', 'image9.jpeg']
+2025-07-20 20:19:26,372 - document_processor.document_processor - INFO -   Ignoring image22.svg (duplicate of image21.png)
+2025-07-20 20:19:26,372 - document_processor.document_processor - INFO -   Ignoring image18.svg (duplicate of image17.png)
+2025-07-20 20:19:26,372 - document_processor.document_processor - INFO -   Ignoring image20.svg (duplicate of image19.png)
+2025-07-20 20:19:26,372 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image10.jpeg', 'image11.jpeg', 'image12.png', 'image13.png', 'image14.jpeg', 'image15.jpeg', 'image16.jpeg', 'image17.png', 'image19.png', 'image2.png', 'image21.png', 'image23.jpeg', 'image24.png', 'image25.jpeg', 'image26.jpeg', 'image3.jpeg', 'image4.jpeg', 'image5.jpeg', 'image6.png', 'image7.jpeg', 'image8.jpeg', 'image9.jpeg']
+2025-07-20 20:19:26,373 - document_processor.document_processor - INFO -   Total files: 26, Unique images: 23
+2025-07-20 20:19:26,373 - document_processor.document_processor - WARNING - Document 'الكيمياء الحيوية (بانتظار الترجمة).docx' has formatting issues:
+2025-07-20 20:19:26,373 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:26,373 - document_processor.document_processor - WARNING -   - Total issues: 25
+2025-07-20 20:19:26,373 - document_processor.document_processor - WARNING -   - 8 headings using Normal style
+2025-07-20 20:19:26,374 - document_processor.document_processor - WARNING -   - 10 images missing captions
+2025-07-20 20:19:26,374 - document_processor.document_processor - INFO - Processing document 2: التناص (جاهزة للنشر).docx
+2025-07-20 20:19:26,479 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:26,480 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:26,488 - document_processor.document_processor - INFO - Found 22 footnote references in document body
+2025-07-20 20:19:26,489 - document_processor.document_processor - INFO - Total footnotes found: 22
+2025-07-20 20:19:26,489 - document_processor.document_processor - INFO - ====================Processing: التناص (جاهزة للنشر).docx====================
+2025-07-20 20:19:26,489 - document_processor.document_processor - INFO -   Found images: ['image1.png', 'image2.svg']
+2025-07-20 20:19:26,489 - document_processor.document_processor - INFO -   Ignoring image2.svg (duplicate of image1.png)
+2025-07-20 20:19:26,490 - document_processor.document_processor - INFO -   Unique images: ['image1.png']
+2025-07-20 20:19:26,490 - document_processor.document_processor - INFO -   Total files: 2, Unique images: 1
+2025-07-20 20:19:26,490 - document_processor.document_processor - WARNING - Document 'التناص (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:26,490 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:26,491 - document_processor.document_processor - WARNING -   - Total issues: 27
+2025-07-20 20:19:26,491 - document_processor.document_processor - WARNING -   - 14 headings using Normal style
+2025-07-20 20:19:26,491 - document_processor.document_processor - INFO - Processing document 3: المعاجم العربية التراثية (جاهزة للنشر).docx
+2025-07-20 20:19:26,619 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:26,620 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:26,649 - document_processor.document_processor - INFO - Found 53 footnote references in document body
+2025-07-20 20:19:26,649 - document_processor.document_processor - INFO - Total footnotes found: 53
+2025-07-20 20:19:26,649 - document_processor.document_processor - INFO - ====================Processing: المعاجم العربية التراثية (جاهزة للنشر).docx====================
+2025-07-20 20:19:26,650 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpeg', 'image3.jpg']
+2025-07-20 20:19:26,650 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpeg', 'image3.jpg']
+2025-07-20 20:19:26,650 - document_processor.document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 20:19:26,650 - document_processor.document_processor - WARNING - Document 'المعاجم العربية التراثية (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:26,650 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:26,650 - document_processor.document_processor - WARNING -   - Total issues: 3
+2025-07-20 20:19:26,651 - document_processor.document_processor - WARNING -   - 1 headings using Normal style
+2025-07-20 20:19:26,651 - document_processor.document_processor - INFO - Processing document 4: أمين الخولي (جاهزة للنشر) .docx
+2025-07-20 20:19:26,856 - document_processor.document_processor - INFO - ====================Processing: أمين الخولي (جاهزة للنشر) .docx====================
+2025-07-20 20:19:26,857 - document_processor.document_processor - INFO -   Found images: ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
+2025-07-20 20:19:26,857 - document_processor.document_processor - INFO -   Unique images: ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
+2025-07-20 20:19:26,857 - document_processor.document_processor - INFO -   Total files: 5, Unique images: 5
+2025-07-20 20:19:26,857 - document_processor.document_processor - WARNING - Document 'أمين الخولي (جاهزة للنشر) .docx' has formatting issues:
+2025-07-20 20:19:26,858 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:26,858 - document_processor.document_processor - WARNING -   - Total issues: 63
+2025-07-20 20:19:26,858 - document_processor.document_processor - WARNING -   - 32 headings using Normal style
+2025-07-20 20:19:26,859 - document_processor.document_processor - INFO - Processing document 5: إلياس زيات (جاهزة للنشر).docx
+2025-07-20 20:19:26,916 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:26,916 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:26,920 - document_processor.document_processor - INFO - Found 13 footnote references in document body
+2025-07-20 20:19:26,921 - document_processor.document_processor - INFO - Total footnotes found: 13
+2025-07-20 20:19:26,922 - document_processor.document_processor - INFO - ====================Processing: إلياس زيات (جاهزة للنشر).docx====================
+2025-07-20 20:19:26,922 - document_processor.document_processor - INFO -   Found images: ['image1.jpg', 'image2.jpeg', 'image3.jpeg']
+2025-07-20 20:19:26,922 - document_processor.document_processor - INFO -   Unique images: ['image1.jpg', 'image2.jpeg', 'image3.jpeg']
+2025-07-20 20:19:26,922 - document_processor.document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 20:19:26,922 - document_processor.document_processor - WARNING - Document 'إلياس زيات (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:26,922 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:26,922 - document_processor.document_processor - WARNING -   - Total issues: 16
+2025-07-20 20:19:26,923 - document_processor.document_processor - WARNING -   - 8 headings using Normal style
+2025-07-20 20:19:26,923 - document_processor.document_processor - INFO - Processing document 6: حسن العطار (جاهزة للنشر).docx
+2025-07-20 20:19:26,985 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:26,985 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:26,994 - document_processor.document_processor - INFO - Found 16 footnote references in document body
+2025-07-20 20:19:26,995 - document_processor.document_processor - INFO - Total footnotes found: 16
+2025-07-20 20:19:26,995 - document_processor.document_processor - INFO - ====================Processing: حسن العطار (جاهزة للنشر).docx====================
+2025-07-20 20:19:26,995 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpg']
+2025-07-20 20:19:26,996 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpg']
+2025-07-20 20:19:26,996 - document_processor.document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 20:19:26,996 - document_processor.document_processor - INFO - Processing document 7: حسن فتحي (جاهزة للنشر).docx
+2025-07-20 20:19:27,060 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:27,061 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:27,069 - document_processor.document_processor - INFO - Found 18 footnote references in document body
+2025-07-20 20:19:27,069 - document_processor.document_processor - INFO - Total footnotes found: 18
+2025-07-20 20:19:27,070 - document_processor.document_processor - INFO - ====================Processing: حسن فتحي (جاهزة للنشر).docx====================
+2025-07-20 20:19:27,070 - document_processor.document_processor - INFO -   Found images: ['image1.png', 'image2.png', 'image3.png', 'image4.jpeg']
+2025-07-20 20:19:27,070 - document_processor.document_processor - INFO -   Unique images: ['image1.png', 'image2.png', 'image3.png', 'image4.jpeg']
+2025-07-20 20:19:27,071 - document_processor.document_processor - INFO -   Total files: 4, Unique images: 4
+2025-07-20 20:19:27,071 - document_processor.document_processor - INFO - Processing document 8: سليم النقاش (جاهزة للنشر)  .docx
+2025-07-20 20:19:27,137 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:27,137 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:27,144 - document_processor.document_processor - INFO - Found 19 footnote references in document body
+2025-07-20 20:19:27,144 - document_processor.document_processor - INFO - Total footnotes found: 19
+2025-07-20 20:19:27,146 - document_processor.document_processor - INFO - ====================Processing: سليم النقاش (جاهزة للنشر)  .docx====================
+2025-07-20 20:19:27,146 - document_processor.document_processor - INFO -   Found images: ['image1.jpg', 'image2.jpeg']
+2025-07-20 20:19:27,147 - document_processor.document_processor - INFO -   Unique images: ['image1.jpg', 'image2.jpeg']
+2025-07-20 20:19:27,147 - document_processor.document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 20:19:27,148 - document_processor.document_processor - WARNING - Document 'سليم النقاش (جاهزة للنشر)  .docx' has formatting issues:
+2025-07-20 20:19:27,148 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:27,148 - document_processor.document_processor - WARNING -   - Total issues: 3
+2025-07-20 20:19:27,149 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 20:19:27,149 - document_processor.document_processor - INFO - Processing document 9: غالب هلسا (جاهزة للنشر).docx
+2025-07-20 20:19:27,233 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:27,233 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:27,242 - document_processor.document_processor - INFO - Found 7 footnote references in document body
+2025-07-20 20:19:27,242 - document_processor.document_processor - INFO - Total footnotes found: 7
+2025-07-20 20:19:27,243 - document_processor.document_processor - INFO - ====================Processing: غالب هلسا (جاهزة للنشر).docx====================
+2025-07-20 20:19:27,243 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg']
+2025-07-20 20:19:27,243 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg']
+2025-07-20 20:19:27,244 - document_processor.document_processor - INFO -   Total files: 4, Unique images: 4
+2025-07-20 20:19:27,244 - document_processor.document_processor - WARNING - Document 'غالب هلسا (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:27,244 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:27,245 - document_processor.document_processor - WARNING -   - Total issues: 2
+2025-07-20 20:19:27,245 - document_processor.document_processor - INFO - Processing document 10: كتاب العين (جاهزة للنشر).docx
+2025-07-20 20:19:27,312 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:27,313 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:27,323 - document_processor.document_processor - INFO - Found 48 footnote references in document body
+2025-07-20 20:19:27,324 - document_processor.document_processor - INFO - Total footnotes found: 48
+2025-07-20 20:19:27,324 - document_processor.document_processor - INFO - ====================Processing: كتاب العين (جاهزة للنشر).docx====================
+2025-07-20 20:19:27,324 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg']
+2025-07-20 20:19:27,324 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg']
+2025-07-20 20:19:27,325 - document_processor.document_processor - INFO -   Total files: 4, Unique images: 4
+2025-07-20 20:19:27,325 - document_processor.document_processor - WARNING - Document 'كتاب العين (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:27,325 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:27,325 - document_processor.document_processor - WARNING -   - Total issues: 4
+2025-07-20 20:19:27,326 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 20:19:27,326 - document_processor.document_processor - INFO - Processing document 11: ابن ماجه (جاهز للنشر).docx
+2025-07-20 20:19:27,367 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:27,368 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:27,372 - document_processor.document_processor - INFO - Found 14 footnote references in document body
+2025-07-20 20:19:27,372 - document_processor.document_processor - INFO - Total footnotes found: 14
+2025-07-20 20:19:27,373 - document_processor.document_processor - INFO - ====================Processing: ابن ماجه (جاهز للنشر).docx====================
+2025-07-20 20:19:27,373 - document_processor.document_processor - INFO -   Found images: ['image1.jpg']
+2025-07-20 20:19:27,373 - document_processor.document_processor - INFO -   Unique images: ['image1.jpg']
+2025-07-20 20:19:27,374 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:27,374 - document_processor.document_processor - INFO - Processing document 12: الطبيعيات في علم الكلام (جاهزة للنشر).docx
+2025-07-20 20:19:27,474 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:27,474 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:27,488 - document_processor.document_processor - INFO - Found 29 footnote references in document body
+2025-07-20 20:19:27,488 - document_processor.document_processor - INFO - Total footnotes found: 29
+2025-07-20 20:19:27,489 - document_processor.document_processor - INFO - ====================Processing: الطبيعيات في علم الكلام (جاهزة للنشر).docx====================
+2025-07-20 20:19:27,489 - document_processor.document_processor - INFO -   Found images: ['image1.jpg', 'image2.png', 'image3.svg']
+2025-07-20 20:19:27,491 - document_processor.document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 20:19:27,491 - document_processor.document_processor - INFO -   Unique images: ['image1.jpg', 'image2.png']
+2025-07-20 20:19:27,491 - document_processor.document_processor - INFO -   Total files: 3, Unique images: 2
+2025-07-20 20:19:27,491 - document_processor.document_processor - INFO - Processing document 13: أبو يعلى الفراء (جاهزة للنشر).docx
+2025-07-20 20:19:27,569 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:27,569 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:27,578 - document_processor.document_processor - INFO - Found 36 footnote references in document body
+2025-07-20 20:19:27,579 - document_processor.document_processor - INFO - Total footnotes found: 36
+2025-07-20 20:19:27,579 - document_processor.document_processor - INFO - ====================Processing: أبو يعلى الفراء (جاهزة للنشر).docx====================
+2025-07-20 20:19:27,579 - document_processor.document_processor - INFO -   Found images: ['image1.jpg', 'image2.jpeg', 'image3.jpg', 'image4.jpeg', 'image5.jpg']
+2025-07-20 20:19:27,579 - document_processor.document_processor - INFO -   Unique images: ['image1.jpg', 'image2.jpeg', 'image3.jpg', 'image4.jpeg', 'image5.jpg']
+2025-07-20 20:19:27,580 - document_processor.document_processor - INFO -   Total files: 5, Unique images: 5
+2025-07-20 20:19:27,580 - document_processor.document_processor - WARNING - Document 'أبو يعلى الفراء (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:27,580 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:27,580 - document_processor.document_processor - WARNING -   - Total issues: 5
+2025-07-20 20:19:27,581 - document_processor.document_processor - WARNING -   - 3 headings using Normal style
+2025-07-20 20:19:27,581 - document_processor.document_processor - INFO - Processing document 14: حسين الجسر (جاهزة للنشر).docx
+2025-07-20 20:19:27,639 - document_processor.document_processor - INFO - ====================Processing: حسين الجسر (جاهزة للنشر).docx====================
+2025-07-20 20:19:27,639 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 20:19:27,640 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 20:19:27,640 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:27,640 - document_processor.document_processor - WARNING - Document 'حسين الجسر (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:27,640 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:27,641 - document_processor.document_processor - WARNING -   - Total issues: 5
+2025-07-20 20:19:27,641 - document_processor.document_processor - WARNING -   - 1 headings using Normal style
+2025-07-20 20:19:27,641 - document_processor.document_processor - INFO - Processing document 15: مسعر بن كدام (جاهزة للنشر).docx
+2025-07-20 20:19:27,704 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:27,704 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:27,714 - document_processor.document_processor - INFO - Found 37 footnote references in document body
+2025-07-20 20:19:27,714 - document_processor.document_processor - INFO - Total footnotes found: 37
+2025-07-20 20:19:27,714 - document_processor.document_processor - INFO - ====================Processing: مسعر بن كدام (جاهزة للنشر).docx====================
+2025-07-20 20:19:27,714 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 20:19:27,715 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 20:19:27,715 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:27,715 - document_processor.document_processor - INFO - Processing document 16: السلع العامة (جاهزة للنشر).docx
+2025-07-20 20:19:27,807 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:27,808 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:27,823 - document_processor.document_processor - INFO - Found 16 footnote references in document body
+2025-07-20 20:19:27,823 - document_processor.document_processor - INFO - Total footnotes found: 16
+2025-07-20 20:19:27,824 - document_processor.document_processor - INFO - ====================Processing: السلع العامة (جاهزة للنشر).docx====================
+2025-07-20 20:19:27,824 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 20:19:27,824 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 20:19:27,825 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:27,825 - document_processor.document_processor - WARNING - Document 'السلع العامة (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:27,825 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:27,825 - document_processor.document_processor - WARNING -   - Total issues: 8
+2025-07-20 20:19:27,826 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 20:19:27,826 - document_processor.document_processor - INFO - Processing document 17: التشابه (جاهزة للنشر) .docx
+2025-07-20 20:19:27,896 - document_processor.document_processor - ERROR - Error processing التشابه (جاهزة للنشر) .docx: 'CoreProperties' object has no attribute 'creator'
+2025-07-20 20:19:27,897 - document_processor.document_processor - INFO - Processing document 18: الدائرة (جاهزة للنشر).docx
+2025-07-20 20:19:28,061 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:28,062 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:28,076 - document_processor.document_processor - INFO - Found 10 footnote references in document body
+2025-07-20 20:19:28,076 - document_processor.document_processor - INFO - Total footnotes found: 10
+2025-07-20 20:19:28,076 - document_processor.document_processor - INFO - ====================Processing: الدائرة (جاهزة للنشر).docx====================
+2025-07-20 20:19:28,077 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image10.png', 'image11.svg', 'image12.png', 'image13.svg', 'image14.png', 'image15.svg', 'image16.png', 'image17.svg', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.png', 'image9.svg']
+2025-07-20 20:19:28,077 - document_processor.document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 20:19:28,077 - document_processor.document_processor - INFO -   Ignoring image11.svg (duplicate of image10.png)
+2025-07-20 20:19:28,078 - document_processor.document_processor - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 20:19:28,078 - document_processor.document_processor - INFO -   Ignoring image15.svg (duplicate of image14.png)
+2025-07-20 20:19:28,078 - document_processor.document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 20:19:28,078 - document_processor.document_processor - INFO -   Ignoring image13.svg (duplicate of image12.png)
+2025-07-20 20:19:28,078 - document_processor.document_processor - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 20:19:28,079 - document_processor.document_processor - INFO -   Ignoring image17.svg (duplicate of image16.png)
+2025-07-20 20:19:28,079 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image10.png', 'image12.png', 'image14.png', 'image16.png', 'image2.png', 'image4.png', 'image6.png', 'image8.png']
+2025-07-20 20:19:28,079 - document_processor.document_processor - INFO -   Total files: 17, Unique images: 9
+2025-07-20 20:19:28,079 - document_processor.document_processor - WARNING - Document 'الدائرة (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:28,079 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:28,080 - document_processor.document_processor - WARNING -   - Total issues: 10
+2025-07-20 20:19:28,080 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 20:19:28,080 - document_processor.document_processor - WARNING -   - 6 images missing captions
+2025-07-20 20:19:28,080 - document_processor.document_processor - INFO - Processing document 19: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-07-20 20:19:28,158 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:28,158 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:28,162 - document_processor.document_processor - INFO - ====================Processing: الدالة واحد لواحد (جاهزة للنشر).docx====================
+2025-07-20 20:19:28,163 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.png', 'image9.svg']
+2025-07-20 20:19:28,163 - document_processor.document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 20:19:28,163 - document_processor.document_processor - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 20:19:28,163 - document_processor.document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 20:19:28,164 - document_processor.document_processor - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 20:19:28,164 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.png', 'image4.png', 'image6.png', 'image8.png']
+2025-07-20 20:19:28,164 - document_processor.document_processor - INFO -   Total files: 9, Unique images: 5
+2025-07-20 20:19:28,165 - document_processor.document_processor - WARNING - Document 'الدالة واحد لواحد (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:28,165 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:28,165 - document_processor.document_processor - WARNING -   - Total issues: 37
+2025-07-20 20:19:28,165 - document_processor.document_processor - WARNING -   - 11 headings using Normal style
+2025-07-20 20:19:28,165 - document_processor.document_processor - WARNING -   - 2 images missing captions
+2025-07-20 20:19:28,166 - document_processor.document_processor - INFO - Processing document 20: العدد الأولي (جاهزة للنشر).docx
+2025-07-20 20:19:28,324 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:28,325 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:28,336 - document_processor.document_processor - INFO - ====================Processing: العدد الأولي (جاهزة للنشر).docx====================
+2025-07-20 20:19:28,336 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpeg']
+2025-07-20 20:19:28,337 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpeg']
+2025-07-20 20:19:28,337 - document_processor.document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 20:19:28,337 - document_processor.document_processor - WARNING - Document 'العدد الأولي (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:28,337 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:28,337 - document_processor.document_processor - WARNING -   - Total issues: 65
+2025-07-20 20:19:28,338 - document_processor.document_processor - WARNING -   - 32 headings using Normal style
+2025-07-20 20:19:28,338 - document_processor.document_processor - WARNING -   - 1 images missing captions
+2025-07-20 20:19:28,338 - document_processor.document_processor - INFO - Processing document 21: الفضاء المتري (جاهزة للنشر).docx
+2025-07-20 20:19:28,466 - document_processor.document_processor - INFO - ====================Processing: الفضاء المتري (جاهزة للنشر).docx====================
+2025-07-20 20:19:28,467 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpeg', 'image4.png', 'image5.svg', 'image6.png']
+2025-07-20 20:19:28,467 - document_processor.document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 20:19:28,467 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpeg', 'image4.png', 'image6.png']
+2025-07-20 20:19:28,467 - document_processor.document_processor - INFO -   Total files: 6, Unique images: 5
+2025-07-20 20:19:28,468 - document_processor.document_processor - WARNING - Document 'الفضاء المتري (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:28,468 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:28,468 - document_processor.document_processor - WARNING -   - Total issues: 28
+2025-07-20 20:19:28,468 - document_processor.document_processor - WARNING -   - 11 headings using Normal style
+2025-07-20 20:19:28,468 - document_processor.document_processor - WARNING -   - 4 images missing captions
+2025-07-20 20:19:28,469 - document_processor.document_processor - INFO - Processing document 22: إستر أزهري (جاهزة للنشر).docx
+2025-07-20 20:19:28,511 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:28,511 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:28,517 - document_processor.document_processor - INFO - Found 11 footnote references in document body
+2025-07-20 20:19:28,517 - document_processor.document_processor - INFO - Total footnotes found: 11
+2025-07-20 20:19:28,518 - document_processor.document_processor - INFO - ====================Processing: إستر أزهري (جاهزة للنشر).docx====================
+2025-07-20 20:19:28,518 - document_processor.document_processor - INFO -   Found images: ['image1.jpg']
+2025-07-20 20:19:28,518 - document_processor.document_processor - INFO -   Unique images: ['image1.jpg']
+2025-07-20 20:19:28,518 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:28,519 - document_processor.document_processor - WARNING - Document 'إستر أزهري (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:28,519 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:28,519 - document_processor.document_processor - WARNING -   - Total issues: 7
+2025-07-20 20:19:28,519 - document_processor.document_processor - WARNING -   - 4 headings using Normal style
+2025-07-20 20:19:28,519 - document_processor.document_processor - INFO - Processing document 23: بولينا حسون (جاهزة للنشر).docx
+2025-07-20 20:19:28,563 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:28,563 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:28,568 - document_processor.document_processor - INFO - Found 21 footnote references in document body
+2025-07-20 20:19:28,569 - document_processor.document_processor - INFO - Total footnotes found: 21
+2025-07-20 20:19:28,569 - document_processor.document_processor - INFO - ====================Processing: بولينا حسون (جاهزة للنشر).docx====================
+2025-07-20 20:19:28,569 - document_processor.document_processor - INFO -   Found images: ['image1.jpg']
+2025-07-20 20:19:28,569 - document_processor.document_processor - INFO -   Unique images: ['image1.jpg']
+2025-07-20 20:19:28,570 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:28,570 - document_processor.document_processor - WARNING - Document 'بولينا حسون (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:28,570 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:28,570 - document_processor.document_processor - WARNING -   - Total issues: 11
+2025-07-20 20:19:28,571 - document_processor.document_processor - WARNING -   - 6 headings using Normal style
+2025-07-20 20:19:28,571 - document_processor.document_processor - INFO - Processing document 24: جمعية العهد (جاهزة للنشر).docx
+2025-07-20 20:19:28,664 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:28,665 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:28,679 - document_processor.document_processor - INFO - Found 66 footnote references in document body
+2025-07-20 20:19:28,680 - document_processor.document_processor - INFO - Total footnotes found: 66
+2025-07-20 20:19:28,681 - document_processor.document_processor - INFO - ====================Processing: جمعية العهد (جاهزة للنشر).docx====================
+2025-07-20 20:19:28,681 - document_processor.document_processor - INFO -   Found images: ['image1.png', 'image2.jpeg']
+2025-07-20 20:19:28,682 - document_processor.document_processor - INFO -   Unique images: ['image1.png', 'image2.jpeg']
+2025-07-20 20:19:28,682 - document_processor.document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 20:19:28,682 - document_processor.document_processor - WARNING - Document 'جمعية العهد (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:28,682 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:28,683 - document_processor.document_processor - WARNING -   - Total issues: 16
+2025-07-20 20:19:28,683 - document_processor.document_processor - WARNING -   - 7 headings using Normal style
+2025-07-20 20:19:28,683 - document_processor.document_processor - INFO - Processing document 25: زينب فواز (جاهزة للنشر).docx
+2025-07-20 20:19:28,729 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:28,730 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:28,734 - document_processor.document_processor - INFO - Found 11 footnote references in document body
+2025-07-20 20:19:28,734 - document_processor.document_processor - INFO - Total footnotes found: 11
+2025-07-20 20:19:28,735 - document_processor.document_processor - INFO - ====================Processing: زينب فواز (جاهزة للنشر).docx====================
+2025-07-20 20:19:28,736 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.jpg']
+2025-07-20 20:19:28,737 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.png', 'image3.jpg']
+2025-07-20 20:19:28,737 - document_processor.document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 20:19:28,737 - document_processor.document_processor - WARNING - Document 'زينب فواز (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:28,737 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:28,737 - document_processor.document_processor - WARNING -   - Total issues: 7
+2025-07-20 20:19:28,737 - document_processor.document_processor - WARNING -   - 4 headings using Normal style
+2025-07-20 20:19:28,737 - document_processor.document_processor - INFO - Processing document 26: ساطع الحصري (جاهزة للنشر).docx
+2025-07-20 20:19:28,879 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:28,881 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:28,968 - document_processor.document_processor - INFO - Found 112 footnote references in document body
+2025-07-20 20:19:28,968 - document_processor.document_processor - INFO - Total footnotes found: 112
+2025-07-20 20:19:28,969 - document_processor.document_processor - INFO - ====================Processing: ساطع الحصري (جاهزة للنشر).docx====================
+2025-07-20 20:19:28,969 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
+2025-07-20 20:19:28,969 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
+2025-07-20 20:19:28,970 - document_processor.document_processor - INFO -   Total files: 5, Unique images: 5
+2025-07-20 20:19:28,970 - document_processor.document_processor - WARNING - Document 'ساطع الحصري (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:28,970 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:28,970 - document_processor.document_processor - WARNING -   - Total issues: 11
+2025-07-20 20:19:28,971 - document_processor.document_processor - WARNING -   - 6 headings using Normal style
+2025-07-20 20:19:28,971 - document_processor.document_processor - INFO - Processing document 27: سوق عكاظ (جاهزة للنشر).docx
+2025-07-20 20:19:29,075 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:29,076 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:29,094 - document_processor.document_processor - INFO - Found 29 footnote references in document body
+2025-07-20 20:19:29,095 - document_processor.document_processor - INFO - Total footnotes found: 29
+2025-07-20 20:19:29,095 - document_processor.document_processor - INFO - ====================Processing: سوق عكاظ (جاهزة للنشر).docx====================
+2025-07-20 20:19:29,096 - document_processor.document_processor - INFO -   Found images: ['image1.png', 'image2.png', 'image3.svg', 'image4.png']
+2025-07-20 20:19:29,096 - document_processor.document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 20:19:29,096 - document_processor.document_processor - INFO -   Unique images: ['image1.png', 'image2.png', 'image4.png']
+2025-07-20 20:19:29,096 - document_processor.document_processor - INFO -   Total files: 4, Unique images: 3
+2025-07-20 20:19:29,097 - document_processor.document_processor - WARNING - Document 'سوق عكاظ (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:29,097 - document_processor.document_processor - WARNING -   - Proper heading usage: 71%
+2025-07-20 20:19:29,097 - document_processor.document_processor - WARNING -   - Total issues: 4
+2025-07-20 20:19:29,097 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 20:19:29,098 - document_processor.document_processor - INFO - Processing document 28: صفقة الأسلحة التشيكية (جاهزة للنشر).docx
+2025-07-20 20:19:29,135 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:29,136 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:29,139 - document_processor.document_processor - INFO - Found 19 footnote references in document body
+2025-07-20 20:19:29,140 - document_processor.document_processor - INFO - Total footnotes found: 19
+2025-07-20 20:19:29,140 - document_processor.document_processor - INFO - ====================Processing: صفقة الأسلحة التشيكية (جاهزة للنشر).docx====================
+2025-07-20 20:19:29,140 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 20:19:29,141 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 20:19:29,141 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:29,141 - document_processor.document_processor - WARNING - Document 'صفقة الأسلحة التشيكية (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:29,141 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:29,142 - document_processor.document_processor - WARNING -   - Total issues: 1
+2025-07-20 20:19:29,142 - document_processor.document_processor - WARNING -   - 1 headings using Normal style
+2025-07-20 20:19:29,142 - document_processor.document_processor - INFO - Processing document 29: مجلي نصراوين (جاهزة للنشر).docx
+2025-07-20 20:19:29,200 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:29,201 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:29,208 - document_processor.document_processor - INFO - Found 31 footnote references in document body
+2025-07-20 20:19:29,208 - document_processor.document_processor - INFO - Total footnotes found: 31
+2025-07-20 20:19:29,209 - document_processor.document_processor - INFO - ====================Processing: مجلي نصراوين (جاهزة للنشر).docx====================
+2025-07-20 20:19:29,209 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 20:19:29,210 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 20:19:29,210 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:29,210 - document_processor.document_processor - WARNING - Document 'مجلي نصراوين (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:29,210 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:29,211 - document_processor.document_processor - WARNING -   - Total issues: 8
+2025-07-20 20:19:29,211 - document_processor.document_processor - WARNING -   - 1 headings using Normal style
+2025-07-20 20:19:29,211 - document_processor.document_processor - INFO - Processing document 30: مريانا مراش (جاهزة للنشر).docx
+2025-07-20 20:19:29,253 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:29,253 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:29,257 - document_processor.document_processor - INFO - Found 16 footnote references in document body
+2025-07-20 20:19:29,258 - document_processor.document_processor - INFO - Total footnotes found: 16
+2025-07-20 20:19:29,258 - document_processor.document_processor - INFO - ====================Processing: مريانا مراش (جاهزة للنشر).docx====================
+2025-07-20 20:19:29,259 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpeg']
+2025-07-20 20:19:29,259 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpeg']
+2025-07-20 20:19:29,259 - document_processor.document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 20:19:29,259 - document_processor.document_processor - WARNING - Document 'مريانا مراش (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:29,260 - document_processor.document_processor - WARNING -   - Proper heading usage: 33%
+2025-07-20 20:19:29,260 - document_processor.document_processor - WARNING -   - Total issues: 4
+2025-07-20 20:19:29,260 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 20:19:29,260 - document_processor.document_processor - INFO - Processing document 31: مسلم بن مسلم الجرمي (جاهزة للنشر).docx
+2025-07-20 20:19:29,303 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:29,304 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:29,308 - document_processor.document_processor - INFO - Found 11 footnote references in document body
+2025-07-20 20:19:29,308 - document_processor.document_processor - INFO - Total footnotes found: 11
+2025-07-20 20:19:29,309 - document_processor.document_processor - INFO - ====================Processing: مسلم بن مسلم الجرمي (جاهزة للنشر).docx====================
+2025-07-20 20:19:29,309 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 20:19:29,309 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 20:19:29,309 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:29,309 - document_processor.document_processor - WARNING - Document 'مسلم بن مسلم الجرمي (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:29,310 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:29,310 - document_processor.document_processor - WARNING -   - Total issues: 5
+2025-07-20 20:19:29,310 - document_processor.document_processor - WARNING -   - 3 headings using Normal style
+2025-07-20 20:19:29,310 - document_processor.document_processor - INFO - Processing document 32: نعمان قساطلي (جاهزة للنشر).docx
+2025-07-20 20:19:29,358 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:29,358 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:29,366 - document_processor.document_processor - INFO - Found 14 footnote references in document body
+2025-07-20 20:19:29,367 - document_processor.document_processor - INFO - Total footnotes found: 14
+2025-07-20 20:19:29,367 - document_processor.document_processor - INFO - ====================Processing: نعمان قساطلي (جاهزة للنشر).docx====================
+2025-07-20 20:19:29,367 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 20:19:29,367 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 20:19:29,368 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:29,369 - document_processor.document_processor - WARNING - Document 'نعمان قساطلي (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:29,369 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:29,369 - document_processor.document_processor - WARNING -   - Total issues: 5
+2025-07-20 20:19:29,369 - document_processor.document_processor - WARNING -   - 3 headings using Normal style
+2025-07-20 20:19:29,369 - document_processor.document_processor - INFO - Processing document 33: هارون بن يحيى (جاهزة للنشر).docx
+2025-07-20 20:19:29,407 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:29,408 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:29,412 - document_processor.document_processor - INFO - Found 14 footnote references in document body
+2025-07-20 20:19:29,413 - document_processor.document_processor - INFO - Total footnotes found: 14
+2025-07-20 20:19:29,413 - document_processor.document_processor - INFO - ====================Processing: هارون بن يحيى (جاهزة للنشر).docx====================
+2025-07-20 20:19:29,414 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 20:19:29,414 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 20:19:29,414 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:29,414 - document_processor.document_processor - WARNING - Document 'هارون بن يحيى (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:29,415 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:29,415 - document_processor.document_processor - WARNING -   - Total issues: 3
+2025-07-20 20:19:29,415 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 20:19:29,416 - document_processor.document_processor - INFO - Processing document 34: هنا كسباني (جاهزة للنشر).docx
+2025-07-20 20:19:29,461 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:29,462 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:29,468 - document_processor.document_processor - INFO - Found 14 footnote references in document body
+2025-07-20 20:19:29,469 - document_processor.document_processor - INFO - Total footnotes found: 14
+2025-07-20 20:19:29,469 - document_processor.document_processor - INFO - ====================Processing: هنا كسباني (جاهزة للنشر).docx====================
+2025-07-20 20:19:29,469 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.png']
+2025-07-20 20:19:29,470 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.png']
+2025-07-20 20:19:29,470 - document_processor.document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 20:19:29,470 - document_processor.document_processor - WARNING - Document 'هنا كسباني (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:29,470 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:29,471 - document_processor.document_processor - WARNING -   - Total issues: 9
+2025-07-20 20:19:29,471 - document_processor.document_processor - WARNING -   - 5 headings using Normal style
+2025-07-20 20:19:29,471 - document_processor.document_processor - INFO - Processing document 35: ياسين الهاشمي (جاهزة للنشر).docx
+2025-07-20 20:19:29,558 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:29,560 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:29,579 - document_processor.document_processor - INFO - Found 64 footnote references in document body
+2025-07-20 20:19:29,579 - document_processor.document_processor - INFO - Total footnotes found: 64
+2025-07-20 20:19:29,580 - document_processor.document_processor - INFO - ====================Processing: ياسين الهاشمي (جاهزة للنشر).docx====================
+2025-07-20 20:19:29,580 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 20:19:29,580 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 20:19:29,580 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:29,581 - document_processor.document_processor - WARNING - Document 'ياسين الهاشمي (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:29,582 - document_processor.document_processor - WARNING -   - Proper heading usage: 50%
+2025-07-20 20:19:29,582 - document_processor.document_processor - WARNING -   - Total issues: 1
+2025-07-20 20:19:29,582 - document_processor.document_processor - WARNING -   - 1 headings using Normal style
+2025-07-20 20:19:29,582 - document_processor.document_processor - INFO - Processing document 36: الصيدلة (جاهزة للنشر).docx
+2025-07-20 20:19:29,710 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:29,711 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:29,725 - document_processor.document_processor - INFO - Found 1 footnote references in document body
+2025-07-20 20:19:29,725 - document_processor.document_processor - INFO - Total footnotes found: 1
+2025-07-20 20:19:29,726 - document_processor.document_processor - INFO - ====================Processing: الصيدلة (جاهزة للنشر).docx====================
+2025-07-20 20:19:29,726 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image10.svg', 'image11.png', 'image12.svg', 'image13.jpeg', 'image14.png', 'image15.svg', 'image16.jpeg', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.jpeg', 'image9.png']
+2025-07-20 20:19:29,727 - document_processor.document_processor - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 20:19:29,727 - document_processor.document_processor - INFO -   Ignoring image15.svg (duplicate of image14.png)
+2025-07-20 20:19:29,727 - document_processor.document_processor - INFO -   Ignoring image10.svg (duplicate of image9.png)
+2025-07-20 20:19:29,727 - document_processor.document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 20:19:29,728 - document_processor.document_processor - INFO -   Ignoring image12.svg (duplicate of image11.png)
+2025-07-20 20:19:29,728 - document_processor.document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 20:19:29,728 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image11.png', 'image13.jpeg', 'image14.png', 'image16.jpeg', 'image2.png', 'image4.png', 'image6.png', 'image8.jpeg', 'image9.png']
+2025-07-20 20:19:29,728 - document_processor.document_processor - INFO -   Total files: 16, Unique images: 10
+2025-07-20 20:19:29,729 - document_processor.document_processor - WARNING - Document 'الصيدلة (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:29,729 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:29,729 - document_processor.document_processor - WARNING -   - Total issues: 20
+2025-07-20 20:19:29,729 - document_processor.document_processor - WARNING -   - 5 headings using Normal style
+2025-07-20 20:19:29,729 - document_processor.document_processor - WARNING -   - 9 images missing captions
+2025-07-20 20:19:29,730 - document_processor.document_processor - INFO - Processing document 37: المكملات الغذائية (جاهزة للنشر).docx
+2025-07-20 20:19:29,815 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:29,816 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:29,829 - document_processor.document_processor - INFO - ====================Processing: المكملات الغذائية (جاهزة للنشر).docx====================
+2025-07-20 20:19:29,830 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.svg', 'image4.jpeg']
+2025-07-20 20:19:29,830 - document_processor.document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 20:19:29,831 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.png', 'image4.jpeg']
+2025-07-20 20:19:29,831 - document_processor.document_processor - INFO -   Total files: 4, Unique images: 3
+2025-07-20 20:19:29,831 - document_processor.document_processor - WARNING - Document 'المكملات الغذائية (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:29,831 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:29,832 - document_processor.document_processor - WARNING -   - Total issues: 16
+2025-07-20 20:19:29,832 - document_processor.document_processor - WARNING -   - 7 headings using Normal style
+2025-07-20 20:19:29,832 - document_processor.document_processor - WARNING -   - 3 images missing captions
+2025-07-20 20:19:29,832 - document_processor.document_processor - INFO - Processing document 38: البروتينات - (جاهزة للنشر).docx
+2025-07-20 20:19:29,886 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:29,886 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:29,892 - document_processor.document_processor - INFO - Found 1 footnote references in document body
+2025-07-20 20:19:29,892 - document_processor.document_processor - INFO - Total footnotes found: 1
+2025-07-20 20:19:29,893 - document_processor.document_processor - INFO - ====================Processing: البروتينات - (جاهزة للنشر).docx====================
+2025-07-20 20:19:29,893 - document_processor.document_processor - INFO -   Found images: ['image1.png', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg']
+2025-07-20 20:19:29,893 - document_processor.document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 20:19:29,893 - document_processor.document_processor - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 20:19:29,894 - document_processor.document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 20:19:29,894 - document_processor.document_processor - INFO -   Unique images: ['image1.png', 'image2.png', 'image4.png', 'image6.png']
+2025-07-20 20:19:29,894 - document_processor.document_processor - INFO -   Total files: 7, Unique images: 4
+2025-07-20 20:19:29,895 - document_processor.document_processor - WARNING - Document 'البروتينات - (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:29,895 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:29,895 - document_processor.document_processor - WARNING -   - Total issues: 5
+2025-07-20 20:19:29,895 - document_processor.document_processor - WARNING -   - 1 headings using Normal style
+2025-07-20 20:19:29,896 - document_processor.document_processor - WARNING -   - 4 images missing captions
+2025-07-20 20:19:29,896 - document_processor.document_processor - INFO - Processing document 39: الدورة الشهرية (جاهزة للنشر).docx
+2025-07-20 20:19:29,973 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:29,974 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:29,983 - document_processor.document_processor - INFO - ====================Processing: الدورة الشهرية (جاهزة للنشر).docx====================
+2025-07-20 20:19:29,983 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.svg']
+2025-07-20 20:19:29,984 - document_processor.document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 20:19:29,984 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.png']
+2025-07-20 20:19:29,984 - document_processor.document_processor - INFO -   Total files: 3, Unique images: 2
+2025-07-20 20:19:29,984 - document_processor.document_processor - WARNING - Document 'الدورة الشهرية (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:29,985 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:29,985 - document_processor.document_processor - WARNING -   - Total issues: 7
+2025-07-20 20:19:29,985 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 20:19:29,986 - document_processor.document_processor - WARNING -   - 2 images missing captions
+2025-07-20 20:19:29,986 - document_processor.document_processor - INFO - Processing document 40: الغشاء الخلوي-مترجم (جاهزة للنشر).docx
+2025-07-20 20:19:30,109 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:30,109 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:30,120 - document_processor.document_processor - INFO - Found 18 footnote references in document body
+2025-07-20 20:19:30,120 - document_processor.document_processor - INFO - Total footnotes found: 18
+2025-07-20 20:19:30,121 - document_processor.document_processor - INFO - ====================Processing: الغشاء الخلوي-مترجم (جاهزة للنشر).docx====================
+2025-07-20 20:19:30,121 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image10.png', 'image11.svg', 'image12.png', 'image13.svg', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.jpeg', 'image7.jpeg', 'image8.png', 'image9.svg']
+2025-07-20 20:19:30,121 - document_processor.document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 20:19:30,121 - document_processor.document_processor - INFO -   Ignoring image13.svg (duplicate of image12.png)
+2025-07-20 20:19:30,121 - document_processor.document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 20:19:30,122 - document_processor.document_processor - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 20:19:30,122 - document_processor.document_processor - INFO -   Ignoring image11.svg (duplicate of image10.png)
+2025-07-20 20:19:30,122 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image10.png', 'image12.png', 'image2.png', 'image4.png', 'image6.jpeg', 'image7.jpeg', 'image8.png']
+2025-07-20 20:19:30,123 - document_processor.document_processor - INFO -   Total files: 13, Unique images: 8
+2025-07-20 20:19:30,123 - document_processor.document_processor - WARNING - Document 'الغشاء الخلوي-مترجم (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:30,123 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:30,123 - document_processor.document_processor - WARNING -   - Total issues: 18
+2025-07-20 20:19:30,123 - document_processor.document_processor - WARNING -   - 5 headings using Normal style
+2025-07-20 20:19:30,124 - document_processor.document_processor - WARNING -   - 5 images missing captions
+2025-07-20 20:19:30,124 - document_processor.document_processor - INFO - Processing document 41: النواتج الطبيعية (جاهزة للنشر).docx
+2025-07-20 20:19:30,370 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:30,370 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:30,402 - document_processor.document_processor - INFO - ====================Processing: النواتج الطبيعية (جاهزة للنشر).docx====================
+2025-07-20 20:19:30,403 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image10.png', 'image11.svg', 'image12.png', 'image13.svg', 'image14.png', 'image15.svg', 'image16.png', 'image17.svg', 'image18.png', 'image19.svg', 'image2.png', 'image20.png', 'image21.svg', 'image22.png', 'image23.svg', 'image24.png', 'image25.svg', 'image26.png', 'image27.svg', 'image28.png', 'image29.svg', 'image3.svg', 'image30.png', 'image31.svg', 'image32.png', 'image33.svg', 'image34.png', 'image35.svg', 'image36.png', 'image37.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.png', 'image9.svg']
+2025-07-20 20:19:30,403 - document_processor.document_processor - INFO -   Ignoring image11.svg (duplicate of image10.png)
+2025-07-20 20:19:30,403 - document_processor.document_processor - INFO -   Ignoring image37.svg (duplicate of image36.png)
+2025-07-20 20:19:30,404 - document_processor.document_processor - INFO -   Ignoring image19.svg (duplicate of image18.png)
+2025-07-20 20:19:30,404 - document_processor.document_processor - INFO -   Ignoring image27.svg (duplicate of image26.png)
+2025-07-20 20:19:30,404 - document_processor.document_processor - INFO -   Ignoring image35.svg (duplicate of image34.png)
+2025-07-20 20:19:30,404 - document_processor.document_processor - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 20:19:30,405 - document_processor.document_processor - INFO -   Ignoring image17.svg (duplicate of image16.png)
+2025-07-20 20:19:30,405 - document_processor.document_processor - INFO -   Ignoring image25.svg (duplicate of image24.png)
+2025-07-20 20:19:30,405 - document_processor.document_processor - INFO -   Ignoring image33.svg (duplicate of image32.png)
+2025-07-20 20:19:30,405 - document_processor.document_processor - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 20:19:30,406 - document_processor.document_processor - INFO -   Ignoring image15.svg (duplicate of image14.png)
+2025-07-20 20:19:30,406 - document_processor.document_processor - INFO -   Ignoring image23.svg (duplicate of image22.png)
+2025-07-20 20:19:30,406 - document_processor.document_processor - INFO -   Ignoring image31.svg (duplicate of image30.png)
+2025-07-20 20:19:30,406 - document_processor.document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 20:19:30,406 - document_processor.document_processor - INFO -   Ignoring image13.svg (duplicate of image12.png)
+2025-07-20 20:19:30,407 - document_processor.document_processor - INFO -   Ignoring image21.svg (duplicate of image20.png)
+2025-07-20 20:19:30,407 - document_processor.document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 20:19:30,407 - document_processor.document_processor - INFO -   Ignoring image29.svg (duplicate of image28.png)
+2025-07-20 20:19:30,407 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image10.png', 'image12.png', 'image14.png', 'image16.png', 'image18.png', 'image2.png', 'image20.png', 'image22.png', 'image24.png', 'image26.png', 'image28.png', 'image30.png', 'image32.png', 'image34.png', 'image36.png', 'image4.png', 'image6.png', 'image8.png']
+2025-07-20 20:19:30,407 - document_processor.document_processor - INFO -   Total files: 37, Unique images: 19
+2025-07-20 20:19:30,407 - document_processor.document_processor - WARNING - Document 'النواتج الطبيعية (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:30,408 - document_processor.document_processor - WARNING -   - Proper heading usage: 74%
+2025-07-20 20:19:30,408 - document_processor.document_processor - WARNING -   - Total issues: 51
+2025-07-20 20:19:30,408 - document_processor.document_processor - WARNING -   - 5 headings using Normal style
+2025-07-20 20:19:30,408 - document_processor.document_processor - WARNING -   - 37 images missing captions
+2025-07-20 20:19:30,408 - document_processor.document_processor - INFO - Processing document 42: فيروس كورونا (جاهزة للنشر).docx
+2025-07-20 20:19:30,490 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:30,491 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:30,504 - document_processor.document_processor - INFO - Found 9 footnote references in document body
+2025-07-20 20:19:30,505 - document_processor.document_processor - INFO - Total footnotes found: 9
+2025-07-20 20:19:30,505 - document_processor.document_processor - INFO - ====================Processing: فيروس كورونا (جاهزة للنشر).docx====================
+2025-07-20 20:19:30,505 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.svg']
+2025-07-20 20:19:30,506 - document_processor.document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 20:19:30,506 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.png']
+2025-07-20 20:19:30,506 - document_processor.document_processor - INFO -   Total files: 3, Unique images: 2
+2025-07-20 20:19:30,507 - document_processor.document_processor - WARNING - Document 'فيروس كورونا (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:30,507 - document_processor.document_processor - WARNING -   - Proper heading usage: 86%
+2025-07-20 20:19:30,507 - document_processor.document_processor - WARNING -   - Total issues: 4
+2025-07-20 20:19:30,507 - document_processor.document_processor - WARNING -   - 1 headings using Normal style
+2025-07-20 20:19:30,507 - document_processor.document_processor - WARNING -   - 3 images missing captions
+2025-07-20 20:19:30,507 - document_processor.document_processor - INFO - Processing document 43: لينا ماري عبيد (جاهزة للنشر).docx
+2025-07-20 20:19:30,615 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:30,615 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:30,633 - document_processor.document_processor - INFO - ====================Processing: لينا ماري عبيد (جاهزة للنشر).docx====================
+2025-07-20 20:19:30,634 - document_processor.document_processor - INFO -   Found images: ['image1.jpg']
+2025-07-20 20:19:30,634 - document_processor.document_processor - INFO -   Unique images: ['image1.jpg']
+2025-07-20 20:19:30,634 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:30,634 - document_processor.document_processor - WARNING - Document 'لينا ماري عبيد (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:30,635 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:30,635 - document_processor.document_processor - WARNING -   - Total issues: 19
+2025-07-20 20:19:30,635 - document_processor.document_processor - WARNING -   - 10 headings using Normal style
+2025-07-20 20:19:30,635 - document_processor.document_processor - INFO - Processing document 44: يوسف عوني حنّون (جاهزة للنشر).docx
+2025-07-20 20:19:30,739 - document_processor.document_processor - INFO - Found footnotes relationship
+2025-07-20 20:19:30,740 - document_processor.document_processor - WARNING - Could not access footnotes part: 'Part' object has no attribute 'element'
+2025-07-20 20:19:30,757 - document_processor.document_processor - INFO - ====================Processing: يوسف عوني حنّون (جاهزة للنشر).docx====================
+2025-07-20 20:19:30,757 - document_processor.document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 20:19:30,758 - document_processor.document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 20:19:30,758 - document_processor.document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 20:19:30,758 - document_processor.document_processor - WARNING - Document 'يوسف عوني حنّون (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 20:19:30,758 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 20:19:30,759 - document_processor.document_processor - WARNING -   - Total issues: 18
+2025-07-20 20:19:30,759 - document_processor.document_processor - WARNING -   - 8 headings using Normal style
+2025-07-20 20:19:30,759 - document_processor.document_processor - INFO - 
+============================================================
+2025-07-20 20:19:30,759 - document_processor.document_processor - INFO - DOCUMENT PROCESSING SUMMARY
+2025-07-20 20:19:30,759 - document_processor.document_processor - INFO - ============================================================
+2025-07-20 20:19:30,760 - document_processor.document_processor - INFO - Format Quality Distribution:
+2025-07-20 20:19:30,760 - document_processor.document_processor - INFO -   Excellent: 2 documents (4.5%)
+2025-07-20 20:19:30,760 - document_processor.document_processor - INFO -   Good: 3 documents (6.8%)
+2025-07-20 20:19:30,760 - document_processor.document_processor - INFO -   Fair: 23 documents (52.3%)
+2025-07-20 20:19:30,760 - document_processor.document_processor - INFO -   Poor: 15 documents (34.1%)
+2025-07-20 20:19:30,760 - document_processor.document_processor - INFO - 
+Documents needing attention (38):
+2025-07-20 20:19:30,761 - document_processor.document_processor - INFO -   - الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-20 20:19:30,761 - document_processor.document_processor - INFO -   - التناص (جاهزة للنشر).docx
+2025-07-20 20:19:30,761 - document_processor.document_processor - INFO -   - المعاجم العربية التراثية (جاهزة للنشر).docx
+2025-07-20 20:19:30,761 - document_processor.document_processor - INFO -   - أمين الخولي (جاهزة للنشر) .docx
+2025-07-20 20:19:30,761 - document_processor.document_processor - INFO -   - إلياس زيات (جاهزة للنشر).docx
+2025-07-20 20:19:30,761 - document_processor.document_processor - INFO -   - سليم النقاش (جاهزة للنشر)  .docx
+2025-07-20 20:19:30,761 - document_processor.document_processor - INFO -   - غالب هلسا (جاهزة للنشر).docx
+2025-07-20 20:19:30,762 - document_processor.document_processor - INFO -   - كتاب العين (جاهزة للنشر).docx
+2025-07-20 20:19:30,762 - document_processor.document_processor - INFO -   - أبو يعلى الفراء (جاهزة للنشر).docx
+2025-07-20 20:19:30,762 - document_processor.document_processor - INFO -   - حسين الجسر (جاهزة للنشر).docx
+2025-07-20 20:19:30,762 - __main__ - INFO - Found 44 documents. Writing to Excel...
+2025-07-20 20:19:30,804 - excel_writer - INFO - Written summary for 44 documents
+2025-07-20 20:19:30,823 - excel_writer - INFO - Written format issues sheet
+2025-07-20 20:19:30,837 - excel_writer - INFO - Written sections for document 1
+2025-07-20 20:19:30,850 - excel_writer - INFO - Written sections for document 2
+2025-07-20 20:19:30,854 - excel_writer - INFO - Written sections for document 3
+2025-07-20 20:19:30,880 - excel_writer - INFO - Written sections for document 4
+2025-07-20 20:19:30,888 - excel_writer - INFO - Written sections for document 5
+2025-07-20 20:19:30,891 - excel_writer - INFO - Written sections for document 6
+2025-07-20 20:19:30,897 - excel_writer - INFO - Written sections for document 7
+2025-07-20 20:19:30,901 - excel_writer - INFO - Written sections for document 8
+2025-07-20 20:19:30,905 - excel_writer - INFO - Written sections for document 9
+2025-07-20 20:19:30,908 - excel_writer - INFO - Written sections for document 10
+2025-07-20 20:19:30,910 - excel_writer - INFO - Written sections for document 11
+2025-07-20 20:19:30,915 - excel_writer - INFO - Written sections for document 12
+2025-07-20 20:19:30,919 - excel_writer - INFO - Written sections for document 13
+2025-07-20 20:19:30,924 - excel_writer - INFO - Written sections for document 14
+2025-07-20 20:19:30,927 - excel_writer - INFO - Written sections for document 15
+2025-07-20 20:19:30,933 - excel_writer - INFO - Written sections for document 16
+2025-07-20 20:19:30,940 - excel_writer - INFO - Written sections for document 18
+2025-07-20 20:19:30,959 - excel_writer - INFO - Written sections for document 19
+2025-07-20 20:19:30,984 - excel_writer - INFO - Written sections for document 20
+2025-07-20 20:19:30,998 - excel_writer - INFO - Written sections for document 21
+2025-07-20 20:19:31,004 - excel_writer - INFO - Written sections for document 22
+2025-07-20 20:19:31,010 - excel_writer - INFO - Written sections for document 23
+2025-07-20 20:19:31,019 - excel_writer - INFO - Written sections for document 24
+2025-07-20 20:19:31,024 - excel_writer - INFO - Written sections for document 25
+2025-07-20 20:19:31,029 - excel_writer - INFO - Written sections for document 26
+2025-07-20 20:19:31,035 - excel_writer - INFO - Written sections for document 27
+2025-07-20 20:19:31,038 - excel_writer - INFO - Written sections for document 28
+2025-07-20 20:19:31,045 - excel_writer - INFO - Written sections for document 29
+2025-07-20 20:19:31,050 - excel_writer - INFO - Written sections for document 30
+2025-07-20 20:19:31,054 - excel_writer - INFO - Written sections for document 31
+2025-07-20 20:19:31,058 - excel_writer - INFO - Written sections for document 32
+2025-07-20 20:19:31,062 - excel_writer - INFO - Written sections for document 33
+2025-07-20 20:19:31,069 - excel_writer - INFO - Written sections for document 34
+2025-07-20 20:19:31,072 - excel_writer - INFO - Written sections for document 35
+2025-07-20 20:19:31,084 - excel_writer - INFO - Written sections for document 36
+2025-07-20 20:19:31,093 - excel_writer - INFO - Written sections for document 37
+2025-07-20 20:19:31,098 - excel_writer - INFO - Written sections for document 38
+2025-07-20 20:19:31,105 - excel_writer - INFO - Written sections for document 39
+2025-07-20 20:19:31,117 - excel_writer - INFO - Written sections for document 40
+2025-07-20 20:19:31,150 - excel_writer - INFO - Written sections for document 41
+2025-07-20 20:19:31,155 - excel_writer - INFO - Written sections for document 42
+2025-07-20 20:19:31,163 - excel_writer - INFO - Written sections for document 43
+2025-07-20 20:19:31,172 - excel_writer - INFO - Written sections for document 44
+2025-07-20 20:19:32,277 - excel_writer - INFO - Excel file saved to: document_analysis.xlsx
+2025-07-20 20:19:32,277 - __main__ - INFO - ============================================================
+2025-07-20 20:19:32,277 - __main__ - INFO - Processing Summary:
+2025-07-20 20:19:32,277 - __main__ - INFO -   Documents processed: 44
+2025-07-20 20:19:32,277 - __main__ - INFO -   Total words: 108,126
+2025-07-20 20:19:32,278 - __main__ - INFO -   Total headings: 348
+2025-07-20 20:19:32,278 - __main__ - INFO -   Total images: 116
+2025-07-20 20:19:32,278 - __main__ - INFO -   Total references: 937 (Arabic: 749, English: 188)
+2025-07-20 20:19:32,278 - __main__ - INFO -   Total footnotes: 803
+2025-07-20 20:19:32,279 - __main__ - INFO -   Output file: D:\Development\Documents processing\document_analysis.xlsx
+2025-07-20 20:19:32,279 - __main__ - INFO - ============================================================
+2025-07-20 20:19:32,279 - __main__ - INFO - 
+Format Quality Summary:
+2025-07-20 20:19:32,279 - __main__ - INFO -   Excellent: 2 documents (4.5%)
+2025-07-20 20:19:32,279 - __main__ - INFO -   Good: 3 documents (6.8%)
+2025-07-20 20:19:32,280 - __main__ - INFO -   Fair: 23 documents (52.3%)
+2025-07-20 20:19:32,280 - __main__ - INFO -   Poor: 15 documents (34.1%)
+2025-07-20 20:19:32,280 - __main__ - INFO - 
+WARNING: 41 documents not using proper heading styles
+2025-07-20 20:19:32,280 - __main__ - INFO - 
+IMAGES: 13 documents have images without captions
+2025-07-20 20:19:32,280 - __main__ - INFO - 
+CRITICAL: 15 documents need immediate formatting attention:
+2025-07-20 20:19:32,280 - __main__ - INFO -     - الكيمياء الحيوية (بانتظار الترجمة).docx (25 issues)
+2025-07-20 20:19:32,281 - __main__ - INFO -     - التناص (جاهزة للنشر).docx (27 issues)
+2025-07-20 20:19:32,281 - __main__ - INFO -     - أمين الخولي (جاهزة للنشر) .docx (63 issues)
+2025-07-20 20:19:32,281 - __main__ - INFO -     - إلياس زيات (جاهزة للنشر).docx (16 issues)
+2025-07-20 20:19:32,281 - __main__ - INFO -     - الدالة واحد لواحد (جاهزة للنشر).docx (37 issues)
+2025-07-20 20:19:32,281 - __main__ - INFO -     ... and 10 more
+2025-07-20 20:19:32,281 - __main__ - INFO - 
+TIP: Check the 'Format Issues' sheet in the Excel file for detailed recommendations.

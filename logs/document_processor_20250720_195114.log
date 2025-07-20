@@ -1,0 +1,414 @@
+2025-07-20 19:51:14,381 - __main__ - INFO - ============================================================
+2025-07-20 19:51:14,381 - __main__ - INFO - Document Processing Application Started
+2025-07-20 19:51:14,381 - __main__ - INFO - ============================================================
+2025-07-20 19:51:14,384 - __main__ - INFO - Scanning for documents in: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج
+2025-07-20 19:51:14,386 - document_processor.document_processor - INFO - Found 44 documents to process
+2025-07-20 19:51:14,386 - document_processor.document_processor - INFO - Processing document 1: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-20 19:51:14,595 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:14,595 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:14,596 - document_processor.document_processor - WARNING - Document 'الكيمياء الحيوية (بانتظار الترجمة).docx' has formatting issues:
+2025-07-20 19:51:14,596 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:14,596 - document_processor.document_processor - WARNING -   - Total issues: 32
+2025-07-20 19:51:14,596 - document_processor.document_processor - WARNING -   - 11 headings using Normal style
+2025-07-20 19:51:14,597 - document_processor.document_processor - WARNING -   - 10 images missing captions
+2025-07-20 19:51:14,597 - document_processor.document_processor - INFO - Processing document 2: التناص (جاهزة للنشر).docx
+2025-07-20 19:51:14,747 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:14,748 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:14,748 - document_processor.document_processor - WARNING - Document 'التناص (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:14,748 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:14,748 - document_processor.document_processor - WARNING -   - Total issues: 34
+2025-07-20 19:51:14,749 - document_processor.document_processor - WARNING -   - 17 headings using Normal style
+2025-07-20 19:51:14,749 - document_processor.document_processor - INFO - Processing document 3: المعاجم العربية التراثية (جاهزة للنشر).docx
+2025-07-20 19:51:14,944 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:14,945 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:14,945 - document_processor.document_processor - WARNING - Document 'المعاجم العربية التراثية (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:14,945 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:14,945 - document_processor.document_processor - WARNING -   - Total issues: 6
+2025-07-20 19:51:14,946 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 19:51:14,946 - document_processor.document_processor - INFO - Processing document 4: أمين الخولي (جاهزة للنشر) .docx
+2025-07-20 19:51:15,233 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:15,234 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:15,234 - document_processor.document_processor - WARNING - Document 'أمين الخولي (جاهزة للنشر) .docx' has formatting issues:
+2025-07-20 19:51:15,234 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:15,235 - document_processor.document_processor - WARNING -   - Total issues: 74
+2025-07-20 19:51:15,235 - document_processor.document_processor - WARNING -   - 37 headings using Normal style
+2025-07-20 19:51:15,235 - document_processor.document_processor - INFO - Processing document 5: إلياس زيات (جاهزة للنشر).docx
+2025-07-20 19:51:15,308 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:15,309 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:15,309 - document_processor.document_processor - WARNING - Document 'إلياس زيات (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:15,309 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:15,310 - document_processor.document_processor - WARNING -   - Total issues: 18
+2025-07-20 19:51:15,310 - document_processor.document_processor - WARNING -   - 9 headings using Normal style
+2025-07-20 19:51:15,310 - document_processor.document_processor - INFO - Processing document 6: حسن العطار (جاهزة للنشر).docx
+2025-07-20 19:51:15,406 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:15,406 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:15,406 - document_processor.document_processor - WARNING - Document 'حسن العطار (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:15,406 - document_processor.document_processor - WARNING -   - Proper heading usage: 67%
+2025-07-20 19:51:15,406 - document_processor.document_processor - WARNING -   - Total issues: 4
+2025-07-20 19:51:15,407 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 19:51:15,407 - document_processor.document_processor - INFO - Processing document 7: حسن فتحي (جاهزة للنشر).docx
+2025-07-20 19:51:15,493 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:15,493 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:15,493 - document_processor.document_processor - WARNING - Document 'حسن فتحي (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:15,494 - document_processor.document_processor - WARNING -   - Proper heading usage: 67%
+2025-07-20 19:51:15,494 - document_processor.document_processor - WARNING -   - Total issues: 4
+2025-07-20 19:51:15,494 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 19:51:15,495 - document_processor.document_processor - INFO - Processing document 8: سليم النقاش (جاهزة للنشر)  .docx
+2025-07-20 19:51:15,571 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:15,571 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:15,571 - document_processor.document_processor - WARNING - Document 'سليم النقاش (جاهزة للنشر)  .docx' has formatting issues:
+2025-07-20 19:51:15,572 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:15,572 - document_processor.document_processor - WARNING -   - Total issues: 6
+2025-07-20 19:51:15,572 - document_processor.document_processor - WARNING -   - 3 headings using Normal style
+2025-07-20 19:51:15,573 - document_processor.document_processor - INFO - Processing document 9: غالب هلسا (جاهزة للنشر).docx
+2025-07-20 19:51:15,704 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:15,705 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:15,705 - document_processor.document_processor - WARNING - Document 'غالب هلسا (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:15,705 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:15,705 - document_processor.document_processor - WARNING -   - Total issues: 3
+2025-07-20 19:51:15,705 - document_processor.document_processor - INFO - Processing document 10: كتاب العين (جاهزة للنشر).docx
+2025-07-20 19:51:15,822 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:15,823 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:15,823 - document_processor.document_processor - WARNING - Document 'كتاب العين (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:15,823 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:15,824 - document_processor.document_processor - WARNING -   - Total issues: 7
+2025-07-20 19:51:15,824 - document_processor.document_processor - WARNING -   - 3 headings using Normal style
+2025-07-20 19:51:15,824 - document_processor.document_processor - INFO - Processing document 11: ابن ماجه (جاهز للنشر).docx
+2025-07-20 19:51:15,889 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:15,889 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:15,889 - document_processor.document_processor - WARNING - Document 'ابن ماجه (جاهز للنشر).docx' has formatting issues:
+2025-07-20 19:51:15,890 - document_processor.document_processor - WARNING -   - Proper heading usage: 67%
+2025-07-20 19:51:15,890 - document_processor.document_processor - WARNING -   - Total issues: 2
+2025-07-20 19:51:15,891 - document_processor.document_processor - WARNING -   - 1 headings using Normal style
+2025-07-20 19:51:15,891 - document_processor.document_processor - INFO - Processing document 12: الطبيعيات في علم الكلام (جاهزة للنشر).docx
+2025-07-20 19:51:16,079 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:16,080 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:16,080 - document_processor.document_processor - WARNING - Document 'الطبيعيات في علم الكلام (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:16,080 - document_processor.document_processor - WARNING -   - Proper heading usage: 75%
+2025-07-20 19:51:16,081 - document_processor.document_processor - WARNING -   - Total issues: 11
+2025-07-20 19:51:16,081 - document_processor.document_processor - WARNING -   - 5 headings using Normal style
+2025-07-20 19:51:16,081 - document_processor.document_processor - WARNING -   - 1 images missing captions
+2025-07-20 19:51:16,082 - document_processor.document_processor - INFO - Processing document 13: أبو يعلى الفراء (جاهزة للنشر).docx
+2025-07-20 19:51:16,207 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:16,208 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:16,208 - document_processor.document_processor - WARNING - Document 'أبو يعلى الفراء (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:16,208 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:16,208 - document_processor.document_processor - WARNING -   - Total issues: 8
+2025-07-20 19:51:16,209 - document_processor.document_processor - WARNING -   - 4 headings using Normal style
+2025-07-20 19:51:16,209 - document_processor.document_processor - INFO - Processing document 14: حسين الجسر (جاهزة للنشر).docx
+2025-07-20 19:51:16,299 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:16,300 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:16,300 - document_processor.document_processor - WARNING - Document 'حسين الجسر (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:16,300 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:16,301 - document_processor.document_processor - WARNING -   - Total issues: 8
+2025-07-20 19:51:16,301 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 19:51:16,301 - document_processor.document_processor - INFO - Processing document 15: مسعر بن كدام (جاهزة للنشر).docx
+2025-07-20 19:51:16,397 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:16,397 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:16,398 - document_processor.document_processor - WARNING - Document 'مسعر بن كدام (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:16,398 - document_processor.document_processor - WARNING -   - Proper heading usage: 50%
+2025-07-20 19:51:16,398 - document_processor.document_processor - WARNING -   - Total issues: 2
+2025-07-20 19:51:16,399 - document_processor.document_processor - WARNING -   - 1 headings using Normal style
+2025-07-20 19:51:16,399 - document_processor.document_processor - INFO - Processing document 16: السلع العامة (جاهزة للنشر).docx
+2025-07-20 19:51:16,553 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:16,553 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:16,554 - document_processor.document_processor - WARNING - Document 'السلع العامة (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:16,554 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:16,554 - document_processor.document_processor - WARNING -   - Total issues: 11
+2025-07-20 19:51:16,555 - document_processor.document_processor - WARNING -   - 3 headings using Normal style
+2025-07-20 19:51:16,555 - document_processor.document_processor - INFO - Processing document 17: التشابه (جاهزة للنشر) .docx
+2025-07-20 19:51:16,627 - document_processor.document_processor - ERROR - Error processing التشابه (جاهزة للنشر) .docx: 'CoreProperties' object has no attribute 'creator'
+2025-07-20 19:51:16,628 - document_processor.document_processor - INFO - Processing document 18: الدائرة (جاهزة للنشر).docx
+2025-07-20 19:51:16,856 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:16,856 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:16,857 - document_processor.document_processor - WARNING - Document 'الدائرة (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:16,857 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:16,857 - document_processor.document_processor - WARNING -   - Total issues: 12
+2025-07-20 19:51:16,858 - document_processor.document_processor - WARNING -   - 3 headings using Normal style
+2025-07-20 19:51:16,858 - document_processor.document_processor - WARNING -   - 6 images missing captions
+2025-07-20 19:51:16,858 - document_processor.document_processor - INFO - Processing document 19: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-07-20 19:51:16,976 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:16,977 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:16,977 - document_processor.document_processor - WARNING - Document 'الدالة واحد لواحد (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:16,977 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:16,978 - document_processor.document_processor - WARNING -   - Total issues: 42
+2025-07-20 19:51:16,978 - document_processor.document_processor - WARNING -   - 13 headings using Normal style
+2025-07-20 19:51:16,978 - document_processor.document_processor - WARNING -   - 2 images missing captions
+2025-07-20 19:51:16,979 - document_processor.document_processor - INFO - Processing document 20: العدد الأولي (جاهزة للنشر).docx
+2025-07-20 19:51:17,201 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:17,202 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:17,202 - document_processor.document_processor - WARNING - Document 'العدد الأولي (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:17,203 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:17,203 - document_processor.document_processor - WARNING -   - Total issues: 80
+2025-07-20 19:51:17,203 - document_processor.document_processor - WARNING -   - 39 headings using Normal style
+2025-07-20 19:51:17,203 - document_processor.document_processor - WARNING -   - 1 images missing captions
+2025-07-20 19:51:17,204 - document_processor.document_processor - INFO - Processing document 21: الفضاء المتري (جاهزة للنشر).docx
+2025-07-20 19:51:17,405 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:17,406 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:17,406 - document_processor.document_processor - WARNING - Document 'الفضاء المتري (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:17,406 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:17,406 - document_processor.document_processor - WARNING -   - Total issues: 34
+2025-07-20 19:51:17,407 - document_processor.document_processor - WARNING -   - 13 headings using Normal style
+2025-07-20 19:51:17,407 - document_processor.document_processor - WARNING -   - 4 images missing captions
+2025-07-20 19:51:17,407 - document_processor.document_processor - INFO - Processing document 22: إستر أزهري (جاهزة للنشر).docx
+2025-07-20 19:51:17,477 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:17,477 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:17,478 - document_processor.document_processor - WARNING - Document 'إستر أزهري (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:17,478 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:17,478 - document_processor.document_processor - WARNING -   - Total issues: 10
+2025-07-20 19:51:17,479 - document_processor.document_processor - WARNING -   - 5 headings using Normal style
+2025-07-20 19:51:17,479 - document_processor.document_processor - INFO - Processing document 23: بولينا حسون (جاهزة للنشر).docx
+2025-07-20 19:51:17,540 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:17,541 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:17,541 - document_processor.document_processor - WARNING - Document 'بولينا حسون (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:17,541 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:17,542 - document_processor.document_processor - WARNING -   - Total issues: 14
+2025-07-20 19:51:17,542 - document_processor.document_processor - WARNING -   - 7 headings using Normal style
+2025-07-20 19:51:17,542 - document_processor.document_processor - INFO - Processing document 24: جمعية العهد (جاهزة للنشر).docx
+2025-07-20 19:51:17,706 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:17,707 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:17,707 - document_processor.document_processor - WARNING - Document 'جمعية العهد (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:17,707 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:17,707 - document_processor.document_processor - WARNING -   - Total issues: 25
+2025-07-20 19:51:17,708 - document_processor.document_processor - WARNING -   - 11 headings using Normal style
+2025-07-20 19:51:17,708 - document_processor.document_processor - INFO - Processing document 25: زينب فواز (جاهزة للنشر).docx
+2025-07-20 19:51:17,775 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:17,775 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:17,775 - document_processor.document_processor - WARNING - Document 'زينب فواز (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:17,776 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:17,776 - document_processor.document_processor - WARNING -   - Total issues: 10
+2025-07-20 19:51:17,776 - document_processor.document_processor - WARNING -   - 5 headings using Normal style
+2025-07-20 19:51:17,776 - document_processor.document_processor - INFO - Processing document 26: ساطع الحصري (جاهزة للنشر).docx
+2025-07-20 19:51:17,956 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:17,957 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:17,957 - document_processor.document_processor - WARNING - Document 'ساطع الحصري (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:17,957 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:17,958 - document_processor.document_processor - WARNING -   - Total issues: 12
+2025-07-20 19:51:17,958 - document_processor.document_processor - WARNING -   - 6 headings using Normal style
+2025-07-20 19:51:17,958 - document_processor.document_processor - INFO - Processing document 27: سوق عكاظ (جاهزة للنشر).docx
+2025-07-20 19:51:18,194 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:18,194 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:18,195 - document_processor.document_processor - WARNING - Document 'سوق عكاظ (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:18,195 - document_processor.document_processor - WARNING -   - Proper heading usage: 62%
+2025-07-20 19:51:18,195 - document_processor.document_processor - WARNING -   - Total issues: 6
+2025-07-20 19:51:18,195 - document_processor.document_processor - WARNING -   - 3 headings using Normal style
+2025-07-20 19:51:18,196 - document_processor.document_processor - INFO - Processing document 28: صفقة الأسلحة التشيكية (جاهزة للنشر).docx
+2025-07-20 19:51:18,249 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:18,250 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:18,250 - document_processor.document_processor - WARNING - Document 'صفقة الأسلحة التشيكية (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:18,250 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:18,251 - document_processor.document_processor - WARNING -   - Total issues: 4
+2025-07-20 19:51:18,251 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 19:51:18,251 - document_processor.document_processor - INFO - Processing document 29: مجلي نصراوين (جاهزة للنشر).docx
+2025-07-20 19:51:18,330 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:18,331 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:18,331 - document_processor.document_processor - WARNING - Document 'مجلي نصراوين (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:18,331 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:18,332 - document_processor.document_processor - WARNING -   - Total issues: 9
+2025-07-20 19:51:18,332 - document_processor.document_processor - WARNING -   - 1 headings using Normal style
+2025-07-20 19:51:18,333 - document_processor.document_processor - INFO - Processing document 30: مريانا مراش (جاهزة للنشر).docx
+2025-07-20 19:51:18,394 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:18,394 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:18,394 - document_processor.document_processor - WARNING - Document 'مريانا مراش (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:18,395 - document_processor.document_processor - WARNING -   - Proper heading usage: 25%
+2025-07-20 19:51:18,395 - document_processor.document_processor - WARNING -   - Total issues: 6
+2025-07-20 19:51:18,395 - document_processor.document_processor - WARNING -   - 3 headings using Normal style
+2025-07-20 19:51:18,396 - document_processor.document_processor - INFO - Processing document 31: مسلم بن مسلم الجرمي (جاهزة للنشر).docx
+2025-07-20 19:51:18,461 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:18,462 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:18,462 - document_processor.document_processor - WARNING - Document 'مسلم بن مسلم الجرمي (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:18,462 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:18,463 - document_processor.document_processor - WARNING -   - Total issues: 10
+2025-07-20 19:51:18,463 - document_processor.document_processor - WARNING -   - 5 headings using Normal style
+2025-07-20 19:51:18,463 - document_processor.document_processor - INFO - Processing document 32: نعمان قساطلي (جاهزة للنشر).docx
+2025-07-20 19:51:18,539 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:18,539 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:18,539 - document_processor.document_processor - WARNING - Document 'نعمان قساطلي (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:18,540 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:18,540 - document_processor.document_processor - WARNING -   - Total issues: 12
+2025-07-20 19:51:18,540 - document_processor.document_processor - WARNING -   - 6 headings using Normal style
+2025-07-20 19:51:18,540 - document_processor.document_processor - INFO - Processing document 33: هارون بن يحيى (جاهزة للنشر).docx
+2025-07-20 19:51:18,604 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:18,604 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:18,605 - document_processor.document_processor - WARNING - Document 'هارون بن يحيى (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:18,605 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:18,605 - document_processor.document_processor - WARNING -   - Total issues: 6
+2025-07-20 19:51:18,605 - document_processor.document_processor - WARNING -   - 3 headings using Normal style
+2025-07-20 19:51:18,606 - document_processor.document_processor - INFO - Processing document 34: هنا كسباني (جاهزة للنشر).docx
+2025-07-20 19:51:18,680 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:18,681 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:18,681 - document_processor.document_processor - WARNING - Document 'هنا كسباني (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:18,681 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:18,682 - document_processor.document_processor - WARNING -   - Total issues: 12
+2025-07-20 19:51:18,682 - document_processor.document_processor - WARNING -   - 6 headings using Normal style
+2025-07-20 19:51:18,682 - document_processor.document_processor - INFO - Processing document 35: ياسين الهاشمي (جاهزة للنشر).docx
+2025-07-20 19:51:18,819 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:18,820 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:18,821 - document_processor.document_processor - WARNING - Document 'ياسين الهاشمي (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:18,821 - document_processor.document_processor - WARNING -   - Proper heading usage: 33%
+2025-07-20 19:51:18,821 - document_processor.document_processor - WARNING -   - Total issues: 4
+2025-07-20 19:51:18,821 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 19:51:18,822 - document_processor.document_processor - INFO - Processing document 36: الصيدلة (جاهزة للنشر).docx
+2025-07-20 19:51:18,988 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:18,989 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:18,989 - document_processor.document_processor - WARNING - Document 'الصيدلة (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:18,989 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:18,989 - document_processor.document_processor - WARNING -   - Total issues: 23
+2025-07-20 19:51:18,990 - document_processor.document_processor - WARNING -   - 6 headings using Normal style
+2025-07-20 19:51:18,990 - document_processor.document_processor - WARNING -   - 9 images missing captions
+2025-07-20 19:51:18,990 - document_processor.document_processor - INFO - Processing document 37: المكملات الغذائية (جاهزة للنشر).docx
+2025-07-20 19:51:19,163 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:19,164 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:19,164 - document_processor.document_processor - WARNING - Document 'المكملات الغذائية (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:19,164 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:19,164 - document_processor.document_processor - WARNING -   - Total issues: 24
+2025-07-20 19:51:19,164 - document_processor.document_processor - WARNING -   - 9 headings using Normal style
+2025-07-20 19:51:19,165 - document_processor.document_processor - WARNING -   - 3 images missing captions
+2025-07-20 19:51:19,165 - document_processor.document_processor - INFO - Processing document 38: البروتينات - (جاهزة للنشر).docx
+2025-07-20 19:51:19,242 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:19,242 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:19,243 - document_processor.document_processor - WARNING - Document 'البروتينات - (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:19,243 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:19,243 - document_processor.document_processor - WARNING -   - Total issues: 8
+2025-07-20 19:51:19,243 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 19:51:19,244 - document_processor.document_processor - WARNING -   - 4 images missing captions
+2025-07-20 19:51:19,244 - document_processor.document_processor - INFO - Processing document 39: الدورة الشهرية (جاهزة للنشر).docx
+2025-07-20 19:51:19,393 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:19,394 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:19,394 - document_processor.document_processor - WARNING - Document 'الدورة الشهرية (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:19,394 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:19,395 - document_processor.document_processor - WARNING -   - Total issues: 8
+2025-07-20 19:51:19,395 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 19:51:19,395 - document_processor.document_processor - WARNING -   - 2 images missing captions
+2025-07-20 19:51:19,396 - document_processor.document_processor - INFO - Processing document 40: الغشاء الخلوي-مترجم (جاهزة للنشر).docx
+2025-07-20 19:51:19,573 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:19,573 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:19,574 - document_processor.document_processor - WARNING - Document 'الغشاء الخلوي-مترجم (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:19,574 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:19,574 - document_processor.document_processor - WARNING -   - Total issues: 23
+2025-07-20 19:51:19,574 - document_processor.document_processor - WARNING -   - 7 headings using Normal style
+2025-07-20 19:51:19,575 - document_processor.document_processor - WARNING -   - 5 images missing captions
+2025-07-20 19:51:19,575 - document_processor.document_processor - INFO - Processing document 41: النواتج الطبيعية (جاهزة للنشر).docx
+2025-07-20 19:51:19,902 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:19,903 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:19,903 - document_processor.document_processor - WARNING - Document 'النواتج الطبيعية (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:19,903 - document_processor.document_processor - WARNING -   - Proper heading usage: 70%
+2025-07-20 19:51:19,904 - document_processor.document_processor - WARNING -   - Total issues: 56
+2025-07-20 19:51:19,904 - document_processor.document_processor - WARNING -   - 7 headings using Normal style
+2025-07-20 19:51:19,904 - document_processor.document_processor - WARNING -   - 37 images missing captions
+2025-07-20 19:51:19,904 - document_processor.document_processor - INFO - Processing document 42: فيروس كورونا (جاهزة للنشر).docx
+2025-07-20 19:51:20,028 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:20,029 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:20,029 - document_processor.document_processor - WARNING - Document 'فيروس كورونا (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:20,029 - document_processor.document_processor - WARNING -   - Proper heading usage: 75%
+2025-07-20 19:51:20,029 - document_processor.document_processor - WARNING -   - Total issues: 7
+2025-07-20 19:51:20,029 - document_processor.document_processor - WARNING -   - 2 headings using Normal style
+2025-07-20 19:51:20,029 - document_processor.document_processor - WARNING -   - 3 images missing captions
+2025-07-20 19:51:20,030 - document_processor.document_processor - INFO - Processing document 43: لينا ماري عبيد (جاهزة للنشر).docx
+2025-07-20 19:51:20,180 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:20,181 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:20,181 - document_processor.document_processor - WARNING - Document 'لينا ماري عبيد (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:20,181 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:20,181 - document_processor.document_processor - WARNING -   - Total issues: 20
+2025-07-20 19:51:20,182 - document_processor.document_processor - WARNING -   - 10 headings using Normal style
+2025-07-20 19:51:20,182 - document_processor.document_processor - INFO - Processing document 44: يوسف عوني حنّون (جاهزة للنشر).docx
+2025-07-20 19:51:20,337 - document_processor.document_processor - WARNING - Could not extract images: '_Relationship' object has no attribute 'target_partname'
+2025-07-20 19:51:20,338 - document_processor.document_processor - WARNING - Could not count footnotes: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 19:51:20,338 - document_processor.document_processor - WARNING - Document 'يوسف عوني حنّون (جاهزة للنشر).docx' has formatting issues:
+2025-07-20 19:51:20,338 - document_processor.document_processor - WARNING -   - Proper heading usage: 0%
+2025-07-20 19:51:20,338 - document_processor.document_processor - WARNING -   - Total issues: 21
+2025-07-20 19:51:20,338 - document_processor.document_processor - WARNING -   - 9 headings using Normal style
+2025-07-20 19:51:20,338 - document_processor.document_processor - INFO - 
+============================================================
+2025-07-20 19:51:20,339 - document_processor.document_processor - INFO - DOCUMENT PROCESSING SUMMARY
+2025-07-20 19:51:20,339 - document_processor.document_processor - INFO - ============================================================
+2025-07-20 19:51:20,339 - document_processor.document_processor - INFO - Format Quality Distribution:
+2025-07-20 19:51:20,339 - document_processor.document_processor - INFO -   Fair: 24 documents (54.5%)
+2025-07-20 19:51:20,340 - document_processor.document_processor - INFO -   Poor: 19 documents (43.2%)
+2025-07-20 19:51:20,340 - document_processor.document_processor - INFO - 
+Documents needing attention (43):
+2025-07-20 19:51:20,340 - document_processor.document_processor - INFO -   - الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-20 19:51:20,340 - document_processor.document_processor - INFO -   - التناص (جاهزة للنشر).docx
+2025-07-20 19:51:20,340 - document_processor.document_processor - INFO -   - المعاجم العربية التراثية (جاهزة للنشر).docx
+2025-07-20 19:51:20,341 - document_processor.document_processor - INFO -   - أمين الخولي (جاهزة للنشر) .docx
+2025-07-20 19:51:20,341 - document_processor.document_processor - INFO -   - إلياس زيات (جاهزة للنشر).docx
+2025-07-20 19:51:20,341 - document_processor.document_processor - INFO -   - حسن العطار (جاهزة للنشر).docx
+2025-07-20 19:51:20,341 - document_processor.document_processor - INFO -   - حسن فتحي (جاهزة للنشر).docx
+2025-07-20 19:51:20,341 - document_processor.document_processor - INFO -   - سليم النقاش (جاهزة للنشر)  .docx
+2025-07-20 19:51:20,342 - document_processor.document_processor - INFO -   - غالب هلسا (جاهزة للنشر).docx
+2025-07-20 19:51:20,342 - document_processor.document_processor - INFO -   - كتاب العين (جاهزة للنشر).docx
+2025-07-20 19:51:20,342 - __main__ - INFO - Found 44 documents. Writing to Excel...
+2025-07-20 19:51:20,415 - excel_writer - INFO - Written summary for 44 documents
+2025-07-20 19:51:20,444 - excel_writer - INFO - Written format issues sheet
+2025-07-20 19:51:20,465 - excel_writer - INFO - Written sections for document 1
+2025-07-20 19:51:20,482 - excel_writer - INFO - Written sections for document 2
+2025-07-20 19:51:20,488 - excel_writer - INFO - Written sections for document 3
+2025-07-20 19:51:20,524 - excel_writer - INFO - Written sections for document 4
+2025-07-20 19:51:20,534 - excel_writer - INFO - Written sections for document 5
+2025-07-20 19:51:20,539 - excel_writer - INFO - Written sections for document 6
+2025-07-20 19:51:20,545 - excel_writer - INFO - Written sections for document 7
+2025-07-20 19:51:20,552 - excel_writer - INFO - Written sections for document 8
+2025-07-20 19:51:20,556 - excel_writer - INFO - Written sections for document 9
+2025-07-20 19:51:20,562 - excel_writer - INFO - Written sections for document 10
+2025-07-20 19:51:20,567 - excel_writer - INFO - Written sections for document 11
+2025-07-20 19:51:20,575 - excel_writer - INFO - Written sections for document 12
+2025-07-20 19:51:20,583 - excel_writer - INFO - Written sections for document 13
+2025-07-20 19:51:20,590 - excel_writer - INFO - Written sections for document 14
+2025-07-20 19:51:20,595 - excel_writer - INFO - Written sections for document 15
+2025-07-20 19:51:20,605 - excel_writer - INFO - Written sections for document 16
+2025-07-20 19:51:20,617 - excel_writer - INFO - Written sections for document 18
+2025-07-20 19:51:20,645 - excel_writer - INFO - Written sections for document 19
+2025-07-20 19:51:20,704 - excel_writer - INFO - Written sections for document 20
+2025-07-20 19:51:20,763 - excel_writer - INFO - Written sections for document 21
+2025-07-20 19:51:20,779 - excel_writer - INFO - Written sections for document 22
+2025-07-20 19:51:20,790 - excel_writer - INFO - Written sections for document 23
+2025-07-20 19:51:20,807 - excel_writer - INFO - Written sections for document 24
+2025-07-20 19:51:20,816 - excel_writer - INFO - Written sections for document 25
+2025-07-20 19:51:20,824 - excel_writer - INFO - Written sections for document 26
+2025-07-20 19:51:20,832 - excel_writer - INFO - Written sections for document 27
+2025-07-20 19:51:20,837 - excel_writer - INFO - Written sections for document 28
+2025-07-20 19:51:20,848 - excel_writer - INFO - Written sections for document 29
+2025-07-20 19:51:20,854 - excel_writer - INFO - Written sections for document 30
+2025-07-20 19:51:20,863 - excel_writer - INFO - Written sections for document 31
+2025-07-20 19:51:20,872 - excel_writer - INFO - Written sections for document 32
+2025-07-20 19:51:20,880 - excel_writer - INFO - Written sections for document 33
+2025-07-20 19:51:20,889 - excel_writer - INFO - Written sections for document 34
+2025-07-20 19:51:20,895 - excel_writer - INFO - Written sections for document 35
+2025-07-20 19:51:20,913 - excel_writer - INFO - Written sections for document 36
+2025-07-20 19:51:20,930 - excel_writer - INFO - Written sections for document 37
+2025-07-20 19:51:20,938 - excel_writer - INFO - Written sections for document 38
+2025-07-20 19:51:20,948 - excel_writer - INFO - Written sections for document 39
+2025-07-20 19:51:20,965 - excel_writer - INFO - Written sections for document 40
+2025-07-20 19:51:21,013 - excel_writer - INFO - Written sections for document 41
+2025-07-20 19:51:21,020 - excel_writer - INFO - Written sections for document 42
+2025-07-20 19:51:21,033 - excel_writer - INFO - Written sections for document 43
+2025-07-20 19:51:21,046 - excel_writer - INFO - Written sections for document 44
+2025-07-20 19:51:22,130 - excel_writer - INFO - Excel file saved to: document_analysis.xlsx
+2025-07-20 19:51:22,131 - __main__ - INFO - ============================================================
+2025-07-20 19:51:22,131 - __main__ - INFO - Processing Summary:
+2025-07-20 19:51:22,132 - __main__ - INFO -   Documents processed: 44
+2025-07-20 19:51:22,132 - __main__ - INFO -   Total words: 108,126
+2025-07-20 19:51:22,132 - __main__ - INFO -   Total headings: 419
+2025-07-20 19:51:22,133 - __main__ - INFO -   Total images: 116
+2025-07-20 19:51:22,133 - __main__ - INFO -   Total references: 937 (Arabic: 749, English: 188)
+2025-07-20 19:51:22,133 - __main__ - INFO -   Total footnotes: 0
+2025-07-20 19:51:22,134 - __main__ - INFO -   Output file: D:\Development\Documents processing\document_analysis.xlsx
+2025-07-20 19:51:22,134 - __main__ - INFO - ============================================================
+2025-07-20 19:51:22,134 - __main__ - INFO - 
+Format Quality Summary:
+2025-07-20 19:51:22,135 - __main__ - INFO -   Fair: 24 documents (54.5%)
+2025-07-20 19:51:22,135 - __main__ - INFO -   Poor: 19 documents (43.2%)
+2025-07-20 19:51:22,135 - __main__ - INFO - 
+WARNING: 43 documents not using proper heading styles
+2025-07-20 19:51:22,136 - __main__ - INFO - 
+IMAGES: 13 documents have images without captions
+2025-07-20 19:51:22,136 - __main__ - INFO - 
+CRITICAL: 19 documents need immediate formatting attention:
+2025-07-20 19:51:22,137 - __main__ - INFO -     - الكيمياء الحيوية (بانتظار الترجمة).docx (32 issues)
+2025-07-20 19:51:22,137 - __main__ - INFO -     - التناص (جاهزة للنشر).docx (34 issues)
+2025-07-20 19:51:22,137 - __main__ - INFO -     - أمين الخولي (جاهزة للنشر) .docx (74 issues)
+2025-07-20 19:51:22,137 - __main__ - INFO -     - إلياس زيات (جاهزة للنشر).docx (18 issues)
+2025-07-20 19:51:22,137 - __main__ - INFO -     - السلع العامة (جاهزة للنشر).docx (11 issues)
+2025-07-20 19:51:22,138 - __main__ - INFO -     ... and 14 more
+2025-07-20 19:51:22,138 - __main__ - INFO - 
+TIP: Check the 'Format Issues' sheet in the Excel file for detailed recommendations.

@@ -1,13 +1,13 @@
 # excel_writer.py
-"""Excel export functionality."""
+"""Excel export functionality with enhanced format reporting."""
 
 import logging
 from pathlib import Path
-from typing import List
+from typing import List, Optional
 import pandas as pd
 from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
-from openpyxl.styles import Font, PatternFill, Alignment
+from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from models import Document
 
 class ExcelWriter:
@@ -23,7 +23,7 @@ class ExcelWriter:
             self.workbook.remove(self.workbook['Sheet'])
     
     def write_summary(self, documents: List[Document]):
-        """Write summary table to Excel."""
+        """Write summary table to Excel with enhanced format information."""
         # Create summary data
         summary_data = []
         for doc in documents:
@@ -32,11 +32,18 @@ class ExcelWriter:
                 'Parent Folder': doc.parent_folder,
                 'Document Name': doc.name,
                 'Document Title': doc.title,
-                'Author': doc.author,
+                'Author (Properties)': doc.author,
+                'Author (Text)': getattr(doc, 'author_from_text', 'Unknown'),
                 'Word Count': doc.word_count,
                 'Image Count': doc.image_count,
-                'Unique Image Count': doc.unique_image_count,
-                'Uses Proper Styles': 'Yes' if doc.uses_proper_styles else 'No'
+                'Arabic References': getattr(doc, 'arabic_reference_count', 0),
+                'English References': getattr(doc, 'english_reference_count', 0),
+                'Footnotes': getattr(doc, 'footnote_count', 0),
+                'Uses Proper Styles': 'Yes' if doc.uses_proper_styles else 'No',
+                'Format Quality': getattr(doc, 'format_quality', 'Unknown'),
+                'Total Headings': doc.heading_stats.get('total_headings', 0) if hasattr(doc, 'heading_stats') else 0,
+                'Images Missing Captions': len(getattr(doc, 'images_missing_captions', [])),
+                'Style Issues': len(getattr(doc, 'heading_hierarchy_issues', []))
             })
         
         # Create DataFrame
@@ -52,20 +59,113 @@ class ExcelWriter:
         # Format header
         self._format_header(ws)
         
+        # Apply conditional formatting for quality column
+        quality_col = self._find_column_index(ws, 'Format Quality')
+        if quality_col:
+            for row in range(2, ws.max_row + 1):
+                quality = ws.cell(row=row, column=quality_col).value
+                if quality == 'Poor':
+                    ws.cell(row=row, column=quality_col).fill = PatternFill(
+                        start_color="FFC7CE", end_color="FFC7CE", fill_type="solid"
+                    )
+                elif quality == 'Fair':
+                    ws.cell(row=row, column=quality_col).fill = PatternFill(
+                        start_color="FFEB9C", end_color="FFEB9C", fill_type="solid"
+                    )
+                elif quality == 'Good':
+                    ws.cell(row=row, column=quality_col).fill = PatternFill(
+                        start_color="FFFFE0", end_color="FFFFE0", fill_type="solid"
+                    )
+                elif quality == 'Excellent':
+                    ws.cell(row=row, column=quality_col).fill = PatternFill(
+                        start_color="C6EFCE", end_color="C6EFCE", fill_type="solid"
+                    )
+        
+        # Highlight documents not using proper styles
+        style_col = self._find_column_index(ws, 'Uses Proper Styles')
+        if style_col:
+            for row in range(2, ws.max_row + 1):
+                if ws.cell(row=row, column=style_col).value == 'No':
+                    ws.cell(row=row, column=style_col).fill = PatternFill(
+                        start_color="FFC7CE", end_color="FFC7CE", fill_type="solid"
+                    )
+        
+        # Highlight documents with missing captions
+        caption_col = self._find_column_index(ws, 'Images Missing Captions')
+        if caption_col:
+            for row in range(2, ws.max_row + 1):
+                if ws.cell(row=row, column=caption_col).value > 0:
+                    ws.cell(row=row, column=caption_col).fill = PatternFill(
+                        start_color="FFEB9C", end_color="FFEB9C", fill_type="solid"
+                    )
+        
         # Auto-adjust column widths
         self._adjust_column_widths(ws)
         
         self.logger.info(f"Written summary for {len(documents)} documents")
+        
+        # Add format issues sheet if there are any issues
+        if any(getattr(doc, 'total_format_issues', 0) > 0 for doc in documents):
+            self._write_format_issues_sheet(documents)
+    
+    def _write_format_issues_sheet(self, documents: List[Document]):
+        """Create a sheet listing all format issues found."""
+        ws = self.workbook.create_sheet("Format Issues")
+        
+        # Add headers
+        ws.append(['Document ID', 'Document Name', 'Issue Type', 'Description', 'Suggested Action'])
+        
+        # Format headers
+        for cell in ws[1]:
+            cell.font = Font(bold=True)
+            cell.fill = PatternFill(start_color="366092", end_color="366092", fill_type="solid")
+            cell.font = Font(bold=True, color="FFFFFF")
+        
+        # Add issues
+        for doc in documents:
+            # Add heading hierarchy issues
+            for issue in getattr(doc, 'heading_hierarchy_issues', []):
+                ws.append([
+                    doc.id,
+                    doc.name,
+                    'Heading Style',
+                    f"{issue['heading']} - Current: {issue['current_style']}",
+                    f"Change to: {issue['suggested_style']}"
+                ])
+            
+            # Add images missing captions
+            for image in getattr(doc, 'images_missing_captions', []):
+                ws.append([
+                    doc.id,
+                    doc.name,
+                    'Missing Caption',
+                    image,
+                    'Add caption below image'
+                ])
+            
+            # Add general format issues
+            for issue in getattr(doc, 'format_issues', []):
+                ws.append([
+                    doc.id,
+                    doc.name,
+                    'Format Issue',
+                    issue,
+                    'Apply proper Word styles'
+                ])
+        
+        # Auto-adjust columns
+        self._adjust_column_widths(ws)
+        
+        self.logger.info(f"Written format issues sheet")
     
     def write_sections(self, documents: List[Document]):
-        """Write section details for each document."""
+        """Write section details for each document (only headings and images)."""
         for doc in documents:
             if not doc.sections:
                 continue
             
-            # Create sheet name (limit to 31 chars for Excel)
-            sheet_name = f"Doc_{doc.id}_{doc.filename[:20]}"
-            sheet_name = self._sanitize_sheet_name(sheet_name)
+            # Create sheet name with only document ID
+            sheet_name = f"Doc_{doc.id}"
             
             # Create worksheet
             ws = self.workbook.create_sheet(sheet_name)
@@ -74,11 +174,17 @@ class ExcelWriter:
             ws.append(['Document ID:', doc.id])
             ws.append(['Document Name:', doc.name])
             ws.append(['Document Title:', doc.title])
-            ws.append(['Author:', doc.author])
+            ws.append(['Author (Properties):', doc.author])
+            ws.append(['Author (Text):', getattr(doc, 'author_from_text', 'Unknown')])
+            ws.append(['Format Quality:', getattr(doc, 'format_quality', 'Unknown')])
+            ws.append(['Uses Proper Styles:', 'Yes' if doc.uses_proper_styles else 'No'])
+            ws.append(['Arabic References:', getattr(doc, 'arabic_reference_count', 0)])
+            ws.append(['English References:', getattr(doc, 'english_reference_count', 0)])
+            ws.append(['Footnotes:', getattr(doc, 'footnote_count', 0)])
             ws.append([])  # Empty row
             
-            # Add headers
-            ws.append(['Section Heading', 'Style', 'Type', 'Text Preview'])
+            # Add headers for sections
+            ws.append(['Type', 'Content', 'Current Style', 'Suggested Style', 'Font', 'Size', 'Issue'])
             
             # Format section header row
             header_row = ws.max_row
@@ -86,27 +192,53 @@ class ExcelWriter:
                 cell.font = Font(bold=True)
                 cell.fill = PatternFill(start_color="CCCCCC", end_color="CCCCCC", fill_type="solid")
             
-            # Add section data
+            # Add only headings and images
             for section in doc.sections:
-                # Limit text preview to 200 characters
-                text_preview = section.text[:200] + "..." if len(section.text) > 200 else section.text
-                text_preview = text_preview.replace('\n', ' ')  # Remove newlines
-                
-                ws.append([
-                    section.heading,
-                    section.style_name or "Normal",
-                    section.section_type.capitalize(),
-                    text_preview
-                ])
+                if section.section_type in ['heading', 'image']:
+                    # Determine if there's an issue
+                    issue = ""
+                    if section.section_type == 'heading':
+                        if section.style_name != section.suggested_style and section.suggested_style != "Unknown":
+                            issue = f"Should be {section.suggested_style}"
+                    elif section.section_type == 'image':
+                        if not section.has_caption:
+                            issue = "Missing caption"
+                    
+                    ws.append([
+                        section.section_type.capitalize(),
+                        section.heading[:100] + "..." if len(section.heading) > 100 else section.heading,
+                        section.style_name or "Normal",
+                        section.suggested_style or "N/A",
+                        section.font_name or "N/A",
+                        section.font_size or "N/A",
+                        issue
+                    ])
+                    
+                    # Highlight rows with issues
+                    if issue:
+                        for col in range(1, 8):
+                            ws.cell(row=ws.max_row, column=col).fill = PatternFill(
+                                start_color="FFC7CE", end_color="FFC7CE", fill_type="solid"
+                            )
+                    
+                    # Highlight if using Normal style for headings
+                    if section.section_type == 'heading' and section.style_name == "Normal":
+                        ws.cell(row=ws.max_row, column=3).font = Font(color="FF0000", bold=True)
             
             # Format document info cells
-            for row in range(1, 5):  # Updated to 5 to include author row
+            for row in range(1, 11):  # Updated to include new rows
                 ws.cell(row=row, column=1).font = Font(bold=True)
+            
+            # Highlight format quality
+            if getattr(doc, 'format_quality', '') in ['Poor', 'Fair']:
+                ws.cell(row=6, column=2).fill = PatternFill(
+                    start_color="FFC7CE", end_color="FFC7CE", fill_type="solid"
+                )
             
             # Auto-adjust column widths
             self._adjust_column_widths(ws)
             
-            self.logger.info(f"Written {len(doc.sections)} sections for document {doc.id}")
+            self.logger.info(f"Written sections for document {doc.id}")
     
     def save(self):
         """Save the workbook to file."""
@@ -146,3 +278,10 @@ class ExcelWriter:
         
         # Limit to 31 characters
         return name[:31]
+    
+    def _find_column_index(self, worksheet, column_name: str) -> Optional[int]:
+        """Find column index by header name."""
+        for idx, cell in enumerate(worksheet[1], 1):
+            if cell.value == column_name:
+                return idx
+        return None
