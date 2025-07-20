@@ -9,8 +9,8 @@ from pathlib import Path
 class DocumentSection:
     """Represents a section within a document."""
     heading: str
-    font_name: Optional[str] = None
-    font_size: Optional[float] = None
+    style_name: Optional[str] = None
+    section_type: str = "text"  # "text", "image", or "table"
     text: str = ""
     
 @dataclass
@@ -21,10 +21,12 @@ class Document:
     name: str
     parent_folder: str
     title: str
+    author: str
     word_count: int
     image_count: int
     unique_image_count: int
     sections: List[DocumentSection] = field(default_factory=list)
+    uses_proper_styles: bool = True
     
     @property
     def filename(self) -> str:

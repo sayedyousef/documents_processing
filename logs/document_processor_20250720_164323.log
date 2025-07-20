@@ -1,0 +1,522 @@
+2025-07-20 16:43:23,177 - __main__ - INFO - ============================================================
+2025-07-20 16:43:23,178 - __main__ - INFO - Document Processing Application Started
+2025-07-20 16:43:23,178 - __main__ - INFO - ============================================================
+2025-07-20 16:43:23,652 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:23,653 - document_processor.section_extractor - INFO -   Normal: 17
+2025-07-20 16:43:23,653 - document_processor.section_extractor - INFO - Image/Table captions: 11
+2025-07-20 16:43:23,654 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:23,839 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:23,871 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image10.jpeg', 'image11.jpeg', 'image12.png', 'image13.png', 'image14.jpeg', 'image15.jpeg', 'image16.jpeg', 'image17.png', 'image18.svg', 'image19.png', 'image2.png', 'image20.svg', 'image21.png', 'image22.svg', 'image23.jpeg', 'image24.png', 'image25.jpeg', 'image26.jpeg', 'image3.jpeg', 'image4.jpeg', 'image5.jpeg', 'image6.png', 'image7.jpeg', 'image8.jpeg', 'image9.jpeg']
+2025-07-20 16:43:23,872 - document_processor.image_analyzer - INFO -   Ignoring image22.svg (duplicate of image21.png)
+2025-07-20 16:43:23,872 - document_processor.image_analyzer - INFO -   Ignoring image18.svg (duplicate of image17.png)
+2025-07-20 16:43:23,872 - document_processor.image_analyzer - INFO -   Ignoring image20.svg (duplicate of image19.png)
+2025-07-20 16:43:23,873 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image10.jpeg', 'image11.jpeg', 'image12.png', 'image13.png', 'image14.jpeg', 'image15.jpeg', 'image16.jpeg', 'image17.png', 'image19.png', 'image2.png', 'image21.png', 'image23.jpeg', 'image24.png', 'image25.jpeg', 'image26.jpeg', 'image3.jpeg', 'image4.jpeg', 'image5.jpeg', 'image6.png', 'image7.jpeg', 'image8.jpeg', 'image9.jpeg']
+2025-07-20 16:43:23,873 - document_processor.image_analyzer - INFO -   Total files: 26, Unique images: 23
+2025-07-20 16:43:24,137 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:24,137 - document_processor.section_extractor - INFO -   List Paragraph: 1
+2025-07-20 16:43:24,138 - document_processor.section_extractor - INFO -   Normal: 6
+2025-07-20 16:43:24,138 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:24,139 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:24,228 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:24,242 - document_processor.image_analyzer - INFO -   Found images: ['image1.png', 'image2.svg']
+2025-07-20 16:43:24,243 - document_processor.image_analyzer - INFO -   Ignoring image2.svg (duplicate of image1.png)
+2025-07-20 16:43:24,243 - document_processor.image_analyzer - INFO -   Unique images: ['image1.png']
+2025-07-20 16:43:24,244 - document_processor.image_analyzer - INFO -   Total files: 2, Unique images: 1
+2025-07-20 16:43:24,752 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:24,752 - document_processor.section_extractor - INFO -   List Paragraph: 20
+2025-07-20 16:43:24,753 - document_processor.section_extractor - INFO -   Normal: 5
+2025-07-20 16:43:24,753 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:24,754 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:24,974 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:24,976 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.jpeg', 'image3.jpg']
+2025-07-20 16:43:24,977 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.jpeg', 'image3.jpg']
+2025-07-20 16:43:24,977 - document_processor.image_analyzer - INFO -   Total files: 3, Unique images: 3
+2025-07-20 16:43:25,513 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:25,513 - document_processor.section_extractor - INFO -   Normal: 25
+2025-07-20 16:43:25,513 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:25,514 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:25,921 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:25,923 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
+2025-07-20 16:43:25,924 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
+2025-07-20 16:43:25,924 - document_processor.image_analyzer - INFO -   Total files: 5, Unique images: 5
+2025-07-20 16:43:26,069 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:26,070 - document_processor.section_extractor - INFO -   Normal: 9
+2025-07-20 16:43:26,070 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:26,071 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:26,104 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:26,107 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpg', 'image2.jpeg', 'image3.jpeg']
+2025-07-20 16:43:26,107 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpg', 'image2.jpeg', 'image3.jpeg']
+2025-07-20 16:43:26,108 - document_processor.image_analyzer - INFO -   Total files: 3, Unique images: 3
+2025-07-20 16:43:26,299 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:26,299 - document_processor.section_extractor - INFO -   Heading 2: 6
+2025-07-20 16:43:26,299 - document_processor.section_extractor - INFO -   Normal: 2
+2025-07-20 16:43:26,300 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:26,300 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:26,360 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:26,363 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.jpg']
+2025-07-20 16:43:26,363 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.jpg']
+2025-07-20 16:43:26,364 - document_processor.image_analyzer - INFO -   Total files: 2, Unique images: 2
+2025-07-20 16:43:26,551 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:26,552 - document_processor.section_extractor - INFO -   Heading 2: 6
+2025-07-20 16:43:26,553 - document_processor.section_extractor - INFO -   Normal: 1
+2025-07-20 16:43:26,553 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:26,554 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:26,614 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:26,616 - document_processor.image_analyzer - INFO -   Found images: ['image1.png', 'image2.png', 'image3.png', 'image4.jpeg']
+2025-07-20 16:43:26,617 - document_processor.image_analyzer - INFO -   Unique images: ['image1.png', 'image2.png', 'image3.png', 'image4.jpeg']
+2025-07-20 16:43:26,618 - document_processor.image_analyzer - INFO -   Total files: 4, Unique images: 4
+2025-07-20 16:43:26,787 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:26,788 - document_processor.section_extractor - INFO -   Normal: 9
+2025-07-20 16:43:26,788 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:26,789 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:26,856 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:26,859 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpg', 'image2.jpeg']
+2025-07-20 16:43:26,860 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpg', 'image2.jpeg']
+2025-07-20 16:43:26,860 - document_processor.image_analyzer - INFO -   Total files: 2, Unique images: 2
+2025-07-20 16:43:27,111 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:27,113 - document_processor.section_extractor - INFO -   List Paragraph: 6
+2025-07-20 16:43:27,113 - document_processor.section_extractor - INFO -   No Spacing: 3
+2025-07-20 16:43:27,114 - document_processor.section_extractor - INFO -   Normal: 2
+2025-07-20 16:43:27,114 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:27,115 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:27,180 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:27,182 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg']
+2025-07-20 16:43:27,183 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg']
+2025-07-20 16:43:27,183 - document_processor.image_analyzer - INFO -   Total files: 4, Unique images: 4
+2025-07-20 16:43:27,412 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:27,412 - document_processor.section_extractor - INFO -   List Paragraph: 7
+2025-07-20 16:43:27,413 - document_processor.section_extractor - INFO -   Normal: 14
+2025-07-20 16:43:27,413 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:27,414 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:27,501 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:27,503 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg']
+2025-07-20 16:43:27,504 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg']
+2025-07-20 16:43:27,504 - document_processor.image_analyzer - INFO -   Total files: 4, Unique images: 4
+2025-07-20 16:43:27,659 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:27,659 - document_processor.section_extractor - INFO -   Heading 2: 4
+2025-07-20 16:43:27,660 - document_processor.section_extractor - INFO -   Heading 3: 2
+2025-07-20 16:43:27,660 - document_processor.section_extractor - INFO -   Normal: 1
+2025-07-20 16:43:27,661 - document_processor.section_extractor - INFO -   Title: 1
+2025-07-20 16:43:27,661 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:27,662 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:27,694 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:27,720 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpg']
+2025-07-20 16:43:27,722 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpg']
+2025-07-20 16:43:27,723 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:28,001 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:28,001 - document_processor.section_extractor - INFO -   Heading 1: 1
+2025-07-20 16:43:28,002 - document_processor.section_extractor - INFO -   Heading 2: 9
+2025-07-20 16:43:28,003 - document_processor.section_extractor - INFO -   Heading 3: 6
+2025-07-20 16:43:28,003 - document_processor.section_extractor - INFO -   Normal: 3
+2025-07-20 16:43:28,004 - document_processor.section_extractor - INFO - Image/Table captions: 3
+2025-07-20 16:43:28,005 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:28,161 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:28,164 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpg', 'image2.png', 'image3.svg']
+2025-07-20 16:43:28,164 - document_processor.image_analyzer - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 16:43:28,165 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpg', 'image2.png']
+2025-07-20 16:43:28,165 - document_processor.image_analyzer - INFO -   Total files: 3, Unique images: 2
+2025-07-20 16:43:28,394 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:28,394 - document_processor.section_extractor - INFO -   Normal: 2
+2025-07-20 16:43:28,395 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:28,395 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:28,475 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:28,493 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpg', 'image2.jpeg', 'image3.jpg', 'image4.jpeg', 'image5.jpg']
+2025-07-20 16:43:28,493 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpg', 'image2.jpeg', 'image3.jpg', 'image4.jpeg', 'image5.jpg']
+2025-07-20 16:43:28,494 - document_processor.image_analyzer - INFO -   Total files: 5, Unique images: 5
+2025-07-20 16:43:28,626 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:28,627 - document_processor.section_extractor - INFO -   List Paragraph: 5
+2025-07-20 16:43:28,627 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:28,628 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:28,677 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:28,688 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg']
+2025-07-20 16:43:28,740 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 16:43:28,748 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:29,026 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:29,027 - document_processor.section_extractor - INFO -   Heading 1: 2
+2025-07-20 16:43:29,027 - document_processor.section_extractor - INFO -   List Paragraph: 4
+2025-07-20 16:43:29,031 - document_processor.section_extractor - INFO -   Normal: 3
+2025-07-20 16:43:29,038 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:29,040 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:29,094 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:29,096 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg']
+2025-07-20 16:43:29,098 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 16:43:29,099 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:29,297 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:29,297 - document_processor.section_extractor - INFO -   Normal: 4
+2025-07-20 16:43:29,298 - document_processor.section_extractor - INFO -   footnote text: 2
+2025-07-20 16:43:29,298 - document_processor.section_extractor - INFO - Image/Table captions: 1
+2025-07-20 16:43:29,299 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:29,377 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:29,379 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg']
+2025-07-20 16:43:29,379 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 16:43:29,379 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:29,593 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:29,593 - document_processor.section_extractor - INFO -   List Paragraph: 1
+2025-07-20 16:43:29,593 - document_processor.section_extractor - INFO -   Normal: 7
+2025-07-20 16:43:29,593 - document_processor.section_extractor - INFO -   q-text: 1
+2025-07-20 16:43:29,595 - document_processor.section_extractor - INFO - Image/Table captions: 14
+2025-07-20 16:43:29,595 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:29,650 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:29,652 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image10.png', 'image11.svg', 'image12.png', 'image13.svg', 'image14.png', 'image15.svg', 'image16.png', 'image17.svg', 'image18.png', 'image19.svg', 'image2.png', 'image20.png', 'image21.svg', 'image22.png', 'image23.svg', 'image24.png', 'image25.svg', 'image26.png', 'image27.svg', 'image28.png', 'image29.svg', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.png', 'image9.svg']
+2025-07-20 16:43:29,653 - document_processor.image_analyzer - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 16:43:29,653 - document_processor.image_analyzer - INFO -   Ignoring image29.svg (duplicate of image28.png)
+2025-07-20 16:43:29,654 - document_processor.image_analyzer - INFO -   Ignoring image11.svg (duplicate of image10.png)
+2025-07-20 16:43:29,654 - document_processor.image_analyzer - INFO -   Ignoring image19.svg (duplicate of image18.png)
+2025-07-20 16:43:29,654 - document_processor.image_analyzer - INFO -   Ignoring image27.svg (duplicate of image26.png)
+2025-07-20 16:43:29,654 - document_processor.image_analyzer - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 16:43:29,655 - document_processor.image_analyzer - INFO -   Ignoring image13.svg (duplicate of image12.png)
+2025-07-20 16:43:29,655 - document_processor.image_analyzer - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 16:43:29,655 - document_processor.image_analyzer - INFO -   Ignoring image21.svg (duplicate of image20.png)
+2025-07-20 16:43:29,656 - document_processor.image_analyzer - INFO -   Ignoring image17.svg (duplicate of image16.png)
+2025-07-20 16:43:29,656 - document_processor.image_analyzer - INFO -   Ignoring image25.svg (duplicate of image24.png)
+2025-07-20 16:43:29,656 - document_processor.image_analyzer - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 16:43:29,657 - document_processor.image_analyzer - INFO -   Ignoring image15.svg (duplicate of image14.png)
+2025-07-20 16:43:29,657 - document_processor.image_analyzer - INFO -   Ignoring image23.svg (duplicate of image22.png)
+2025-07-20 16:43:29,657 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image10.png', 'image12.png', 'image14.png', 'image16.png', 'image18.png', 'image2.png', 'image20.png', 'image22.png', 'image24.png', 'image26.png', 'image28.png', 'image4.png', 'image6.png', 'image8.png']
+2025-07-20 16:43:29,658 - document_processor.image_analyzer - INFO -   Total files: 29, Unique images: 15
+2025-07-20 16:43:29,873 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:29,874 - document_processor.section_extractor - INFO -   List Paragraph: 2
+2025-07-20 16:43:29,874 - document_processor.section_extractor - INFO -   Normal: 8
+2025-07-20 16:43:29,875 - document_processor.section_extractor - INFO -   footnote text: 1
+2025-07-20 16:43:29,875 - document_processor.section_extractor - INFO - Image/Table captions: 5
+2025-07-20 16:43:29,875 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:29,967 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:29,970 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image10.png', 'image11.svg', 'image12.png', 'image13.svg', 'image14.png', 'image15.svg', 'image16.png', 'image17.svg', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.png', 'image9.svg']
+2025-07-20 16:43:29,970 - document_processor.image_analyzer - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 16:43:29,970 - document_processor.image_analyzer - INFO -   Ignoring image11.svg (duplicate of image10.png)
+2025-07-20 16:43:29,971 - document_processor.image_analyzer - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 16:43:29,971 - document_processor.image_analyzer - INFO -   Ignoring image15.svg (duplicate of image14.png)
+2025-07-20 16:43:29,971 - document_processor.image_analyzer - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 16:43:29,972 - document_processor.image_analyzer - INFO -   Ignoring image13.svg (duplicate of image12.png)
+2025-07-20 16:43:29,972 - document_processor.image_analyzer - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 16:43:29,972 - document_processor.image_analyzer - INFO -   Ignoring image17.svg (duplicate of image16.png)
+2025-07-20 16:43:29,973 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image10.png', 'image12.png', 'image14.png', 'image16.png', 'image2.png', 'image4.png', 'image6.png', 'image8.png']
+2025-07-20 16:43:29,973 - document_processor.image_analyzer - INFO -   Total files: 17, Unique images: 9
+2025-07-20 16:43:30,074 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:30,074 - document_processor.section_extractor - INFO -   Normal: 8
+2025-07-20 16:43:30,074 - document_processor.section_extractor - INFO - Image/Table captions: 3
+2025-07-20 16:43:30,075 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:30,097 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:30,099 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.png', 'image9.svg']
+2025-07-20 16:43:30,100 - document_processor.image_analyzer - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 16:43:30,100 - document_processor.image_analyzer - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 16:43:30,100 - document_processor.image_analyzer - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 16:43:30,100 - document_processor.image_analyzer - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 16:43:30,101 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.png', 'image4.png', 'image6.png', 'image8.png']
+2025-07-20 16:43:30,101 - document_processor.image_analyzer - INFO -   Total files: 9, Unique images: 5
+2025-07-20 16:43:30,314 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:30,314 - document_processor.section_extractor - INFO -   Normal: 6
+2025-07-20 16:43:30,314 - document_processor.section_extractor - INFO - Image/Table captions: 2
+2025-07-20 16:43:30,314 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:30,467 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:30,469 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpeg']
+2025-07-20 16:43:30,470 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpeg']
+2025-07-20 16:43:30,470 - document_processor.image_analyzer - INFO -   Total files: 3, Unique images: 3
+2025-07-20 16:43:30,639 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:30,640 - document_processor.section_extractor - INFO -   List Paragraph: 3
+2025-07-20 16:43:30,640 - document_processor.section_extractor - INFO -   Normal: 12
+2025-07-20 16:43:30,640 - document_processor.section_extractor - INFO -   Normal (Web): 1
+2025-07-20 16:43:30,640 - document_processor.section_extractor - INFO - Image/Table captions: 2
+2025-07-20 16:43:30,641 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:30,690 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:30,692 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpeg', 'image4.png', 'image5.svg', 'image6.png']
+2025-07-20 16:43:30,693 - document_processor.image_analyzer - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 16:43:30,694 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpeg', 'image4.png', 'image6.png']
+2025-07-20 16:43:30,694 - document_processor.image_analyzer - INFO -   Total files: 6, Unique images: 5
+2025-07-20 16:43:30,801 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:30,802 - document_processor.section_extractor - INFO -   Normal: 7
+2025-07-20 16:43:30,802 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:30,802 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:30,831 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:30,833 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpg']
+2025-07-20 16:43:30,834 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpg']
+2025-07-20 16:43:30,834 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:30,945 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:30,945 - document_processor.section_extractor - INFO -   Normal: 2
+2025-07-20 16:43:30,945 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:30,945 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:30,963 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:30,965 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpg']
+2025-07-20 16:43:30,966 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpg']
+2025-07-20 16:43:30,966 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:31,186 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:31,186 - document_processor.section_extractor - INFO -   List Paragraph: 3
+2025-07-20 16:43:31,186 - document_processor.section_extractor - INFO -   Normal: 15
+2025-07-20 16:43:31,186 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:31,187 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:31,268 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:31,280 - document_processor.image_analyzer - INFO -   Found images: ['image1.png', 'image2.jpeg']
+2025-07-20 16:43:31,281 - document_processor.image_analyzer - INFO -   Unique images: ['image1.png', 'image2.jpeg']
+2025-07-20 16:43:31,281 - document_processor.image_analyzer - INFO -   Total files: 2, Unique images: 2
+2025-07-20 16:43:31,362 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:31,362 - document_processor.section_extractor - INFO -   Normal: 2
+2025-07-20 16:43:31,362 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:31,363 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:31,381 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:31,383 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.jpg']
+2025-07-20 16:43:31,384 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.png', 'image3.jpg']
+2025-07-20 16:43:31,384 - document_processor.image_analyzer - INFO -   Total files: 3, Unique images: 3
+2025-07-20 16:43:31,679 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:31,679 - document_processor.section_extractor - INFO -   List Paragraph: 2
+2025-07-20 16:43:31,680 - document_processor.section_extractor - INFO -   Normal: 17
+2025-07-20 16:43:31,680 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:31,681 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:31,831 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:31,842 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
+2025-07-20 16:43:31,844 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
+2025-07-20 16:43:31,844 - document_processor.image_analyzer - INFO -   Total files: 5, Unique images: 5
+2025-07-20 16:43:32,059 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:32,059 - document_processor.section_extractor - INFO -   Heading 1: 1
+2025-07-20 16:43:32,059 - document_processor.section_extractor - INFO -   Heading 2: 5
+2025-07-20 16:43:32,061 - document_processor.section_extractor - INFO -   Heading 3: 3
+2025-07-20 16:43:32,061 - document_processor.section_extractor - INFO -   List Paragraph: 1
+2025-07-20 16:43:32,061 - document_processor.section_extractor - INFO -   Normal: 1
+2025-07-20 16:43:32,061 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:32,061 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:32,147 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:32,149 - document_processor.image_analyzer - INFO -   Found images: ['image1.png', 'image2.png', 'image3.svg', 'image4.png']
+2025-07-20 16:43:32,150 - document_processor.image_analyzer - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 16:43:32,150 - document_processor.image_analyzer - INFO -   Unique images: ['image1.png', 'image2.png', 'image4.png']
+2025-07-20 16:43:32,150 - document_processor.image_analyzer - INFO -   Total files: 4, Unique images: 3
+2025-07-20 16:43:32,235 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:32,236 - document_processor.section_extractor - INFO -   Normal: 2
+2025-07-20 16:43:32,236 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:32,237 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:32,256 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:32,258 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg']
+2025-07-20 16:43:32,259 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 16:43:32,259 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:32,392 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:32,393 - document_processor.section_extractor - INFO -   List Paragraph: 8
+2025-07-20 16:43:32,393 - document_processor.section_extractor - INFO -   Normal: 1
+2025-07-20 16:43:32,393 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:32,394 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:32,437 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:32,438 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg']
+2025-07-20 16:43:32,439 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 16:43:32,439 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:32,535 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:32,536 - document_processor.section_extractor - INFO -   Heading 1: 1
+2025-07-20 16:43:32,536 - document_processor.section_extractor - INFO -   Normal: 9
+2025-07-20 16:43:32,536 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:32,537 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:32,557 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:32,560 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.jpeg']
+2025-07-20 16:43:32,560 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.jpeg']
+2025-07-20 16:43:32,561 - document_processor.image_analyzer - INFO -   Total files: 2, Unique images: 2
+2025-07-20 16:43:32,671 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:32,671 - document_processor.section_extractor - INFO -   Normal: 2
+2025-07-20 16:43:32,672 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:32,672 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:32,695 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:32,698 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg']
+2025-07-20 16:43:32,698 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 16:43:32,699 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:32,799 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:32,799 - document_processor.section_extractor - INFO -   Normal: 7
+2025-07-20 16:43:32,800 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:32,800 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:32,832 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:32,834 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg']
+2025-07-20 16:43:32,834 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 16:43:32,835 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:32,944 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:32,945 - document_processor.section_extractor - INFO -   Normal: 2
+2025-07-20 16:43:32,945 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:32,946 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:32,970 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:32,972 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg']
+2025-07-20 16:43:32,972 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 16:43:32,973 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:33,070 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:33,071 - document_processor.section_extractor - INFO -   Normal: 2
+2025-07-20 16:43:33,071 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:33,072 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:33,097 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:33,099 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.png']
+2025-07-20 16:43:33,100 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.png']
+2025-07-20 16:43:33,100 - document_processor.image_analyzer - INFO -   Total files: 2, Unique images: 2
+2025-07-20 16:43:33,376 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:33,377 - document_processor.section_extractor - INFO -   Heading 2: 8
+2025-07-20 16:43:33,377 - document_processor.section_extractor - INFO -   List Paragraph: 1
+2025-07-20 16:43:33,378 - document_processor.section_extractor - INFO -   Normal: 3
+2025-07-20 16:43:33,378 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:33,379 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:33,483 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:33,485 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg']
+2025-07-20 16:43:33,485 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 16:43:33,485 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:33,738 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:33,739 - document_processor.section_extractor - INFO -   List Paragraph: 12
+2025-07-20 16:43:33,739 - document_processor.section_extractor - INFO -   Normal: 32
+2025-07-20 16:43:33,740 - document_processor.section_extractor - INFO - Image/Table captions: 9
+2025-07-20 16:43:33,740 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:33,826 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:33,828 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image10.svg', 'image11.png', 'image12.svg', 'image13.jpeg', 'image14.png', 'image15.svg', 'image16.jpeg', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.jpeg', 'image9.png']
+2025-07-20 16:43:33,829 - document_processor.image_analyzer - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 16:43:33,829 - document_processor.image_analyzer - INFO -   Ignoring image15.svg (duplicate of image14.png)
+2025-07-20 16:43:33,830 - document_processor.image_analyzer - INFO -   Ignoring image10.svg (duplicate of image9.png)
+2025-07-20 16:43:33,830 - document_processor.image_analyzer - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 16:43:33,830 - document_processor.image_analyzer - INFO -   Ignoring image12.svg (duplicate of image11.png)
+2025-07-20 16:43:33,831 - document_processor.image_analyzer - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 16:43:33,831 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image11.png', 'image13.jpeg', 'image14.png', 'image16.jpeg', 'image2.png', 'image4.png', 'image6.png', 'image8.jpeg', 'image9.png']
+2025-07-20 16:43:33,831 - document_processor.image_analyzer - INFO -   Total files: 16, Unique images: 10
+2025-07-20 16:43:34,024 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:34,025 - document_processor.section_extractor - INFO -   Normal: 13
+2025-07-20 16:43:34,025 - document_processor.section_extractor - INFO - Image/Table captions: 2
+2025-07-20 16:43:34,025 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:34,097 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:34,108 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.svg', 'image4.jpeg']
+2025-07-20 16:43:34,109 - document_processor.image_analyzer - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 16:43:34,110 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.png', 'image4.jpeg']
+2025-07-20 16:43:34,111 - document_processor.image_analyzer - INFO -   Total files: 4, Unique images: 3
+2025-07-20 16:43:34,215 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:34,215 - document_processor.section_extractor - INFO -   Heading 2: 1
+2025-07-20 16:43:34,216 - document_processor.section_extractor - INFO -   Heading 3: 1
+2025-07-20 16:43:34,216 - document_processor.section_extractor - INFO -   Normal: 2
+2025-07-20 16:43:34,216 - document_processor.section_extractor - INFO - Image/Table captions: 3
+2025-07-20 16:43:34,217 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:34,245 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:34,247 - document_processor.image_analyzer - INFO -   Found images: ['image1.png', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg']
+2025-07-20 16:43:34,247 - document_processor.image_analyzer - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 16:43:34,248 - document_processor.image_analyzer - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 16:43:34,248 - document_processor.image_analyzer - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 16:43:34,249 - document_processor.image_analyzer - INFO -   Unique images: ['image1.png', 'image2.png', 'image4.png', 'image6.png']
+2025-07-20 16:43:34,249 - document_processor.image_analyzer - INFO -   Total files: 7, Unique images: 4
+2025-07-20 16:43:34,384 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:34,385 - document_processor.section_extractor - INFO -   List Paragraph: 2
+2025-07-20 16:43:34,385 - document_processor.section_extractor - INFO -   Normal: 7
+2025-07-20 16:43:34,386 - document_processor.section_extractor - INFO - Image/Table captions: 1
+2025-07-20 16:43:34,386 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:34,436 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:34,447 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.svg']
+2025-07-20 16:43:34,448 - document_processor.image_analyzer - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 16:43:34,449 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.png']
+2025-07-20 16:43:34,449 - document_processor.image_analyzer - INFO -   Total files: 3, Unique images: 2
+2025-07-20 16:43:34,657 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:34,657 - document_processor.section_extractor - INFO -   List Paragraph: 4
+2025-07-20 16:43:34,657 - document_processor.section_extractor - INFO -   Normal: 6
+2025-07-20 16:43:34,658 - document_processor.section_extractor - INFO - Image/Table captions: 4
+2025-07-20 16:43:34,658 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:34,719 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:34,722 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image10.png', 'image11.svg', 'image12.png', 'image13.svg', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.jpeg', 'image7.jpeg', 'image8.png', 'image9.svg']
+2025-07-20 16:43:34,723 - document_processor.image_analyzer - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 16:43:34,723 - document_processor.image_analyzer - INFO -   Ignoring image13.svg (duplicate of image12.png)
+2025-07-20 16:43:34,724 - document_processor.image_analyzer - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 16:43:34,724 - document_processor.image_analyzer - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 16:43:34,724 - document_processor.image_analyzer - INFO -   Ignoring image11.svg (duplicate of image10.png)
+2025-07-20 16:43:34,725 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image10.png', 'image12.png', 'image2.png', 'image4.png', 'image6.jpeg', 'image7.jpeg', 'image8.png']
+2025-07-20 16:43:34,725 - document_processor.image_analyzer - INFO -   Total files: 13, Unique images: 8
+2025-07-20 16:43:35,151 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:35,151 - document_processor.section_extractor - INFO -   Heading 1: 10
+2025-07-20 16:43:35,151 - document_processor.section_extractor - INFO -   Heading 2: 2
+2025-07-20 16:43:35,151 - document_processor.section_extractor - INFO -   Heading 3: 4
+2025-07-20 16:43:35,151 - document_processor.section_extractor - INFO -   Heading 4: 21
+2025-07-20 16:43:35,152 - document_processor.section_extractor - INFO -   List Paragraph: 2
+2025-07-20 16:43:35,152 - document_processor.section_extractor - INFO -   Normal: 3
+2025-07-20 16:43:35,152 - document_processor.section_extractor - INFO - Image/Table captions: 18
+2025-07-20 16:43:35,153 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:35,362 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:35,365 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image10.png', 'image11.svg', 'image12.png', 'image13.svg', 'image14.png', 'image15.svg', 'image16.png', 'image17.svg', 'image18.png', 'image19.svg', 'image2.png', 'image20.png', 'image21.svg', 'image22.png', 'image23.svg', 'image24.png', 'image25.svg', 'image26.png', 'image27.svg', 'image28.png', 'image29.svg', 'image3.svg', 'image30.png', 'image31.svg', 'image32.png', 'image33.svg', 'image34.png', 'image35.svg', 'image36.png', 'image37.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.png', 'image9.svg']
+2025-07-20 16:43:35,365 - document_processor.image_analyzer - INFO -   Ignoring image11.svg (duplicate of image10.png)
+2025-07-20 16:43:35,366 - document_processor.image_analyzer - INFO -   Ignoring image37.svg (duplicate of image36.png)
+2025-07-20 16:43:35,366 - document_processor.image_analyzer - INFO -   Ignoring image19.svg (duplicate of image18.png)
+2025-07-20 16:43:35,366 - document_processor.image_analyzer - INFO -   Ignoring image27.svg (duplicate of image26.png)
+2025-07-20 16:43:35,366 - document_processor.image_analyzer - INFO -   Ignoring image35.svg (duplicate of image34.png)
+2025-07-20 16:43:35,367 - document_processor.image_analyzer - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 16:43:35,367 - document_processor.image_analyzer - INFO -   Ignoring image17.svg (duplicate of image16.png)
+2025-07-20 16:43:35,367 - document_processor.image_analyzer - INFO -   Ignoring image25.svg (duplicate of image24.png)
+2025-07-20 16:43:35,368 - document_processor.image_analyzer - INFO -   Ignoring image33.svg (duplicate of image32.png)
+2025-07-20 16:43:35,368 - document_processor.image_analyzer - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 16:43:35,369 - document_processor.image_analyzer - INFO -   Ignoring image15.svg (duplicate of image14.png)
+2025-07-20 16:43:35,369 - document_processor.image_analyzer - INFO -   Ignoring image23.svg (duplicate of image22.png)
+2025-07-20 16:43:35,369 - document_processor.image_analyzer - INFO -   Ignoring image31.svg (duplicate of image30.png)
+2025-07-20 16:43:35,370 - document_processor.image_analyzer - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 16:43:35,370 - document_processor.image_analyzer - INFO -   Ignoring image13.svg (duplicate of image12.png)
+2025-07-20 16:43:35,370 - document_processor.image_analyzer - INFO -   Ignoring image21.svg (duplicate of image20.png)
+2025-07-20 16:43:35,371 - document_processor.image_analyzer - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 16:43:35,371 - document_processor.image_analyzer - INFO -   Ignoring image29.svg (duplicate of image28.png)
+2025-07-20 16:43:35,371 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image10.png', 'image12.png', 'image14.png', 'image16.png', 'image18.png', 'image2.png', 'image20.png', 'image22.png', 'image24.png', 'image26.png', 'image28.png', 'image30.png', 'image32.png', 'image34.png', 'image36.png', 'image4.png', 'image6.png', 'image8.png']
+2025-07-20 16:43:35,372 - document_processor.image_analyzer - INFO -   Total files: 37, Unique images: 19
+2025-07-20 16:43:35,577 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:35,577 - document_processor.section_extractor - INFO -   Heading 2: 10
+2025-07-20 16:43:35,578 - document_processor.section_extractor - INFO -   Heading 3a: 2
+2025-07-20 16:43:35,578 - document_processor.section_extractor - INFO -   Normal: 2
+2025-07-20 16:43:35,579 - document_processor.section_extractor - INFO - Image/Table captions: 1
+2025-07-20 16:43:35,579 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:35,656 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:35,658 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.svg']
+2025-07-20 16:43:35,658 - document_processor.image_analyzer - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 16:43:35,658 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg', 'image2.png']
+2025-07-20 16:43:35,659 - document_processor.image_analyzer - INFO -   Total files: 3, Unique images: 2
+2025-07-20 16:43:35,883 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:35,883 - document_processor.section_extractor - INFO -   Normal: 14
+2025-07-20 16:43:35,884 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:35,884 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:35,975 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:35,977 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpg']
+2025-07-20 16:43:35,978 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpg']
+2025-07-20 16:43:35,978 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:36,218 - document_processor.section_extractor - INFO - Text sections by style:
+2025-07-20 16:43:36,218 - document_processor.section_extractor - INFO -   Normal: 3
+2025-07-20 16:43:36,218 - document_processor.section_extractor - INFO - Image/Table captions: 0
+2025-07-20 16:43:36,219 - document_processor.section_extractor - INFO - ==================================================
+2025-07-20 16:43:36,330 - document_processor.image_analyzer - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 16:43:36,332 - document_processor.image_analyzer - INFO -   Found images: ['image1.jpeg']
+2025-07-20 16:43:36,332 - document_processor.image_analyzer - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 16:43:36,333 - document_processor.image_analyzer - INFO -   Total files: 1, Unique images: 1
+2025-07-20 16:43:36,333 - __main__ - INFO - Found 44 documents. Writing to Excel...
+2025-07-20 16:43:36,344 - excel_writer - INFO - Written summary for 44 documents
+2025-07-20 16:43:36,349 - excel_writer - INFO - Written 28 sections for document 1
+2025-07-20 16:43:36,352 - excel_writer - INFO - Written 7 sections for document 2
+2025-07-20 16:43:36,356 - excel_writer - INFO - Written 25 sections for document 3
+2025-07-20 16:43:36,359 - excel_writer - INFO - Written 25 sections for document 4
+2025-07-20 16:43:36,363 - excel_writer - INFO - Written 9 sections for document 5
+2025-07-20 16:43:36,367 - excel_writer - INFO - Written 8 sections for document 6
+2025-07-20 16:43:36,370 - excel_writer - INFO - Written 7 sections for document 7
+2025-07-20 16:43:36,373 - excel_writer - INFO - Written 9 sections for document 8
+2025-07-20 16:43:36,376 - excel_writer - INFO - Written 11 sections for document 9
+2025-07-20 16:43:36,382 - excel_writer - INFO - Written 21 sections for document 10
+2025-07-20 16:43:36,385 - excel_writer - INFO - Written 8 sections for document 11
+2025-07-20 16:43:36,389 - excel_writer - INFO - Written 22 sections for document 12
+2025-07-20 16:43:36,392 - excel_writer - INFO - Written 2 sections for document 13
+2025-07-20 16:43:36,395 - excel_writer - INFO - Written 5 sections for document 14
+2025-07-20 16:43:36,401 - excel_writer - INFO - Written 9 sections for document 15
+2025-07-20 16:43:36,403 - excel_writer - INFO - Written 7 sections for document 16
+2025-07-20 16:43:36,407 - excel_writer - INFO - Written 23 sections for document 17
+2025-07-20 16:43:36,411 - excel_writer - INFO - Written 16 sections for document 18
+2025-07-20 16:43:36,416 - excel_writer - INFO - Written 11 sections for document 19
+2025-07-20 16:43:36,419 - excel_writer - INFO - Written 8 sections for document 20
+2025-07-20 16:43:36,424 - excel_writer - INFO - Written 18 sections for document 21
+2025-07-20 16:43:36,427 - excel_writer - INFO - Written 7 sections for document 22
+2025-07-20 16:43:36,431 - excel_writer - INFO - Written 2 sections for document 23
+2025-07-20 16:43:36,436 - excel_writer - INFO - Written 18 sections for document 24
+2025-07-20 16:43:36,439 - excel_writer - INFO - Written 2 sections for document 25
+2025-07-20 16:43:36,443 - excel_writer - INFO - Written 19 sections for document 26
+2025-07-20 16:43:36,446 - excel_writer - INFO - Written 11 sections for document 27
+2025-07-20 16:43:36,450 - excel_writer - INFO - Written 2 sections for document 28
+2025-07-20 16:43:36,453 - excel_writer - INFO - Written 9 sections for document 29
+2025-07-20 16:43:36,457 - excel_writer - INFO - Written 10 sections for document 30
+2025-07-20 16:43:36,460 - excel_writer - INFO - Written 2 sections for document 31
+2025-07-20 16:43:36,464 - excel_writer - INFO - Written 7 sections for document 32
+2025-07-20 16:43:36,468 - excel_writer - INFO - Written 2 sections for document 33
+2025-07-20 16:43:36,471 - excel_writer - INFO - Written 2 sections for document 34
+2025-07-20 16:43:36,474 - excel_writer - INFO - Written 12 sections for document 35
+2025-07-20 16:43:36,480 - excel_writer - INFO - Written 53 sections for document 36
+2025-07-20 16:43:36,485 - excel_writer - INFO - Written 15 sections for document 37
+2025-07-20 16:43:36,488 - excel_writer - INFO - Written 7 sections for document 38
+2025-07-20 16:43:36,491 - excel_writer - INFO - Written 10 sections for document 39
+2025-07-20 16:43:36,495 - excel_writer - INFO - Written 14 sections for document 40
+2025-07-20 16:43:36,502 - excel_writer - INFO - Written 60 sections for document 41
+2025-07-20 16:43:36,506 - excel_writer - INFO - Written 15 sections for document 42
+2025-07-20 16:43:36,509 - excel_writer - INFO - Written 14 sections for document 43
+2025-07-20 16:43:36,512 - excel_writer - INFO - Written 3 sections for document 44
+2025-07-20 16:43:38,071 - excel_writer - INFO - Excel file saved to: document_analysis.xlsx
+2025-07-20 16:43:38,071 - __main__ - INFO - ============================================================
+2025-07-20 16:43:38,072 - __main__ - INFO - Processing Summary:
+2025-07-20 16:43:38,072 - __main__ - INFO -   Documents processed: 44
+2025-07-20 16:43:38,072 - __main__ - INFO -   Total words: 110,298
+2025-07-20 16:43:38,073 - __main__ - INFO -   Total images: 242
+2025-07-20 16:43:38,073 - __main__ - INFO -   Total sections: 575
+2025-07-20 16:43:38,073 - __main__ - INFO -   Output file: D:\Development\Documents processing\document_analysis.xlsx
+2025-07-20 16:43:38,074 - __main__ - INFO - ============================================================

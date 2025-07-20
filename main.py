@@ -4,11 +4,26 @@
 import logging
 import sys
 from pathlib import Path
+import sys
+import io
+
+# Force UTF-8 encoding for Windows console
+if sys.platform == 'win32':
+    # Set console code page to UTF-8
+    import os
+    os.system('chcp 65001 >nul 2>&1')
+    
+    # Reconfigure stdout and stderr
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
+# Then your regular imports...
+
 #import sys
 #from pathlib import Path
 #sys.path.append(str(Path(__file__).parent))  # ← Add current directory to path
 from datetime import datetime
-from document_processor import DocumentProcessor
+from document_processor.document_processor import DocumentProcessor
 from excel_writer import ExcelWriter
 from config import Config
 

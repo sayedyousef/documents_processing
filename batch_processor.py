@@ -8,7 +8,7 @@ from datetime import datetime
 from typing import List, Dict, Optional
 import logging
 
-from document_processor import DocumentProcessor
+from document_processor.document_processor import DocumentProcessor
 from excel_writer import ExcelWriter
 from models import Document
 from config import Config

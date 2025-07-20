@@ -1,4 +1,4 @@
-# config.py
+# config.py - Updated with console encoding option
 """Configuration settings for document processor."""
 
 from pathlib import Path
@@ -26,5 +26,7 @@ class Config:
     # Logging
     LOG_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     LOG_LEVEL = 'INFO'
-
-
+    
+    # Console output settings
+    SIMPLE_CONSOLE_OUTPUT = True  # Set to True to avoid Unicode issues in Windows console
+    VERBOSE_FILE_LOGGING = True   # Full details in log files

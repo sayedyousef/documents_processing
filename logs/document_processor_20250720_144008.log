@@ -1,0 +1,302 @@
+2025-07-20 14:40:08,529 - __main__ - INFO - ============================================================
+2025-07-20 14:40:08,530 - __main__ - INFO - Document Processing Application Started
+2025-07-20 14:40:08,530 - __main__ - INFO - ============================================================
+2025-07-20 14:40:08,924 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:08,929 - document_processor - INFO -   Found images: ['image1.jpeg', 'image10.jpeg', 'image11.jpeg', 'image12.png', 'image13.png', 'image14.jpeg', 'image15.jpeg', 'image16.jpeg', 'image17.png', 'image18.svg', 'image19.png', 'image2.png', 'image20.svg', 'image21.png', 'image22.svg', 'image23.jpeg', 'image24.png', 'image25.jpeg', 'image26.jpeg', 'image3.jpeg', 'image4.jpeg', 'image5.jpeg', 'image6.png', 'image7.jpeg', 'image8.jpeg', 'image9.jpeg']
+2025-07-20 14:40:08,930 - document_processor - INFO -   Ignoring image22.svg (duplicate of image21.png)
+2025-07-20 14:40:08,931 - document_processor - INFO -   Ignoring image18.svg (duplicate of image17.png)
+2025-07-20 14:40:08,931 - document_processor - INFO -   Ignoring image20.svg (duplicate of image19.png)
+2025-07-20 14:40:08,932 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image10.jpeg', 'image11.jpeg', 'image12.png', 'image13.png', 'image14.jpeg', 'image15.jpeg', 'image16.jpeg', 'image17.png', 'image19.png', 'image2.png', 'image21.png', 'image23.jpeg', 'image24.png', 'image25.jpeg', 'image26.jpeg', 'image3.jpeg', 'image4.jpeg', 'image5.jpeg', 'image6.png', 'image7.jpeg', 'image8.jpeg', 'image9.jpeg']
+2025-07-20 14:40:08,932 - document_processor - INFO -   Total files: 26, Unique images: 23
+2025-07-20 14:40:09,355 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:09,359 - document_processor - INFO -   Found images: ['image1.png', 'image2.svg']
+2025-07-20 14:40:09,359 - document_processor - INFO -   Ignoring image2.svg (duplicate of image1.png)
+2025-07-20 14:40:09,360 - document_processor - INFO -   Unique images: ['image1.png']
+2025-07-20 14:40:09,360 - document_processor - INFO -   Total files: 2, Unique images: 1
+2025-07-20 14:40:09,819 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:09,823 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpeg', 'image3.jpg']
+2025-07-20 14:40:09,823 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpeg', 'image3.jpg']
+2025-07-20 14:40:09,823 - document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 14:40:10,329 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:10,332 - document_processor - INFO -   Found images: ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
+2025-07-20 14:40:10,333 - document_processor - INFO -   Unique images: ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
+2025-07-20 14:40:10,333 - document_processor - INFO -   Total files: 5, Unique images: 5
+2025-07-20 14:40:10,718 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:10,722 - document_processor - INFO -   Found images: ['image1.jpg', 'image2.jpeg', 'image3.jpeg']
+2025-07-20 14:40:10,723 - document_processor - INFO -   Unique images: ['image1.jpg', 'image2.jpeg', 'image3.jpeg']
+2025-07-20 14:40:10,723 - document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 14:40:10,853 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:10,858 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpg']
+2025-07-20 14:40:10,858 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpg']
+2025-07-20 14:40:10,858 - document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 14:40:11,153 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:11,158 - document_processor - INFO -   Found images: ['image1.png', 'image2.png', 'image3.png', 'image4.jpeg']
+2025-07-20 14:40:11,160 - document_processor - INFO -   Unique images: ['image1.png', 'image2.png', 'image3.png', 'image4.jpeg']
+2025-07-20 14:40:11,160 - document_processor - INFO -   Total files: 4, Unique images: 4
+2025-07-20 14:40:11,445 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:11,450 - document_processor - INFO -   Found images: ['image1.jpg', 'image2.jpeg']
+2025-07-20 14:40:11,450 - document_processor - INFO -   Unique images: ['image1.jpg', 'image2.jpeg']
+2025-07-20 14:40:11,451 - document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 14:40:11,731 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:11,808 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg']
+2025-07-20 14:40:11,810 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg']
+2025-07-20 14:40:11,811 - document_processor - INFO -   Total files: 4, Unique images: 4
+2025-07-20 14:40:12,105 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:12,109 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg']
+2025-07-20 14:40:12,110 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg']
+2025-07-20 14:40:12,110 - document_processor - INFO -   Total files: 4, Unique images: 4
+2025-07-20 14:40:12,324 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:12,329 - document_processor - INFO -   Found images: ['image1.jpg']
+2025-07-20 14:40:12,329 - document_processor - INFO -   Unique images: ['image1.jpg']
+2025-07-20 14:40:12,329 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:12,522 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:12,526 - document_processor - INFO -   Found images: ['image1.jpg', 'image2.png', 'image3.svg']
+2025-07-20 14:40:12,527 - document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 14:40:12,527 - document_processor - INFO -   Unique images: ['image1.jpg', 'image2.png']
+2025-07-20 14:40:12,527 - document_processor - INFO -   Total files: 3, Unique images: 2
+2025-07-20 14:40:12,798 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:12,803 - document_processor - INFO -   Found images: ['image1.jpg', 'image2.jpeg', 'image3.jpg', 'image4.jpeg', 'image5.jpg']
+2025-07-20 14:40:12,803 - document_processor - INFO -   Unique images: ['image1.jpg', 'image2.jpeg', 'image3.jpg', 'image4.jpeg', 'image5.jpg']
+2025-07-20 14:40:12,804 - document_processor - INFO -   Total files: 5, Unique images: 5
+2025-07-20 14:40:12,968 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:12,972 - document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 14:40:12,973 - document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 14:40:12,973 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:13,125 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:13,130 - document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 14:40:13,130 - document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 14:40:13,132 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:13,386 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:13,391 - document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 14:40:13,391 - document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 14:40:13,392 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:13,750 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:13,757 - document_processor - INFO -   Found images: ['image1.jpeg', 'image10.png', 'image11.svg', 'image12.png', 'image13.svg', 'image14.png', 'image15.svg', 'image16.png', 'image17.svg', 'image18.png', 'image19.svg', 'image2.png', 'image20.png', 'image21.svg', 'image22.png', 'image23.svg', 'image24.png', 'image25.svg', 'image26.png', 'image27.svg', 'image28.png', 'image29.svg', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.png', 'image9.svg']
+2025-07-20 14:40:13,757 - document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 14:40:13,758 - document_processor - INFO -   Ignoring image29.svg (duplicate of image28.png)
+2025-07-20 14:40:13,758 - document_processor - INFO -   Ignoring image11.svg (duplicate of image10.png)
+2025-07-20 14:40:13,758 - document_processor - INFO -   Ignoring image19.svg (duplicate of image18.png)
+2025-07-20 14:40:13,759 - document_processor - INFO -   Ignoring image27.svg (duplicate of image26.png)
+2025-07-20 14:40:13,759 - document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 14:40:13,760 - document_processor - INFO -   Ignoring image13.svg (duplicate of image12.png)
+2025-07-20 14:40:13,760 - document_processor - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 14:40:13,760 - document_processor - INFO -   Ignoring image21.svg (duplicate of image20.png)
+2025-07-20 14:40:13,761 - document_processor - INFO -   Ignoring image17.svg (duplicate of image16.png)
+2025-07-20 14:40:13,761 - document_processor - INFO -   Ignoring image25.svg (duplicate of image24.png)
+2025-07-20 14:40:13,762 - document_processor - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 14:40:13,762 - document_processor - INFO -   Ignoring image15.svg (duplicate of image14.png)
+2025-07-20 14:40:13,762 - document_processor - INFO -   Ignoring image23.svg (duplicate of image22.png)
+2025-07-20 14:40:13,763 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image10.png', 'image12.png', 'image14.png', 'image16.png', 'image18.png', 'image2.png', 'image20.png', 'image22.png', 'image24.png', 'image26.png', 'image28.png', 'image4.png', 'image6.png', 'image8.png']
+2025-07-20 14:40:13,763 - document_processor - INFO -   Total files: 29, Unique images: 15
+2025-07-20 14:40:14,200 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:14,205 - document_processor - INFO -   Found images: ['image1.jpeg', 'image10.png', 'image11.svg', 'image12.png', 'image13.svg', 'image14.png', 'image15.svg', 'image16.png', 'image17.svg', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.png', 'image9.svg']
+2025-07-20 14:40:14,206 - document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 14:40:14,206 - document_processor - INFO -   Ignoring image11.svg (duplicate of image10.png)
+2025-07-20 14:40:14,207 - document_processor - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 14:40:14,207 - document_processor - INFO -   Ignoring image15.svg (duplicate of image14.png)
+2025-07-20 14:40:14,207 - document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 14:40:14,208 - document_processor - INFO -   Ignoring image13.svg (duplicate of image12.png)
+2025-07-20 14:40:14,208 - document_processor - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 14:40:14,208 - document_processor - INFO -   Ignoring image17.svg (duplicate of image16.png)
+2025-07-20 14:40:14,209 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image10.png', 'image12.png', 'image14.png', 'image16.png', 'image2.png', 'image4.png', 'image6.png', 'image8.png']
+2025-07-20 14:40:14,209 - document_processor - INFO -   Total files: 17, Unique images: 9
+2025-07-20 14:40:14,462 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:14,467 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.png', 'image9.svg']
+2025-07-20 14:40:14,467 - document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 14:40:14,467 - document_processor - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 14:40:14,468 - document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 14:40:14,468 - document_processor - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 14:40:14,469 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.png', 'image4.png', 'image6.png', 'image8.png']
+2025-07-20 14:40:14,470 - document_processor - INFO -   Total files: 9, Unique images: 5
+2025-07-20 14:40:14,806 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:14,809 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpeg']
+2025-07-20 14:40:14,810 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpeg']
+2025-07-20 14:40:14,810 - document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 14:40:15,065 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:15,070 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpeg', 'image4.png', 'image5.svg', 'image6.png']
+2025-07-20 14:40:15,070 - document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 14:40:15,071 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpeg', 'image4.png', 'image6.png']
+2025-07-20 14:40:15,071 - document_processor - INFO -   Total files: 6, Unique images: 5
+2025-07-20 14:40:15,261 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:15,265 - document_processor - INFO -   Found images: ['image1.jpg']
+2025-07-20 14:40:15,265 - document_processor - INFO -   Unique images: ['image1.jpg']
+2025-07-20 14:40:15,266 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:15,392 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:15,397 - document_processor - INFO -   Found images: ['image1.jpg']
+2025-07-20 14:40:15,398 - document_processor - INFO -   Unique images: ['image1.jpg']
+2025-07-20 14:40:15,398 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:15,713 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:15,717 - document_processor - INFO -   Found images: ['image1.png', 'image2.jpeg']
+2025-07-20 14:40:15,720 - document_processor - INFO -   Unique images: ['image1.png', 'image2.jpeg']
+2025-07-20 14:40:15,720 - document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 14:40:15,990 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:15,994 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.jpg']
+2025-07-20 14:40:15,995 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.png', 'image3.jpg']
+2025-07-20 14:40:15,995 - document_processor - INFO -   Total files: 3, Unique images: 3
+2025-07-20 14:40:16,292 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:16,296 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
+2025-07-20 14:40:16,297 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg']
+2025-07-20 14:40:16,297 - document_processor - INFO -   Total files: 5, Unique images: 5
+2025-07-20 14:40:16,664 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:16,669 - document_processor - INFO -   Found images: ['image1.png', 'image2.png', 'image3.svg', 'image4.png']
+2025-07-20 14:40:16,670 - document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 14:40:16,670 - document_processor - INFO -   Unique images: ['image1.png', 'image2.png', 'image4.png']
+2025-07-20 14:40:16,670 - document_processor - INFO -   Total files: 4, Unique images: 3
+2025-07-20 14:40:16,893 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:16,898 - document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 14:40:16,898 - document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 14:40:16,899 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:17,042 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:17,047 - document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 14:40:17,048 - document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 14:40:17,048 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:17,194 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:17,198 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.jpeg']
+2025-07-20 14:40:17,198 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.jpeg']
+2025-07-20 14:40:17,198 - document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 14:40:17,330 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:17,334 - document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 14:40:17,334 - document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 14:40:17,335 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:17,471 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:17,474 - document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 14:40:17,475 - document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 14:40:17,475 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:17,585 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:17,589 - document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 14:40:17,589 - document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 14:40:17,590 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:17,661 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:17,664 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.png']
+2025-07-20 14:40:17,664 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.png']
+2025-07-20 14:40:17,664 - document_processor - INFO -   Total files: 2, Unique images: 2
+2025-07-20 14:40:17,794 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:17,797 - document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 14:40:17,798 - document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 14:40:17,798 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:18,069 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:18,074 - document_processor - INFO -   Found images: ['image1.jpeg', 'image10.svg', 'image11.png', 'image12.svg', 'image13.jpeg', 'image14.png', 'image15.svg', 'image16.jpeg', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.jpeg', 'image9.png']
+2025-07-20 14:40:18,074 - document_processor - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 14:40:18,075 - document_processor - INFO -   Ignoring image15.svg (duplicate of image14.png)
+2025-07-20 14:40:18,075 - document_processor - INFO -   Ignoring image10.svg (duplicate of image9.png)
+2025-07-20 14:40:18,075 - document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 14:40:18,075 - document_processor - INFO -   Ignoring image12.svg (duplicate of image11.png)
+2025-07-20 14:40:18,076 - document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 14:40:18,076 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image11.png', 'image13.jpeg', 'image14.png', 'image16.jpeg', 'image2.png', 'image4.png', 'image6.png', 'image8.jpeg', 'image9.png']
+2025-07-20 14:40:18,076 - document_processor - INFO -   Total files: 16, Unique images: 10
+2025-07-20 14:40:18,432 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:18,436 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.svg', 'image4.jpeg']
+2025-07-20 14:40:18,437 - document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 14:40:18,437 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.png', 'image4.jpeg']
+2025-07-20 14:40:18,438 - document_processor - INFO -   Total files: 4, Unique images: 3
+2025-07-20 14:40:18,647 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:18,652 - document_processor - INFO -   Found images: ['image1.png', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg']
+2025-07-20 14:40:18,652 - document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 14:40:18,652 - document_processor - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 14:40:18,653 - document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 14:40:18,653 - document_processor - INFO -   Unique images: ['image1.png', 'image2.png', 'image4.png', 'image6.png']
+2025-07-20 14:40:18,653 - document_processor - INFO -   Total files: 7, Unique images: 4
+2025-07-20 14:40:18,860 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:18,865 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.svg']
+2025-07-20 14:40:18,865 - document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 14:40:18,865 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.png']
+2025-07-20 14:40:18,866 - document_processor - INFO -   Total files: 3, Unique images: 2
+2025-07-20 14:40:19,208 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:19,212 - document_processor - INFO -   Found images: ['image1.jpeg', 'image10.png', 'image11.svg', 'image12.png', 'image13.svg', 'image2.png', 'image3.svg', 'image4.png', 'image5.svg', 'image6.jpeg', 'image7.jpeg', 'image8.png', 'image9.svg']
+2025-07-20 14:40:19,212 - document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 14:40:19,212 - document_processor - INFO -   Ignoring image13.svg (duplicate of image12.png)
+2025-07-20 14:40:19,212 - document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 14:40:19,213 - document_processor - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 14:40:19,213 - document_processor - INFO -   Ignoring image11.svg (duplicate of image10.png)
+2025-07-20 14:40:19,213 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image10.png', 'image12.png', 'image2.png', 'image4.png', 'image6.jpeg', 'image7.jpeg', 'image8.png']
+2025-07-20 14:40:19,214 - document_processor - INFO -   Total files: 13, Unique images: 8
+2025-07-20 14:40:19,671 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:19,676 - document_processor - INFO -   Found images: ['image1.jpeg', 'image10.png', 'image11.svg', 'image12.png', 'image13.svg', 'image14.png', 'image15.svg', 'image16.png', 'image17.svg', 'image18.png', 'image19.svg', 'image2.png', 'image20.png', 'image21.svg', 'image22.png', 'image23.svg', 'image24.png', 'image25.svg', 'image26.png', 'image27.svg', 'image28.png', 'image29.svg', 'image3.svg', 'image30.png', 'image31.svg', 'image32.png', 'image33.svg', 'image34.png', 'image35.svg', 'image36.png', 'image37.svg', 'image4.png', 'image5.svg', 'image6.png', 'image7.svg', 'image8.png', 'image9.svg']
+2025-07-20 14:40:19,677 - document_processor - INFO -   Ignoring image11.svg (duplicate of image10.png)
+2025-07-20 14:40:19,678 - document_processor - INFO -   Ignoring image37.svg (duplicate of image36.png)
+2025-07-20 14:40:19,678 - document_processor - INFO -   Ignoring image19.svg (duplicate of image18.png)
+2025-07-20 14:40:19,678 - document_processor - INFO -   Ignoring image27.svg (duplicate of image26.png)
+2025-07-20 14:40:19,679 - document_processor - INFO -   Ignoring image35.svg (duplicate of image34.png)
+2025-07-20 14:40:19,679 - document_processor - INFO -   Ignoring image9.svg (duplicate of image8.png)
+2025-07-20 14:40:19,679 - document_processor - INFO -   Ignoring image17.svg (duplicate of image16.png)
+2025-07-20 14:40:19,680 - document_processor - INFO -   Ignoring image25.svg (duplicate of image24.png)
+2025-07-20 14:40:19,680 - document_processor - INFO -   Ignoring image33.svg (duplicate of image32.png)
+2025-07-20 14:40:19,681 - document_processor - INFO -   Ignoring image7.svg (duplicate of image6.png)
+2025-07-20 14:40:19,681 - document_processor - INFO -   Ignoring image15.svg (duplicate of image14.png)
+2025-07-20 14:40:19,682 - document_processor - INFO -   Ignoring image23.svg (duplicate of image22.png)
+2025-07-20 14:40:19,683 - document_processor - INFO -   Ignoring image31.svg (duplicate of image30.png)
+2025-07-20 14:40:19,683 - document_processor - INFO -   Ignoring image5.svg (duplicate of image4.png)
+2025-07-20 14:40:19,683 - document_processor - INFO -   Ignoring image13.svg (duplicate of image12.png)
+2025-07-20 14:40:19,684 - document_processor - INFO -   Ignoring image21.svg (duplicate of image20.png)
+2025-07-20 14:40:19,684 - document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 14:40:19,684 - document_processor - INFO -   Ignoring image29.svg (duplicate of image28.png)
+2025-07-20 14:40:19,685 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image10.png', 'image12.png', 'image14.png', 'image16.png', 'image18.png', 'image2.png', 'image20.png', 'image22.png', 'image24.png', 'image26.png', 'image28.png', 'image30.png', 'image32.png', 'image34.png', 'image36.png', 'image4.png', 'image6.png', 'image8.png']
+2025-07-20 14:40:19,685 - document_processor - INFO -   Total files: 37, Unique images: 19
+2025-07-20 14:40:20,081 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:20,086 - document_processor - INFO -   Found images: ['image1.jpeg', 'image2.png', 'image3.svg']
+2025-07-20 14:40:20,086 - document_processor - INFO -   Ignoring image3.svg (duplicate of image2.png)
+2025-07-20 14:40:20,086 - document_processor - INFO -   Unique images: ['image1.jpeg', 'image2.png']
+2025-07-20 14:40:20,086 - document_processor - INFO -   Total files: 3, Unique images: 2
+2025-07-20 14:40:20,408 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:20,413 - document_processor - INFO -   Found images: ['image1.jpg']
+2025-07-20 14:40:20,413 - document_processor - INFO -   Unique images: ['image1.jpg']
+2025-07-20 14:40:20,413 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:20,747 - document_processor - WARNING - Error counting inline images: xpath() got an unexpected keyword argument 'namespaces'
+2025-07-20 14:40:20,751 - document_processor - INFO -   Found images: ['image1.jpeg']
+2025-07-20 14:40:20,751 - document_processor - INFO -   Unique images: ['image1.jpeg']
+2025-07-20 14:40:20,752 - document_processor - INFO -   Total files: 1, Unique images: 1
+2025-07-20 14:40:20,931 - __main__ - INFO - Found 44 documents. Writing to Excel...
+2025-07-20 14:40:20,973 - excel_writer - INFO - Written summary for 44 documents
+2025-07-20 14:40:20,979 - excel_writer - INFO - Written 29 sections for document 1
+2025-07-20 14:40:20,983 - excel_writer - INFO - Written 7 sections for document 2
+2025-07-20 14:40:20,989 - excel_writer - INFO - Written 26 sections for document 3
+2025-07-20 14:40:20,994 - excel_writer - INFO - Written 25 sections for document 4
+2025-07-20 14:40:20,997 - excel_writer - INFO - Written 9 sections for document 5
+2025-07-20 14:40:21,000 - excel_writer - INFO - Written 9 sections for document 6
+2025-07-20 14:40:21,003 - excel_writer - INFO - Written 7 sections for document 7
+2025-07-20 14:40:21,007 - excel_writer - INFO - Written 9 sections for document 8
+2025-07-20 14:40:21,010 - excel_writer - INFO - Written 12 sections for document 9
+2025-07-20 14:40:21,014 - excel_writer - INFO - Written 22 sections for document 10
+2025-07-20 14:40:21,017 - excel_writer - INFO - Written 8 sections for document 11
+2025-07-20 14:40:21,022 - excel_writer - INFO - Written 19 sections for document 12
+2025-07-20 14:40:21,025 - excel_writer - INFO - Written 2 sections for document 13
+2025-07-20 14:40:21,028 - excel_writer - INFO - Written 5 sections for document 14
+2025-07-20 14:40:21,031 - excel_writer - INFO - Written 9 sections for document 15
+2025-07-20 14:40:21,033 - excel_writer - INFO - Written 7 sections for document 16
+2025-07-20 14:40:21,038 - excel_writer - INFO - Written 20 sections for document 17
+2025-07-20 14:40:21,041 - excel_writer - INFO - Written 12 sections for document 18
+2025-07-20 14:40:21,044 - excel_writer - INFO - Written 9 sections for document 19
+2025-07-20 14:40:21,047 - excel_writer - INFO - Written 7 sections for document 20
+2025-07-20 14:40:21,050 - excel_writer - INFO - Written 20 sections for document 21
+2025-07-20 14:40:21,054 - excel_writer - INFO - Written 7 sections for document 22
+2025-07-20 14:40:21,057 - excel_writer - INFO - Written 3 sections for document 23
+2025-07-20 14:40:21,061 - excel_writer - INFO - Written 19 sections for document 24
+2025-07-20 14:40:21,063 - excel_writer - INFO - Written 2 sections for document 25
+2025-07-20 14:40:21,066 - excel_writer - INFO - Written 19 sections for document 26
+2025-07-20 14:40:21,071 - excel_writer - INFO - Written 11 sections for document 27
+2025-07-20 14:40:21,074 - excel_writer - INFO - Written 2 sections for document 28
+2025-07-20 14:40:21,077 - excel_writer - INFO - Written 9 sections for document 29
+2025-07-20 14:40:21,079 - excel_writer - INFO - Written 10 sections for document 30
+2025-07-20 14:40:21,083 - excel_writer - INFO - Written 3 sections for document 31
+2025-07-20 14:40:21,087 - excel_writer - INFO - Written 7 sections for document 32
+2025-07-20 14:40:21,090 - excel_writer - INFO - Written 2 sections for document 33
+2025-07-20 14:40:21,093 - excel_writer - INFO - Written 2 sections for document 34
+2025-07-20 14:40:21,096 - excel_writer - INFO - Written 13 sections for document 35
+2025-07-20 14:40:21,101 - excel_writer - INFO - Written 54 sections for document 36
+2025-07-20 14:40:21,106 - excel_writer - INFO - Written 15 sections for document 37
+2025-07-20 14:40:21,109 - excel_writer - INFO - Written 4 sections for document 38
+2025-07-20 14:40:21,112 - excel_writer - INFO - Written 10 sections for document 39
+2025-07-20 14:40:21,115 - excel_writer - INFO - Written 14 sections for document 40
+2025-07-20 14:40:21,121 - excel_writer - INFO - Written 75 sections for document 41
+2025-07-20 14:40:21,125 - excel_writer - INFO - Written 14 sections for document 42
+2025-07-20 14:40:21,128 - excel_writer - INFO - Written 15 sections for document 43
+2025-07-20 14:40:21,132 - excel_writer - INFO - Written 4 sections for document 44
+2025-07-20 14:40:22,448 - excel_writer - INFO - Excel file saved to: document_analysis.xlsx
+2025-07-20 14:40:22,448 - __main__ - INFO - ============================================================
+2025-07-20 14:40:22,448 - __main__ - INFO - Processing Summary:
+2025-07-20 14:40:22,448 - __main__ - INFO -   Documents processed: 44
+2025-07-20 14:40:22,449 - __main__ - INFO -   Total words: 110,298
+2025-07-20 14:40:22,449 - __main__ - INFO -   Total images: 242
+2025-07-20 14:40:22,450 - __main__ - INFO -   Total sections: 587
+2025-07-20 14:40:22,450 - __main__ - INFO -   Output file: D:\Development\Documents processing\document_analysis.xlsx
+2025-07-20 14:40:22,450 - __main__ - INFO - ============================================================

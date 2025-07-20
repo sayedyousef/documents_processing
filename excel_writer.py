@@ -32,9 +32,11 @@ class ExcelWriter:
                 'Parent Folder': doc.parent_folder,
                 'Document Name': doc.name,
                 'Document Title': doc.title,
+                'Author': doc.author,
                 'Word Count': doc.word_count,
                 'Image Count': doc.image_count,
-                'Unique Image Count': doc.unique_image_count
+                'Unique Image Count': doc.unique_image_count,
+                'Uses Proper Styles': 'Yes' if doc.uses_proper_styles else 'No'
             })
         
         # Create DataFrame
@@ -72,10 +74,11 @@ class ExcelWriter:
             ws.append(['Document ID:', doc.id])
             ws.append(['Document Name:', doc.name])
             ws.append(['Document Title:', doc.title])
+            ws.append(['Author:', doc.author])
             ws.append([])  # Empty row
             
             # Add headers
-            ws.append(['Section Heading', 'Font Name', 'Font Size', 'Text Preview'])
+            ws.append(['Section Heading', 'Style', 'Type', 'Text Preview'])
             
             # Format section header row
             header_row = ws.max_row
@@ -91,13 +94,13 @@ class ExcelWriter:
                 
                 ws.append([
                     section.heading,
-                    section.font_name or "Default",
-                    section.font_size or "Default",
+                    section.style_name or "Normal",
+                    section.section_type.capitalize(),
                     text_preview
                 ])
             
             # Format document info cells
-            for row in range(1, 4):
+            for row in range(1, 5):  # Updated to 5 to include author row
                 ws.cell(row=row, column=1).font = Font(bold=True)
             
             # Auto-adjust column widths
